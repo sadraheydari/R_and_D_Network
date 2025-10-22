@@ -1,2 +1,2 @@
-# R_and_D_Network
+# R&D Network
 Replication Codes for R&amp;D Network Paper
