@@ -1,0 +1,2100 @@
+\subsubsection{E0A [1H3L]}
+\label{apx:E0A:1H3L}
+
+\begin{multicols}{2}
+\begin{center}
+\begin{tikzpicture}[shorten >=1pt,draw=black!50]
+	\node (H1) at ( 1.06,  1.06)	[circle, draw, fill = gray!20]	{$H_{1}$};
+	\node (L1) at (-1.06,  1.06)	[circle, draw, fill = white]	{$L_{1}$};
+	\node (L2) at (-1.06, -1.06)	[circle, draw, fill = white]	{$L_{2}$};
+	\node (L3) at ( 1.06, -1.06)	[circle, draw, fill = white]	{$L_{3}$};
+\end{tikzpicture}
+\end{center}
+\columnbreak
+
+\scaleeq{
+Equations: \begin{cases}
+	e^{H}_{1} \left(\frac{25 \phi}{4} - 4\right) = \alpha - e^{L}_{1} \theta - e^{L}_{2} \theta - e^{L}_{3} \theta - \gamma\\
+	e^{L}_{1} \left(\frac{25 \phi}{4 \theta} - 4 \theta\right) = \alpha - e^{H}_{1} - e^{L}_{2} \theta - e^{L}_{3} \theta - \gamma\\
+	e^{L}_{2} \left(\frac{25 \phi}{4 \theta} - 4 \theta\right) = \alpha - e^{H}_{1} - e^{L}_{1} \theta - e^{L}_{3} \theta - \gamma\\
+	e^{L}_{3} \left(\frac{25 \phi}{4 \theta} - 4 \theta\right) = \alpha - e^{H}_{1} - e^{L}_{1} \theta - e^{L}_{2} \theta - \gamma
+\end{cases}
+}\end{multicols}
+
+
+Optimal efforts:
+
+\scaleeq{
+\begin{cases}
+	e^{H}_{1} &= \frac{4 \left(\alpha - \gamma\right) \left(5 \phi - 4 \theta^{2}\right)}{125 \phi^{2} - 40 \phi \theta^{2} - 80 \phi + 16 \theta^{2}}\\
+	e^{L}_{1} &= \frac{4 \theta \left(\alpha - \gamma\right) \left(5 \phi - 4\right)}{125 \phi^{2} - 40 \phi \theta^{2} - 80 \phi + 16 \theta^{2}}\\
+	e^{L}_{2} &= \frac{4 \theta \left(\alpha - \gamma\right) \left(5 \phi - 4\right)}{125 \phi^{2} - 40 \phi \theta^{2} - 80 \phi + 16 \theta^{2}}\\
+	e^{L}_{3} &= \frac{4 \theta \left(\alpha - \gamma\right) \left(5 \phi - 4\right)}{125 \phi^{2} - 40 \phi \theta^{2} - 80 \phi + 16 \theta^{2}}
+\end{cases}
+}
+
+Production Costs:
+
+\scaleeq{
+\begin{cases}
+	c^{H}_{1} &= - \frac{20 \alpha \phi - 16 \alpha \theta^{2} - 125 \gamma \phi^{2} + 40 \gamma \phi \theta^{2} + 60 \gamma \phi}{125 \phi^{2} - 40 \phi \theta^{2} - 80 \phi + 16 \theta^{2}}\\
+	c^{L}_{1} &= - \frac{20 \alpha \phi \theta^{2} - 16 \alpha \theta^{2} - 125 \gamma \phi^{2} + 20 \gamma \phi \theta^{2} + 80 \gamma \phi}{125 \phi^{2} - 40 \phi \theta^{2} - 80 \phi + 16 \theta^{2}}\\
+	c^{L}_{2} &= - \frac{20 \alpha \phi \theta^{2} - 16 \alpha \theta^{2} - 125 \gamma \phi^{2} + 20 \gamma \phi \theta^{2} + 80 \gamma \phi}{125 \phi^{2} - 40 \phi \theta^{2} - 80 \phi + 16 \theta^{2}}\\
+	c^{L}_{3} &= - \frac{20 \alpha \phi \theta^{2} - 16 \alpha \theta^{2} - 125 \gamma \phi^{2} + 20 \gamma \phi \theta^{2} + 80 \gamma \phi}{125 \phi^{2} - 40 \phi \theta^{2} - 80 \phi + 16 \theta^{2}}
+\end{cases}
+}
+
+Production Quantities:
+
+\scaleeq{
+\begin{cases}
+	q^{H}_{1} &= \frac{5 \phi \left(\alpha - \gamma\right) \left(5 \phi - 4 \theta^{2}\right)}{125 \phi^{2} - 40 \phi \theta^{2} - 80 \phi + 16 \theta^{2}}\\
+	q^{L}_{1} &= \frac{5 \phi \left(\alpha - \gamma\right) \left(5 \phi - 4\right)}{125 \phi^{2} - 40 \phi \theta^{2} - 80 \phi + 16 \theta^{2}}\\
+	q^{L}_{2} &= \frac{5 \phi \left(\alpha - \gamma\right) \left(5 \phi - 4\right)}{125 \phi^{2} - 40 \phi \theta^{2} - 80 \phi + 16 \theta^{2}}\\
+	q^{L}_{3} &= \frac{5 \phi \left(\alpha - \gamma\right) \left(5 \phi - 4\right)}{125 \phi^{2} - 40 \phi \theta^{2} - 80 \phi + 16 \theta^{2}}
+\end{cases}
+}
+
+Profits:
+
+\begin{equation}
+\label{eq:E0A:1H3L_profit}
+\scaledequation{\begin{cases}
+	\pi^{H}_{1} &= \frac{\phi \left(\alpha - \gamma\right)^{2} \left(5 \phi - 4 \theta^{2}\right)^{2} \left(25 \phi - 16\right)}{\left(125 \phi^{2} - 40 \phi \theta^{2} - 80 \phi + 16 \theta^{2}\right)^{2}}\\
+	\pi^{L}_{1} &= \frac{\phi \left(\alpha - \gamma\right)^{2} \left(5 \phi - 4\right)^{2} \left(25 \phi - 16 \theta^{2}\right)}{\left(125 \phi^{2} - 40 \phi \theta^{2} - 80 \phi + 16 \theta^{2}\right)^{2}}\\
+	\pi^{L}_{2} &= \frac{\phi \left(\alpha - \gamma\right)^{2} \left(5 \phi - 4\right)^{2} \left(25 \phi - 16 \theta^{2}\right)}{\left(125 \phi^{2} - 40 \phi \theta^{2} - 80 \phi + 16 \theta^{2}\right)^{2}}\\
+	\pi^{L}_{3} &= \frac{\phi \left(\alpha - \gamma\right)^{2} \left(5 \phi - 4\right)^{2} \left(25 \phi - 16 \theta^{2}\right)}{\left(125 \phi^{2} - 40 \phi \theta^{2} - 80 \phi + 16 \theta^{2}\right)^{2}}
+\end{cases}
+}
+\end{equation}
+
+Total Production:
+
+\scaleeq{
+\frac{20 \phi \left(\alpha - \gamma\right) \left(5 \phi - \theta^{2} - 3\right)}{125 \phi^{2} - 40 \phi \theta^{2} - 80 \phi + 16 \theta^{2}}
+}
+
+Price:
+
+\scaleeq{
+\frac{25 \alpha \phi^{2} - 20 \alpha \phi \theta^{2} - 20 \alpha \phi + 16 \alpha \theta^{2} + 100 \gamma \phi^{2} - 20 \gamma \phi \theta^{2} - 60 \gamma \phi}{125 \phi^{2} - 40 \phi \theta^{2} - 80 \phi + 16 \theta^{2}}
+}
+
+Firm Surplus:
+
+\scaleeq{
+\frac{4 \phi \left(\alpha - \gamma\right)^{2} \left(625 \phi^{3} - 550 \phi^{2} \theta^{2} - 850 \phi^{2} + 100 \phi \theta^{4} + 640 \phi \theta^{2} + 300 \phi - 64 \theta^{4} - 192 \theta^{2}\right)}{\left(125 \phi^{2} - 40 \phi \theta^{2} - 80 \phi + 16 \theta^{2}\right)^{2}}
+}
+
+Consumer Surplus:
+
+\scaleeq{
+\frac{200 \phi^{2} \left(\alpha - \gamma\right)^{2} \left(5 \phi - \theta^{2} - 3\right)^{2}}{\left(125 \phi^{2} - 40 \phi \theta^{2} - 80 \phi + 16 \theta^{2}\right)^{2}}
+}
+
+Social Welfare:
+
+\scaleeq{
+\frac{4 \phi \left(\alpha - \gamma\right)^{2} \left(1875 \phi^{3} - 1050 \phi^{2} \theta^{2} - 2350 \phi^{2} + 150 \phi \theta^{4} + 940 \phi \theta^{2} + 750 \phi - 64 \theta^{4} - 192 \theta^{2}\right)}{\left(125 \phi^{2} - 40 \phi \theta^{2} - 80 \phi + 16 \theta^{2}\right)^{2}}
+}
+
+%======================================================================
+
+\subsubsection{E1A [1H3L]}
+\label{apx:E1A:1H3L}
+
+\begin{multicols}{2}
+\begin{center}
+\begin{tikzpicture}[shorten >=1pt,draw=black!50]
+	\node (H1) at ( 1.06,  1.06)	[circle, draw, fill = gray!20]	{$H_{1}$};
+	\node (L1) at (-1.06,  1.06)	[circle, draw, fill = white]	{$L_{1}$};
+	\node (L2) at (-1.06, -1.06)	[circle, draw, fill = white]	{$L_{2}$};
+	\node (L3) at ( 1.06, -1.06)	[circle, draw, fill = white]	{$L_{3}$};
+	\draw (H1) -- (L3);
+\end{tikzpicture}
+\end{center}
+\columnbreak
+
+\scaleeq{
+Equations: \begin{cases}
+	e^{H}_{1} \left(\frac{25 \phi}{3} - 3\right) = \alpha - e^{L}_{1} \theta - e^{L}_{2} \theta + 3 e^{L}_{3} \theta - \gamma\\
+	e^{L}_{1} \left(\frac{25 \phi}{4 \theta} - 4 \theta\right) = \alpha - 2 e^{H}_{1} - e^{L}_{2} \theta - 2 e^{L}_{3} \theta - \gamma\\
+	e^{L}_{2} \left(\frac{25 \phi}{4 \theta} - 4 \theta\right) = \alpha - 2 e^{H}_{1} - e^{L}_{1} \theta - 2 e^{L}_{3} \theta - \gamma\\
+	e^{L}_{3} \left(\frac{25 \phi}{3 \theta} - 3 \theta\right) = \alpha + 3 e^{H}_{1} - e^{L}_{1} \theta - e^{L}_{2} \theta - \gamma
+\end{cases}
+}\end{multicols}
+
+
+Optimal efforts:
+
+\scaleeq{
+\begin{cases}
+	e^{H}_{1} &= \frac{3 \left(\alpha - \gamma\right) \left(5 \phi - 4 \theta^{2}\right)}{125 \phi^{2} - 105 \phi \theta^{2} - 45 \phi + 12 \theta^{4} + 12 \theta^{2}}\\
+	e^{L}_{1} &= \frac{4 \theta \left(\alpha - \gamma\right) \left(5 \phi - 3 \theta^{2} - 3\right)}{125 \phi^{2} - 105 \phi \theta^{2} - 45 \phi + 12 \theta^{4} + 12 \theta^{2}}\\
+	e^{L}_{2} &= \frac{4 \theta \left(\alpha - \gamma\right) \left(5 \phi - 3 \theta^{2} - 3\right)}{125 \phi^{2} - 105 \phi \theta^{2} - 45 \phi + 12 \theta^{4} + 12 \theta^{2}}\\
+	e^{L}_{3} &= \frac{3 \theta \left(\alpha - \gamma\right) \left(5 \phi - 4 \theta^{2}\right)}{125 \phi^{2} - 105 \phi \theta^{2} - 45 \phi + 12 \theta^{4} + 12 \theta^{2}}
+\end{cases}
+}
+
+Production Costs:
+
+\scaleeq{
+\begin{cases}
+	c^{H}_{1} &= - \frac{15 \alpha \phi \theta^{2} + 15 \alpha \phi - 12 \alpha \theta^{4} - 12 \alpha \theta^{2} - 125 \gamma \phi^{2} + 90 \gamma \phi \theta^{2} + 30 \gamma \phi}{125 \phi^{2} - 105 \phi \theta^{2} - 45 \phi + 12 \theta^{4} + 12 \theta^{2}}\\
+	c^{L}_{1} &= - \frac{20 \alpha \phi \theta^{2} - 12 \alpha \theta^{4} - 12 \alpha \theta^{2} - 125 \gamma \phi^{2} + 85 \gamma \phi \theta^{2} + 45 \gamma \phi}{125 \phi^{2} - 105 \phi \theta^{2} - 45 \phi + 12 \theta^{4} + 12 \theta^{2}}\\
+	c^{L}_{2} &= - \frac{20 \alpha \phi \theta^{2} - 12 \alpha \theta^{4} - 12 \alpha \theta^{2} - 125 \gamma \phi^{2} + 85 \gamma \phi \theta^{2} + 45 \gamma \phi}{125 \phi^{2} - 105 \phi \theta^{2} - 45 \phi + 12 \theta^{4} + 12 \theta^{2}}\\
+	c^{L}_{3} &= - \frac{15 \alpha \phi \theta^{2} + 15 \alpha \phi - 12 \alpha \theta^{4} - 12 \alpha \theta^{2} - 125 \gamma \phi^{2} + 90 \gamma \phi \theta^{2} + 30 \gamma \phi}{125 \phi^{2} - 105 \phi \theta^{2} - 45 \phi + 12 \theta^{4} + 12 \theta^{2}}
+\end{cases}
+}
+
+Production Quantities:
+
+\scaleeq{
+\begin{cases}
+	q^{H}_{1} &= \frac{5 \phi \left(\alpha - \gamma\right) \left(5 \phi - 4 \theta^{2}\right)}{125 \phi^{2} - 105 \phi \theta^{2} - 45 \phi + 12 \theta^{4} + 12 \theta^{2}}\\
+	q^{L}_{1} &= \frac{5 \phi \left(\alpha - \gamma\right) \left(5 \phi - 3 \theta^{2} - 3\right)}{125 \phi^{2} - 105 \phi \theta^{2} - 45 \phi + 12 \theta^{4} + 12 \theta^{2}}\\
+	q^{L}_{2} &= \frac{5 \phi \left(\alpha - \gamma\right) \left(5 \phi - 3 \theta^{2} - 3\right)}{125 \phi^{2} - 105 \phi \theta^{2} - 45 \phi + 12 \theta^{4} + 12 \theta^{2}}\\
+	q^{L}_{3} &= \frac{5 \phi \left(\alpha - \gamma\right) \left(5 \phi - 4 \theta^{2}\right)}{125 \phi^{2} - 105 \phi \theta^{2} - 45 \phi + 12 \theta^{4} + 12 \theta^{2}}
+\end{cases}
+}
+
+Profits:
+
+\begin{equation}
+\label{eq:E1A:1H3L_profit}
+\scaledequation{\begin{cases}
+	\pi^{H}_{1} &= \frac{\phi \left(\alpha - \gamma\right)^{2} \left(5 \phi - 4 \theta^{2}\right)^{2} \left(25 \phi - 9\right)}{\left(125 \phi^{2} - 105 \phi \theta^{2} - 45 \phi + 12 \theta^{4} + 12 \theta^{2}\right)^{2}}\\
+	\pi^{L}_{1} &= \frac{\phi \left(\alpha - \gamma\right)^{2} \left(25 \phi - 16 \theta^{2}\right) \left(5 \phi - 3 \theta^{2} - 3\right)^{2}}{\left(125 \phi^{2} - 105 \phi \theta^{2} - 45 \phi + 12 \theta^{4} + 12 \theta^{2}\right)^{2}}\\
+	\pi^{L}_{2} &= \frac{\phi \left(\alpha - \gamma\right)^{2} \left(25 \phi - 16 \theta^{2}\right) \left(5 \phi - 3 \theta^{2} - 3\right)^{2}}{\left(125 \phi^{2} - 105 \phi \theta^{2} - 45 \phi + 12 \theta^{4} + 12 \theta^{2}\right)^{2}}\\
+	\pi^{L}_{3} &= \frac{\phi \left(\alpha - \gamma\right)^{2} \left(5 \phi - 4 \theta^{2}\right)^{2} \left(25 \phi - 9 \theta^{2}\right)}{\left(125 \phi^{2} - 105 \phi \theta^{2} - 45 \phi + 12 \theta^{4} + 12 \theta^{2}\right)^{2}}
+\end{cases}
+}
+\end{equation}
+
+Total Production:
+
+\scaleeq{
+\frac{10 \phi \left(\alpha - \gamma\right) \left(10 \phi - 7 \theta^{2} - 3\right)}{125 \phi^{2} - 105 \phi \theta^{2} - 45 \phi + 12 \theta^{4} + 12 \theta^{2}}
+}
+
+Price:
+
+\scaleeq{
+\frac{25 \alpha \phi^{2} - 35 \alpha \phi \theta^{2} - 15 \alpha \phi + 12 \alpha \theta^{4} + 12 \alpha \theta^{2} + 100 \gamma \phi^{2} - 70 \gamma \phi \theta^{2} - 30 \gamma \phi}{125 \phi^{2} - 105 \phi \theta^{2} - 45 \phi + 12 \theta^{4} + 12 \theta^{2}}
+}
+
+Firm Surplus:
+
+\scaleeq{
+\frac{\phi \left(\alpha - \gamma\right)^{2} \left(2500 \phi^{3} - 4525 \phi^{2} \theta^{2} - 1725 \phi^{2} + 2570 \phi \theta^{4} + 2220 \phi \theta^{2} + 450 \phi - 432 \theta^{6} - 720 \theta^{4} - 288 \theta^{2}\right)}{\left(125 \phi^{2} - 105 \phi \theta^{2} - 45 \phi + 12 \theta^{4} + 12 \theta^{2}\right)^{2}}
+}
+
+Consumer Surplus:
+
+\scaleeq{
+\frac{50 \phi^{2} \left(\alpha - \gamma\right)^{2} \left(10 \phi - 7 \theta^{2} - 3\right)^{2}}{\left(125 \phi^{2} - 105 \phi \theta^{2} - 45 \phi + 12 \theta^{4} + 12 \theta^{2}\right)^{2}}
+}
+
+Social Welfare:
+
+\scaleeq{
+\frac{\phi \left(\alpha - \gamma\right)^{2} \left(7500 \phi^{3} - 11525 \phi^{2} \theta^{2} - 4725 \phi^{2} + 5020 \phi \theta^{4} + 4320 \phi \theta^{2} + 900 \phi - 432 \theta^{6} - 720 \theta^{4} - 288 \theta^{2}\right)}{\left(125 \phi^{2} - 105 \phi \theta^{2} - 45 \phi + 12 \theta^{4} + 12 \theta^{2}\right)^{2}}
+}
+
+%======================================================================
+
+\subsubsection{E1B [1H3L]}
+\label{apx:E1B:1H3L}
+
+\begin{multicols}{2}
+\begin{center}
+\begin{tikzpicture}[shorten >=1pt,draw=black!50]
+	\node (H1) at ( 1.06,  1.06)	[circle, draw, fill = gray!20]	{$H_{1}$};
+	\node (L1) at (-1.06,  1.06)	[circle, draw, fill = white]	{$L_{1}$};
+	\node (L2) at (-1.06, -1.06)	[circle, draw, fill = white]	{$L_{2}$};
+	\node (L3) at ( 1.06, -1.06)	[circle, draw, fill = white]	{$L_{3}$};
+	\draw (L2) -- (L3);
+\end{tikzpicture}
+\end{center}
+\columnbreak
+
+\scaleeq{
+Equations: \begin{cases}
+	e^{H}_{1} \left(\frac{25 \phi}{4} - 4\right) = \alpha - e^{L}_{1} \theta - 2 e^{L}_{2} \theta - 2 e^{L}_{3} \theta - \gamma\\
+	e^{L}_{1} \left(\frac{25 \phi}{4 \theta} - 4 \theta\right) = \alpha - e^{H}_{1} - 2 e^{L}_{2} \theta - 2 e^{L}_{3} \theta - \gamma\\
+	e^{L}_{2} \left(\frac{25 \phi}{3 \theta} - 3 \theta\right) = \alpha - e^{H}_{1} - e^{L}_{1} \theta + 3 e^{L}_{3} \theta - \gamma\\
+	e^{L}_{3} \left(\frac{25 \phi}{3 \theta} - 3 \theta\right) = \alpha - e^{H}_{1} - e^{L}_{1} \theta + 3 e^{L}_{2} \theta - \gamma
+\end{cases}
+}\end{multicols}
+
+
+Optimal efforts:
+
+\scaleeq{
+\begin{cases}
+	e^{H}_{1} &= \frac{4 \left(\alpha - \gamma\right) \left(5 \phi - 6 \theta^{2}\right) \left(5 \phi - 4 \theta^{2}\right)}{625 \phi^{3} - 850 \phi^{2} \theta^{2} - 400 \phi^{2} + 240 \phi \theta^{4} + 480 \phi \theta^{2} - 96 \theta^{4}}\\
+	e^{L}_{1} &= \frac{4 \theta \left(\alpha - \gamma\right) \left(5 \phi - 4\right) \left(5 \phi - 6 \theta^{2}\right)}{625 \phi^{3} - 850 \phi^{2} \theta^{2} - 400 \phi^{2} + 240 \phi \theta^{4} + 480 \phi \theta^{2} - 96 \theta^{4}}\\
+	e^{L}_{2} &= \frac{3 \theta \left(\alpha - \gamma\right) \left(5 \phi - 4\right) \left(5 \phi - 4 \theta^{2}\right)}{625 \phi^{3} - 850 \phi^{2} \theta^{2} - 400 \phi^{2} + 240 \phi \theta^{4} + 480 \phi \theta^{2} - 96 \theta^{4}}\\
+	e^{L}_{3} &= \frac{3 \theta \left(\alpha - \gamma\right) \left(5 \phi - 4\right) \left(5 \phi - 4 \theta^{2}\right)}{625 \phi^{3} - 850 \phi^{2} \theta^{2} - 400 \phi^{2} + 240 \phi \theta^{4} + 480 \phi \theta^{2} - 96 \theta^{4}}
+\end{cases}
+}
+
+Production Costs:
+
+\scaleeq{
+\begin{cases}
+	c^{H}_{1} &= - \frac{100 \alpha \phi^{2} - 200 \alpha \phi \theta^{2} + 96 \alpha \theta^{4} - 625 \gamma \phi^{3} + 850 \gamma \phi^{2} \theta^{2} + 300 \gamma \phi^{2} - 240 \gamma \phi \theta^{4} - 280 \gamma \phi \theta^{2}}{625 \phi^{3} - 850 \phi^{2} \theta^{2} - 400 \phi^{2} + 240 \phi \theta^{4} + 480 \phi \theta^{2} - 96 \theta^{4}}\\
+	c^{L}_{1} &= - \frac{100 \alpha \phi^{2} \theta^{2} - 120 \alpha \phi \theta^{4} - 80 \alpha \phi \theta^{2} + 96 \alpha \theta^{4} - 625 \gamma \phi^{3} + 750 \gamma \phi^{2} \theta^{2} + 400 \gamma \phi^{2} - 120 \gamma \phi \theta^{4} - 400 \gamma \phi \theta^{2}}{625 \phi^{3} - 850 \phi^{2} \theta^{2} - 400 \phi^{2} + 240 \phi \theta^{4} + 480 \phi \theta^{2} - 96 \theta^{4}}\\
+	c^{L}_{2} &= - \frac{150 \alpha \phi^{2} \theta^{2} - 120 \alpha \phi \theta^{4} - 120 \alpha \phi \theta^{2} + 96 \alpha \theta^{4} - 625 \gamma \phi^{3} + 700 \gamma \phi^{2} \theta^{2} + 400 \gamma \phi^{2} - 120 \gamma \phi \theta^{4} - 360 \gamma \phi \theta^{2}}{625 \phi^{3} - 850 \phi^{2} \theta^{2} - 400 \phi^{2} + 240 \phi \theta^{4} + 480 \phi \theta^{2} - 96 \theta^{4}}\\
+	c^{L}_{3} &= - \frac{150 \alpha \phi^{2} \theta^{2} - 120 \alpha \phi \theta^{4} - 120 \alpha \phi \theta^{2} + 96 \alpha \theta^{4} - 625 \gamma \phi^{3} + 700 \gamma \phi^{2} \theta^{2} + 400 \gamma \phi^{2} - 120 \gamma \phi \theta^{4} - 360 \gamma \phi \theta^{2}}{625 \phi^{3} - 850 \phi^{2} \theta^{2} - 400 \phi^{2} + 240 \phi \theta^{4} + 480 \phi \theta^{2} - 96 \theta^{4}}
+\end{cases}
+}
+
+Production Quantities:
+
+\scaleeq{
+\begin{cases}
+	q^{H}_{1} &= \frac{5 \phi \left(\alpha - \gamma\right) \left(5 \phi - 6 \theta^{2}\right) \left(5 \phi - 4 \theta^{2}\right)}{625 \phi^{3} - 850 \phi^{2} \theta^{2} - 400 \phi^{2} + 240 \phi \theta^{4} + 480 \phi \theta^{2} - 96 \theta^{4}}\\
+	q^{L}_{1} &= \frac{5 \phi \left(\alpha - \gamma\right) \left(5 \phi - 4\right) \left(5 \phi - 6 \theta^{2}\right)}{625 \phi^{3} - 850 \phi^{2} \theta^{2} - 400 \phi^{2} + 240 \phi \theta^{4} + 480 \phi \theta^{2} - 96 \theta^{4}}\\
+	q^{L}_{2} &= \frac{5 \phi \left(\alpha - \gamma\right) \left(5 \phi - 4\right) \left(5 \phi - 4 \theta^{2}\right)}{625 \phi^{3} - 850 \phi^{2} \theta^{2} - 400 \phi^{2} + 240 \phi \theta^{4} + 480 \phi \theta^{2} - 96 \theta^{4}}\\
+	q^{L}_{3} &= \frac{5 \phi \left(\alpha - \gamma\right) \left(5 \phi - 4\right) \left(5 \phi - 4 \theta^{2}\right)}{625 \phi^{3} - 850 \phi^{2} \theta^{2} - 400 \phi^{2} + 240 \phi \theta^{4} + 480 \phi \theta^{2} - 96 \theta^{4}}
+\end{cases}
+}
+
+Profits:
+
+\begin{equation}
+\label{eq:E1B:1H3L_profit}
+\scaledequation{\begin{cases}
+	\pi^{H}_{1} &= \frac{\phi \left(\alpha - \gamma\right)^{2} \left(5 \phi - 6 \theta^{2}\right)^{2} \left(5 \phi - 4 \theta^{2}\right)^{2} \left(25 \phi - 16\right)}{\left(625 \phi^{3} - 850 \phi^{2} \theta^{2} - 400 \phi^{2} + 240 \phi \theta^{4} + 480 \phi \theta^{2} - 96 \theta^{4}\right)^{2}}\\
+	\pi^{L}_{1} &= \frac{\phi \left(\alpha - \gamma\right)^{2} \left(5 \phi - 4\right)^{2} \left(5 \phi - 6 \theta^{2}\right)^{2} \left(25 \phi - 16 \theta^{2}\right)}{\left(625 \phi^{3} - 850 \phi^{2} \theta^{2} - 400 \phi^{2} + 240 \phi \theta^{4} + 480 \phi \theta^{2} - 96 \theta^{4}\right)^{2}}\\
+	\pi^{L}_{2} &= \frac{\phi \left(\alpha - \gamma\right)^{2} \left(5 \phi - 4\right)^{2} \left(5 \phi - 4 \theta^{2}\right)^{2} \left(25 \phi - 9 \theta^{2}\right)}{\left(625 \phi^{3} - 850 \phi^{2} \theta^{2} - 400 \phi^{2} + 240 \phi \theta^{4} + 480 \phi \theta^{2} - 96 \theta^{4}\right)^{2}}\\
+	\pi^{L}_{3} &= \frac{\phi \left(\alpha - \gamma\right)^{2} \left(5 \phi - 4\right)^{2} \left(5 \phi - 4 \theta^{2}\right)^{2} \left(25 \phi - 9 \theta^{2}\right)}{\left(625 \phi^{3} - 850 \phi^{2} \theta^{2} - 400 \phi^{2} + 240 \phi \theta^{4} + 480 \phi \theta^{2} - 96 \theta^{4}\right)^{2}}
+\end{cases}
+}
+\end{equation}
+
+Total Production:
+
+\scaleeq{
+\frac{20 \phi \left(\alpha - \gamma\right) \left(25 \phi^{2} - 30 \phi \theta^{2} - 15 \phi + 6 \theta^{4} + 14 \theta^{2}\right)}{625 \phi^{3} - 850 \phi^{2} \theta^{2} - 400 \phi^{2} + 240 \phi \theta^{4} + 480 \phi \theta^{2} - 96 \theta^{4}}
+}
+
+Price:
+
+\scaleeq{
+\frac{125 \alpha \phi^{3} - 250 \alpha \phi^{2} \theta^{2} - 100 \alpha \phi^{2} + 120 \alpha \phi \theta^{4} + 200 \alpha \phi \theta^{2} - 96 \alpha \theta^{4} + 500 \gamma \phi^{3} - 600 \gamma \phi^{2} \theta^{2} - 300 \gamma \phi^{2} + 120 \gamma \phi \theta^{4} + 280 \gamma \phi \theta^{2}}{625 \phi^{3} - 850 \phi^{2} \theta^{2} - 400 \phi^{2} + 240 \phi \theta^{4} + 480 \phi \theta^{2} - 96 \theta^{4}}
+}
+
+Firm Surplus:
+
+\scaleeq{
+\frac{2 \phi \left(\alpha - \gamma\right)^{2} \left(31250 \phi^{5} - 85625 \phi^{4} \theta^{2} - 42500 \phi^{4} + 88500 \phi^{3} \theta^{4} + 107000 \phi^{3} \theta^{2} + 15000 \phi^{3} - 40800 \phi^{2} \theta^{6} - 97200 \phi^{2} \theta^{4} - 34800 \phi^{2} \theta^{2} + 7200 \phi \theta^{8} + 36480 \phi \theta^{6} + 27040 \phi \theta^{4} - 4608 \theta^{8} - 6912 \theta^{6}\right)}{\left(625 \phi^{3} - 850 \phi^{2} \theta^{2} - 400 \phi^{2} + 240 \phi \theta^{4} + 480 \phi \theta^{2} - 96 \theta^{4}\right)^{2}}
+}
+
+Consumer Surplus:
+
+\scaleeq{
+\frac{200 \phi^{2} \left(\alpha - \gamma\right)^{2} \left(25 \phi^{2} - 30 \phi \theta^{2} - 15 \phi + 6 \theta^{4} + 14 \theta^{2}\right)^{2}}{\left(625 \phi^{3} - 850 \phi^{2} \theta^{2} - 400 \phi^{2} + 240 \phi \theta^{4} + 480 \phi \theta^{2} - 96 \theta^{4}\right)^{2}}
+}
+
+Social Welfare:
+
+\scaleeq{
+\frac{2 \phi \left(\alpha - \gamma\right)^{2} \left(93750 \phi^{5} - 235625 \phi^{4} \theta^{2} - 117500 \phi^{4} + 208500 \phi^{3} \theta^{4} + 267000 \phi^{3} \theta^{2} + 37500 \phi^{3} - 76800 \phi^{2} \theta^{6} - 199200 \phi^{2} \theta^{4} - 76800 \phi^{2} \theta^{2} + 10800 \phi \theta^{8} + 53280 \phi \theta^{6} + 46640 \phi \theta^{4} - 4608 \theta^{8} - 6912 \theta^{6}\right)}{\left(625 \phi^{3} - 850 \phi^{2} \theta^{2} - 400 \phi^{2} + 240 \phi \theta^{4} + 480 \phi \theta^{2} - 96 \theta^{4}\right)^{2}}
+}
+
+%======================================================================
+
+\subsubsection{E2A [1H3L]}
+\label{apx:E2A:1H3L}
+
+\begin{multicols}{2}
+\begin{center}
+\begin{tikzpicture}[shorten >=1pt,draw=black!50]
+	\node (H1) at ( 1.06,  1.06)	[circle, draw, fill = gray!20]	{$H_{1}$};
+	\node (L1) at (-1.06,  1.06)	[circle, draw, fill = white]	{$L_{1}$};
+	\node (L2) at (-1.06, -1.06)	[circle, draw, fill = white]	{$L_{2}$};
+	\node (L3) at ( 1.06, -1.06)	[circle, draw, fill = white]	{$L_{3}$};
+	\draw (H1) -- (L2);
+	\draw (H1) -- (L3);
+\end{tikzpicture}
+\end{center}
+\columnbreak
+
+\scaleeq{
+Equations: \begin{cases}
+	e^{H}_{1} \left(\frac{25 \phi}{2} - 2\right) = \alpha - e^{L}_{1} \theta + 3 e^{L}_{2} \theta + 3 e^{L}_{3} \theta - \gamma\\
+	e^{L}_{1} \left(\frac{25 \phi}{4 \theta} - 4 \theta\right) = \alpha - 3 e^{H}_{1} - 2 e^{L}_{2} \theta - 2 e^{L}_{3} \theta - \gamma\\
+	e^{L}_{2} \left(\frac{25 \phi}{3 \theta} - 3 \theta\right) = \alpha + 2 e^{H}_{1} - e^{L}_{1} \theta - 2 e^{L}_{3} \theta - \gamma\\
+	e^{L}_{3} \left(\frac{25 \phi}{3 \theta} - 3 \theta\right) = \alpha + 2 e^{H}_{1} - e^{L}_{1} \theta - 2 e^{L}_{2} \theta - \gamma
+\end{cases}
+}\end{multicols}
+
+
+Optimal efforts:
+
+\scaleeq{
+\begin{cases}
+	e^{H}_{1} &= \frac{2 \left(\alpha - \gamma\right) \left(5 \phi - 4 \theta^{2}\right) \left(5 \phi + 3 \theta^{2}\right)}{625 \phi^{3} - 475 \phi^{2} \theta^{2} - 100 \phi^{2} - 20 \phi \theta^{2} + 24 \theta^{4}}\\
+	e^{L}_{1} &= \frac{4 \theta \left(\alpha - \gamma\right) \left(25 \phi^{2} - 15 \phi \theta^{2} - 10 \phi - 6 \theta^{2}\right)}{625 \phi^{3} - 475 \phi^{2} \theta^{2} - 100 \phi^{2} - 20 \phi \theta^{2} + 24 \theta^{4}}\\
+	e^{L}_{2} &= \frac{15 \phi \theta \left(\alpha - \gamma\right) \left(5 \phi - 4 \theta^{2}\right)}{625 \phi^{3} - 475 \phi^{2} \theta^{2} - 100 \phi^{2} - 20 \phi \theta^{2} + 24 \theta^{4}}\\
+	e^{L}_{3} &= \frac{15 \phi \theta \left(\alpha - \gamma\right) \left(5 \phi - 4 \theta^{2}\right)}{625 \phi^{3} - 475 \phi^{2} \theta^{2} - 100 \phi^{2} - 20 \phi \theta^{2} + 24 \theta^{4}}
+\end{cases}
+}
+
+Production Costs:
+
+\scaleeq{
+\begin{cases}
+	c^{H}_{1} &= - \frac{150 \alpha \phi^{2} \theta^{2} + 50 \alpha \phi^{2} - 120 \alpha \phi \theta^{4} - 10 \alpha \phi \theta^{2} - 24 \alpha \theta^{4} - 625 \gamma \phi^{3} + 325 \gamma \phi^{2} \theta^{2} + 50 \gamma \phi^{2} + 120 \gamma \phi \theta^{4} + 30 \gamma \phi \theta^{2}}{625 \phi^{3} - 475 \phi^{2} \theta^{2} - 100 \phi^{2} - 20 \phi \theta^{2} + 24 \theta^{4}}\\
+	c^{L}_{1} &= - \frac{100 \alpha \phi^{2} \theta^{2} - 60 \alpha \phi \theta^{4} - 40 \alpha \phi \theta^{2} - 24 \alpha \theta^{4} - 625 \gamma \phi^{3} + 375 \gamma \phi^{2} \theta^{2} + 100 \gamma \phi^{2} + 60 \gamma \phi \theta^{4} + 60 \gamma \phi \theta^{2}}{625 \phi^{3} - 475 \phi^{2} \theta^{2} - 100 \phi^{2} - 20 \phi \theta^{2} + 24 \theta^{4}}\\
+	c^{L}_{2} &= - \frac{75 \alpha \phi^{2} \theta^{2} + 50 \alpha \phi^{2} - 60 \alpha \phi \theta^{4} - 10 \alpha \phi \theta^{2} - 24 \alpha \theta^{4} - 625 \gamma \phi^{3} + 400 \gamma \phi^{2} \theta^{2} + 50 \gamma \phi^{2} + 60 \gamma \phi \theta^{4} + 30 \gamma \phi \theta^{2}}{625 \phi^{3} - 475 \phi^{2} \theta^{2} - 100 \phi^{2} - 20 \phi \theta^{2} + 24 \theta^{4}}\\
+	c^{L}_{3} &= - \frac{75 \alpha \phi^{2} \theta^{2} + 50 \alpha \phi^{2} - 60 \alpha \phi \theta^{4} - 10 \alpha \phi \theta^{2} - 24 \alpha \theta^{4} - 625 \gamma \phi^{3} + 400 \gamma \phi^{2} \theta^{2} + 50 \gamma \phi^{2} + 60 \gamma \phi \theta^{4} + 30 \gamma \phi \theta^{2}}{625 \phi^{3} - 475 \phi^{2} \theta^{2} - 100 \phi^{2} - 20 \phi \theta^{2} + 24 \theta^{4}}
+\end{cases}
+}
+
+Production Quantities:
+
+\scaleeq{
+\begin{cases}
+	q^{H}_{1} &= \frac{5 \phi \left(\alpha - \gamma\right) \left(5 \phi - 4 \theta^{2}\right) \left(5 \phi + 3 \theta^{2}\right)}{625 \phi^{3} - 475 \phi^{2} \theta^{2} - 100 \phi^{2} - 20 \phi \theta^{2} + 24 \theta^{4}}\\
+	q^{L}_{1} &= \frac{5 \phi \left(\alpha - \gamma\right) \left(25 \phi^{2} - 15 \phi \theta^{2} - 10 \phi - 6 \theta^{2}\right)}{625 \phi^{3} - 475 \phi^{2} \theta^{2} - 100 \phi^{2} - 20 \phi \theta^{2} + 24 \theta^{4}}\\
+	q^{L}_{2} &= \frac{25 \phi^{2} \left(\alpha - \gamma\right) \left(5 \phi - 4 \theta^{2}\right)}{625 \phi^{3} - 475 \phi^{2} \theta^{2} - 100 \phi^{2} - 20 \phi \theta^{2} + 24 \theta^{4}}\\
+	q^{L}_{3} &= \frac{25 \phi^{2} \left(\alpha - \gamma\right) \left(5 \phi - 4 \theta^{2}\right)}{625 \phi^{3} - 475 \phi^{2} \theta^{2} - 100 \phi^{2} - 20 \phi \theta^{2} + 24 \theta^{4}}
+\end{cases}
+}
+
+Profits:
+
+\begin{equation}
+\label{eq:E2A:1H3L_profit}
+\scaledequation{\begin{cases}
+	\pi^{H}_{1} &= \frac{\phi \left(\alpha - \gamma\right)^{2} \left(5 \phi - 4 \theta^{2}\right)^{2} \left(5 \phi + 3 \theta^{2}\right)^{2} \left(25 \phi - 4\right)}{\left(625 \phi^{3} - 475 \phi^{2} \theta^{2} - 100 \phi^{2} - 20 \phi \theta^{2} + 24 \theta^{4}\right)^{2}}\\
+	\pi^{L}_{1} &= \frac{\phi \left(\alpha - \gamma\right)^{2} \left(25 \phi - 16 \theta^{2}\right) \left(25 \phi^{2} - 15 \phi \theta^{2} - 10 \phi - 6 \theta^{2}\right)^{2}}{\left(625 \phi^{3} - 475 \phi^{2} \theta^{2} - 100 \phi^{2} - 20 \phi \theta^{2} + 24 \theta^{4}\right)^{2}}\\
+	\pi^{L}_{2} &= \frac{25 \phi^{3} \left(\alpha - \gamma\right)^{2} \left(5 \phi - 4 \theta^{2}\right)^{2} \left(25 \phi - 9 \theta^{2}\right)}{\left(625 \phi^{3} - 475 \phi^{2} \theta^{2} - 100 \phi^{2} - 20 \phi \theta^{2} + 24 \theta^{4}\right)^{2}}\\
+	\pi^{L}_{3} &= \frac{25 \phi^{3} \left(\alpha - \gamma\right)^{2} \left(5 \phi - 4 \theta^{2}\right)^{2} \left(25 \phi - 9 \theta^{2}\right)}{\left(625 \phi^{3} - 475 \phi^{2} \theta^{2} - 100 \phi^{2} - 20 \phi \theta^{2} + 24 \theta^{4}\right)^{2}}
+\end{cases}
+}
+\end{equation}
+
+Total Production:
+
+\scaleeq{
+\frac{10 \phi \left(\alpha - \gamma\right) \left(50 \phi^{2} - 30 \phi \theta^{2} - 5 \phi - 6 \theta^{4} - 3 \theta^{2}\right)}{625 \phi^{3} - 475 \phi^{2} \theta^{2} - 100 \phi^{2} - 20 \phi \theta^{2} + 24 \theta^{4}}
+}
+
+Price:
+
+\scaleeq{
+\frac{125 \alpha \phi^{3} - 175 \alpha \phi^{2} \theta^{2} - 50 \alpha \phi^{2} + 60 \alpha \phi \theta^{4} + 10 \alpha \phi \theta^{2} + 24 \alpha \theta^{4} + 500 \gamma \phi^{3} - 300 \gamma \phi^{2} \theta^{2} - 50 \gamma \phi^{2} - 60 \gamma \phi \theta^{4} - 30 \gamma \phi \theta^{2}}{625 \phi^{3} - 475 \phi^{2} \theta^{2} - 100 \phi^{2} - 20 \phi \theta^{2} + 24 \theta^{4}}
+}
+
+Firm Surplus:
+
+\scaleeq{
+\frac{2 \phi \left(\alpha - \gamma\right)^{2} \left(31250 \phi^{5} - 48125 \phi^{4} \theta^{2} - 7500 \phi^{4} + 20625 \phi^{3} \theta^{4} + 4500 \phi^{3} \theta^{2} + 1250 \phi^{3} - 3900 \phi^{2} \theta^{6} + 3400 \phi^{2} \theta^{4} + 700 \phi^{2} \theta^{2} + 1800 \phi \theta^{8} - 1680 \phi \theta^{6} - 510 \phi \theta^{4} - 288 \theta^{8} - 288 \theta^{6}\right)}{\left(625 \phi^{3} - 475 \phi^{2} \theta^{2} - 100 \phi^{2} - 20 \phi \theta^{2} + 24 \theta^{4}\right)^{2}}
+}
+
+Consumer Surplus:
+
+\scaleeq{
+\frac{50 \phi^{2} \left(\alpha - \gamma\right)^{2} \left(50 \phi^{2} - 30 \phi \theta^{2} - 5 \phi - 6 \theta^{4} - 3 \theta^{2}\right)^{2}}{\left(625 \phi^{3} - 475 \phi^{2} \theta^{2} - 100 \phi^{2} - 20 \phi \theta^{2} + 24 \theta^{4}\right)^{2}}
+}
+
+Social Welfare:
+
+\scaleeq{
+\frac{2 \phi \left(\alpha - \gamma\right)^{2} \left(93750 \phi^{5} - 123125 \phi^{4} \theta^{2} - 20000 \phi^{4} + 28125 \phi^{3} \theta^{4} + 4500 \phi^{3} \theta^{2} + 1875 \phi^{3} + 5100 \phi^{2} \theta^{6} + 9400 \phi^{2} \theta^{4} + 1450 \phi^{2} \theta^{2} + 2700 \phi \theta^{8} - 780 \phi \theta^{6} - 285 \phi \theta^{4} - 288 \theta^{8} - 288 \theta^{6}\right)}{\left(625 \phi^{3} - 475 \phi^{2} \theta^{2} - 100 \phi^{2} - 20 \phi \theta^{2} + 24 \theta^{4}\right)^{2}}
+}
+
+%======================================================================
+
+\subsubsection{E2B [1H3L]}
+\label{apx:E2B:1H3L}
+
+\begin{multicols}{2}
+\begin{center}
+\begin{tikzpicture}[shorten >=1pt,draw=black!50]
+	\node (H1) at ( 1.06,  1.06)	[circle, draw, fill = gray!20]	{$H_{1}$};
+	\node (L1) at (-1.06,  1.06)	[circle, draw, fill = white]	{$L_{1}$};
+	\node (L2) at (-1.06, -1.06)	[circle, draw, fill = white]	{$L_{2}$};
+	\node (L3) at ( 1.06, -1.06)	[circle, draw, fill = white]	{$L_{3}$};
+	\draw (H1) -- (L3);
+	\draw (L2) -- (L3);
+\end{tikzpicture}
+\end{center}
+\columnbreak
+
+\scaleeq{
+Equations: \begin{cases}
+	e^{H}_{1} \left(\frac{25 \phi}{3} - 3\right) = \alpha - e^{L}_{1} \theta - 2 e^{L}_{2} \theta + 2 e^{L}_{3} \theta - \gamma\\
+	e^{L}_{1} \left(\frac{25 \phi}{4 \theta} - 4 \theta\right) = \alpha - 2 e^{H}_{1} - 2 e^{L}_{2} \theta - 3 e^{L}_{3} \theta - \gamma\\
+	e^{L}_{2} \left(\frac{25 \phi}{3 \theta} - 3 \theta\right) = \alpha - 2 e^{H}_{1} - e^{L}_{1} \theta + 2 e^{L}_{3} \theta - \gamma\\
+	e^{L}_{3} \left(\frac{25 \phi}{2 \theta} - 2 \theta\right) = \alpha + 3 e^{H}_{1} - e^{L}_{1} \theta + 3 e^{L}_{2} \theta - \gamma
+\end{cases}
+}\end{multicols}
+
+
+Optimal efforts:
+
+\scaleeq{
+\begin{cases}
+	e^{H}_{1} &= \frac{15 \phi \left(\alpha - \gamma\right) \left(5 \phi - 4 \theta^{2}\right) \left(5 \phi - 3 \theta^{2}\right)}{3125 \phi^{4} - 3625 \phi^{3} \theta^{2} - 1125 \phi^{3} + 800 \phi^{2} \theta^{4} + 825 \phi^{2} \theta^{2} + 180 \phi \theta^{4} - 72 \theta^{6}}\\
+	e^{L}_{1} &= \frac{4 \theta \left(\alpha - \gamma\right) \left(125 \phi^{3} - 125 \phi^{2} \theta^{2} - 75 \phi^{2} + 45 \phi \theta^{2} + 18 \theta^{4}\right)}{3125 \phi^{4} - 3625 \phi^{3} \theta^{2} - 1125 \phi^{3} + 800 \phi^{2} \theta^{4} + 825 \phi^{2} \theta^{2} + 180 \phi \theta^{4} - 72 \theta^{6}}\\
+	e^{L}_{2} &= \frac{15 \phi \theta \left(\alpha - \gamma\right) \left(5 \phi - 3\right) \left(5 \phi - 4 \theta^{2}\right)}{3125 \phi^{4} - 3625 \phi^{3} \theta^{2} - 1125 \phi^{3} + 800 \phi^{2} \theta^{4} + 825 \phi^{2} \theta^{2} + 180 \phi \theta^{4} - 72 \theta^{6}}\\
+	e^{L}_{3} &= \frac{2 \theta \left(\alpha - \gamma\right) \left(5 \phi - 3 \theta\right) \left(5 \phi + 3 \theta\right) \left(5 \phi - 4 \theta^{2}\right)}{3125 \phi^{4} - 3625 \phi^{3} \theta^{2} - 1125 \phi^{3} + 800 \phi^{2} \theta^{4} + 825 \phi^{2} \theta^{2} + 180 \phi \theta^{4} - 72 \theta^{6}}
+\end{cases}
+}
+
+Production Costs:
+
+\scaleeq{
+\begin{cases}
+	c^{H}_{1} &= - \frac{250 \alpha \phi^{3} \theta^{2} + 375 \alpha \phi^{3} - 200 \alpha \phi^{2} \theta^{4} - 525 \alpha \phi^{2} \theta^{2} + 90 \alpha \phi \theta^{4} + 72 \alpha \theta^{6} - 3125 \gamma \phi^{4} + 3375 \gamma \phi^{3} \theta^{2} + 750 \gamma \phi^{3} - 600 \gamma \phi^{2} \theta^{4} - 300 \gamma \phi^{2} \theta^{2} - 270 \gamma \phi \theta^{4}}{3125 \phi^{4} - 3625 \phi^{3} \theta^{2} - 1125 \phi^{3} + 800 \phi^{2} \theta^{4} + 825 \phi^{2} \theta^{2} + 180 \phi \theta^{4} - 72 \theta^{6}}\\
+	c^{L}_{1} &= - \frac{500 \alpha \phi^{3} \theta^{2} - 500 \alpha \phi^{2} \theta^{4} - 300 \alpha \phi^{2} \theta^{2} + 180 \alpha \phi \theta^{4} + 72 \alpha \theta^{6} - 3125 \gamma \phi^{4} + 3125 \gamma \phi^{3} \theta^{2} + 1125 \gamma \phi^{3} - 300 \gamma \phi^{2} \theta^{4} - 525 \gamma \phi^{2} \theta^{2} - 360 \gamma \phi \theta^{4}}{3125 \phi^{4} - 3625 \phi^{3} \theta^{2} - 1125 \phi^{3} + 800 \phi^{2} \theta^{4} + 825 \phi^{2} \theta^{2} + 180 \phi \theta^{4} - 72 \theta^{6}}\\
+	c^{L}_{2} &= - \frac{625 \alpha \phi^{3} \theta^{2} - 500 \alpha \phi^{2} \theta^{4} - 225 \alpha \phi^{2} \theta^{2} + 90 \alpha \phi \theta^{4} + 72 \alpha \theta^{6} - 3125 \gamma \phi^{4} + 3000 \gamma \phi^{3} \theta^{2} + 1125 \gamma \phi^{3} - 300 \gamma \phi^{2} \theta^{4} - 600 \gamma \phi^{2} \theta^{2} - 270 \gamma \phi \theta^{4}}{3125 \phi^{4} - 3625 \phi^{3} \theta^{2} - 1125 \phi^{3} + 800 \phi^{2} \theta^{4} + 825 \phi^{2} \theta^{2} + 180 \phi \theta^{4} - 72 \theta^{6}}\\
+	c^{L}_{3} &= - \frac{625 \alpha \phi^{3} \theta^{2} + 375 \alpha \phi^{3} - 500 \alpha \phi^{2} \theta^{4} - 750 \alpha \phi^{2} \theta^{2} + 270 \alpha \phi \theta^{4} + 72 \alpha \theta^{6} - 3125 \gamma \phi^{4} + 3000 \gamma \phi^{3} \theta^{2} + 750 \gamma \phi^{3} - 300 \gamma \phi^{2} \theta^{4} - 75 \gamma \phi^{2} \theta^{2} - 450 \gamma \phi \theta^{4}}{3125 \phi^{4} - 3625 \phi^{3} \theta^{2} - 1125 \phi^{3} + 800 \phi^{2} \theta^{4} + 825 \phi^{2} \theta^{2} + 180 \phi \theta^{4} - 72 \theta^{6}}
+\end{cases}
+}
+
+Production Quantities:
+
+\scaleeq{
+\begin{cases}
+	q^{H}_{1} &= \frac{25 \phi^{2} \left(\alpha - \gamma\right) \left(5 \phi - 4 \theta^{2}\right) \left(5 \phi - 3 \theta^{2}\right)}{3125 \phi^{4} - 3625 \phi^{3} \theta^{2} - 1125 \phi^{3} + 800 \phi^{2} \theta^{4} + 825 \phi^{2} \theta^{2} + 180 \phi \theta^{4} - 72 \theta^{6}}\\
+	q^{L}_{1} &= \frac{5 \phi \left(\alpha - \gamma\right) \left(125 \phi^{3} - 125 \phi^{2} \theta^{2} - 75 \phi^{2} + 45 \phi \theta^{2} + 18 \theta^{4}\right)}{3125 \phi^{4} - 3625 \phi^{3} \theta^{2} - 1125 \phi^{3} + 800 \phi^{2} \theta^{4} + 825 \phi^{2} \theta^{2} + 180 \phi \theta^{4} - 72 \theta^{6}}\\
+	q^{L}_{2} &= \frac{25 \phi^{2} \left(\alpha - \gamma\right) \left(5 \phi - 3\right) \left(5 \phi - 4 \theta^{2}\right)}{3125 \phi^{4} - 3625 \phi^{3} \theta^{2} - 1125 \phi^{3} + 800 \phi^{2} \theta^{4} + 825 \phi^{2} \theta^{2} + 180 \phi \theta^{4} - 72 \theta^{6}}\\
+	q^{L}_{3} &= \frac{5 \phi \left(\alpha - \gamma\right) \left(5 \phi - 3 \theta\right) \left(5 \phi + 3 \theta\right) \left(5 \phi - 4 \theta^{2}\right)}{3125 \phi^{4} - 3625 \phi^{3} \theta^{2} - 1125 \phi^{3} + 800 \phi^{2} \theta^{4} + 825 \phi^{2} \theta^{2} + 180 \phi \theta^{4} - 72 \theta^{6}}
+\end{cases}
+}
+
+Profits:
+
+\begin{equation}
+\label{eq:E2B:1H3L_profit}
+\scaledequation{\begin{cases}
+	\pi^{H}_{1} &= \frac{25 \phi^{3} \left(\alpha - \gamma\right)^{2} \left(5 \phi - 4 \theta^{2}\right)^{2} \left(5 \phi - 3 \theta^{2}\right)^{2} \left(25 \phi - 9\right)}{\left(3125 \phi^{4} - 3625 \phi^{3} \theta^{2} - 1125 \phi^{3} + 800 \phi^{2} \theta^{4} + 825 \phi^{2} \theta^{2} + 180 \phi \theta^{4} - 72 \theta^{6}\right)^{2}}\\
+	\pi^{L}_{1} &= \frac{\phi \left(\alpha - \gamma\right)^{2} \left(25 \phi - 16 \theta^{2}\right) \left(125 \phi^{3} - 125 \phi^{2} \theta^{2} - 75 \phi^{2} + 45 \phi \theta^{2} + 18 \theta^{4}\right)^{2}}{\left(3125 \phi^{4} - 3625 \phi^{3} \theta^{2} - 1125 \phi^{3} + 800 \phi^{2} \theta^{4} + 825 \phi^{2} \theta^{2} + 180 \phi \theta^{4} - 72 \theta^{6}\right)^{2}}\\
+	\pi^{L}_{2} &= \frac{25 \phi^{3} \left(\alpha - \gamma\right)^{2} \left(5 \phi - 3\right)^{2} \left(5 \phi - 4 \theta^{2}\right)^{2} \left(25 \phi - 9 \theta^{2}\right)}{\left(3125 \phi^{4} - 3625 \phi^{3} \theta^{2} - 1125 \phi^{3} + 800 \phi^{2} \theta^{4} + 825 \phi^{2} \theta^{2} + 180 \phi \theta^{4} - 72 \theta^{6}\right)^{2}}\\
+	\pi^{L}_{3} &= \frac{\phi \left(\alpha - \gamma\right)^{2} \left(5 \phi - 3 \theta\right)^{2} \left(5 \phi + 3 \theta\right)^{2} \left(5 \phi - 4 \theta^{2}\right)^{2} \left(25 \phi - 4 \theta^{2}\right)}{\left(3125 \phi^{4} - 3625 \phi^{3} \theta^{2} - 1125 \phi^{3} + 800 \phi^{2} \theta^{4} + 825 \phi^{2} \theta^{2} + 180 \phi \theta^{4} - 72 \theta^{6}\right)^{2}}
+\end{cases}
+}
+\end{equation}
+
+Total Production:
+
+\scaleeq{
+\frac{10 \phi \left(\alpha - \gamma\right) \left(250 \phi^{3} - 250 \phi^{2} \theta^{2} - 75 \phi^{2} + 30 \phi \theta^{4} + 30 \phi \theta^{2} + 27 \theta^{4}\right)}{3125 \phi^{4} - 3625 \phi^{3} \theta^{2} - 1125 \phi^{3} + 800 \phi^{2} \theta^{4} + 825 \phi^{2} \theta^{2} + 180 \phi \theta^{4} - 72 \theta^{6}}
+}
+
+Price:
+
+\scaleeq{
+\frac{625 \alpha \phi^{4} - 1125 \alpha \phi^{3} \theta^{2} - 375 \alpha \phi^{3} + 500 \alpha \phi^{2} \theta^{4} + 525 \alpha \phi^{2} \theta^{2} - 90 \alpha \phi \theta^{4} - 72 \alpha \theta^{6} + 2500 \gamma \phi^{4} - 2500 \gamma \phi^{3} \theta^{2} - 750 \gamma \phi^{3} + 300 \gamma \phi^{2} \theta^{4} + 300 \gamma \phi^{2} \theta^{2} + 270 \gamma \phi \theta^{4}}{3125 \phi^{4} - 3625 \phi^{3} \theta^{2} - 1125 \phi^{3} + 800 \phi^{2} \theta^{4} + 825 \phi^{2} \theta^{2} + 180 \phi \theta^{4} - 72 \theta^{6}}
+}
+
+Firm Surplus:
+
+\scaleeq{
+\frac{\phi \left(\alpha - \gamma\right)^{2} \left(1562500 \phi^{7} - 3578125 \phi^{6} \theta^{2} - 1078125 \phi^{6} + 2856250 \phi^{5} \theta^{4} + 2081250 \phi^{5} \theta^{2} + 281250 \phi^{5} - 905000 \phi^{4} \theta^{6} - 1134375 \phi^{4} \theta^{4} - 534375 \phi^{4} \theta^{2} + 90000 \phi^{3} \theta^{8} + 40500 \phi^{3} \theta^{6} + 312750 \phi^{3} \theta^{4} + 68400 \phi^{2} \theta^{8} - 70200 \phi^{2} \theta^{6} + 27540 \phi \theta^{8} - 10368 \theta^{10}\right)}{\left(3125 \phi^{4} - 3625 \phi^{3} \theta^{2} - 1125 \phi^{3} + 800 \phi^{2} \theta^{4} + 825 \phi^{2} \theta^{2} + 180 \phi \theta^{4} - 72 \theta^{6}\right)^{2}}
+}
+
+Consumer Surplus:
+
+\scaleeq{
+\frac{50 \phi^{2} \left(\alpha - \gamma\right)^{2} \left(250 \phi^{3} - 250 \phi^{2} \theta^{2} - 75 \phi^{2} + 30 \phi \theta^{4} + 30 \phi \theta^{2} + 27 \theta^{4}\right)^{2}}{\left(3125 \phi^{4} - 3625 \phi^{3} \theta^{2} - 1125 \phi^{3} + 800 \phi^{2} \theta^{4} + 825 \phi^{2} \theta^{2} + 180 \phi \theta^{4} - 72 \theta^{6}\right)^{2}}
+}
+
+Social Welfare:
+
+\scaleeq{
+\frac{\phi \left(\alpha - \gamma\right)^{2} \left(4687500 \phi^{7} - 9828125 \phi^{6} \theta^{2} - 2953125 \phi^{6} + 6731250 \phi^{5} \theta^{4} + 4706250 \phi^{5} \theta^{2} + 562500 \phi^{5} - 1655000 \phi^{4} \theta^{6} - 1434375 \phi^{4} \theta^{4} - 759375 \phi^{4} \theta^{2} + 135000 \phi^{3} \theta^{8} - 544500 \phi^{3} \theta^{6} + 155250 \phi^{3} \theta^{4} + 149400 \phi^{2} \theta^{8} + 10800 \phi^{2} \theta^{6} + 63990 \phi \theta^{8} - 10368 \theta^{10}\right)}{\left(3125 \phi^{4} - 3625 \phi^{3} \theta^{2} - 1125 \phi^{3} + 800 \phi^{2} \theta^{4} + 825 \phi^{2} \theta^{2} + 180 \phi \theta^{4} - 72 \theta^{6}\right)^{2}}
+}
+
+%======================================================================
+
+\subsubsection{E2C [1H3L]}
+\label{apx:E2C:1H3L}
+
+\begin{multicols}{2}
+\begin{center}
+\begin{tikzpicture}[shorten >=1pt,draw=black!50]
+	\node (H1) at ( 1.06,  1.06)	[circle, draw, fill = gray!20]	{$H_{1}$};
+	\node (L1) at (-1.06,  1.06)	[circle, draw, fill = white]	{$L_{1}$};
+	\node (L2) at (-1.06, -1.06)	[circle, draw, fill = white]	{$L_{2}$};
+	\node (L3) at ( 1.06, -1.06)	[circle, draw, fill = white]	{$L_{3}$};
+	\draw (H1) -- (L3);
+	\draw (L1) -- (L2);
+\end{tikzpicture}
+\end{center}
+\columnbreak
+
+\scaleeq{
+Equations: \begin{cases}
+	e^{H}_{1} \left(\frac{25 \phi}{3} - 3\right) = \alpha - 2 e^{L}_{1} \theta - 2 e^{L}_{2} \theta + 3 e^{L}_{3} \theta - \gamma\\
+	e^{L}_{1} \left(\frac{25 \phi}{3 \theta} - 3 \theta\right) = \alpha - 2 e^{H}_{1} + 3 e^{L}_{2} \theta - 2 e^{L}_{3} \theta - \gamma\\
+	e^{L}_{2} \left(\frac{25 \phi}{3 \theta} - 3 \theta\right) = \alpha - 2 e^{H}_{1} + 3 e^{L}_{1} \theta - 2 e^{L}_{3} \theta - \gamma\\
+	e^{L}_{3} \left(\frac{25 \phi}{3 \theta} - 3 \theta\right) = \alpha + 3 e^{H}_{1} - 2 e^{L}_{1} \theta - 2 e^{L}_{2} \theta - \gamma
+\end{cases}
+}\end{multicols}
+
+
+Optimal efforts:
+
+\scaleeq{
+\begin{cases}
+	e^{H}_{1} &= \frac{3 \left(\alpha - \gamma\right) \left(5 \phi - 6 \theta^{2}\right)}{125 \phi^{2} - 135 \phi \theta^{2} - 45 \phi + 18 \theta^{4} + 18 \theta^{2}}\\
+	e^{L}_{1} &= \frac{3 \theta \left(\alpha - \gamma\right) \left(5 \phi - 3 \theta^{2} - 3\right)}{125 \phi^{2} - 135 \phi \theta^{2} - 45 \phi + 18 \theta^{4} + 18 \theta^{2}}\\
+	e^{L}_{2} &= \frac{3 \theta \left(\alpha - \gamma\right) \left(5 \phi - 3 \theta^{2} - 3\right)}{125 \phi^{2} - 135 \phi \theta^{2} - 45 \phi + 18 \theta^{4} + 18 \theta^{2}}\\
+	e^{L}_{3} &= \frac{3 \theta \left(\alpha - \gamma\right) \left(5 \phi - 6 \theta^{2}\right)}{125 \phi^{2} - 135 \phi \theta^{2} - 45 \phi + 18 \theta^{4} + 18 \theta^{2}}
+\end{cases}
+}
+
+Production Costs:
+
+\scaleeq{
+\begin{cases}
+	c^{H}_{1} &= - \frac{15 \alpha \phi \theta^{2} + 15 \alpha \phi - 18 \alpha \theta^{4} - 18 \alpha \theta^{2} - 125 \gamma \phi^{2} + 120 \gamma \phi \theta^{2} + 30 \gamma \phi}{125 \phi^{2} - 135 \phi \theta^{2} - 45 \phi + 18 \theta^{4} + 18 \theta^{2}}\\
+	c^{L}_{1} &= - \frac{30 \alpha \phi \theta^{2} - 18 \alpha \theta^{4} - 18 \alpha \theta^{2} - 125 \gamma \phi^{2} + 105 \gamma \phi \theta^{2} + 45 \gamma \phi}{125 \phi^{2} - 135 \phi \theta^{2} - 45 \phi + 18 \theta^{4} + 18 \theta^{2}}\\
+	c^{L}_{2} &= - \frac{30 \alpha \phi \theta^{2} - 18 \alpha \theta^{4} - 18 \alpha \theta^{2} - 125 \gamma \phi^{2} + 105 \gamma \phi \theta^{2} + 45 \gamma \phi}{125 \phi^{2} - 135 \phi \theta^{2} - 45 \phi + 18 \theta^{4} + 18 \theta^{2}}\\
+	c^{L}_{3} &= - \frac{15 \alpha \phi \theta^{2} + 15 \alpha \phi - 18 \alpha \theta^{4} - 18 \alpha \theta^{2} - 125 \gamma \phi^{2} + 120 \gamma \phi \theta^{2} + 30 \gamma \phi}{125 \phi^{2} - 135 \phi \theta^{2} - 45 \phi + 18 \theta^{4} + 18 \theta^{2}}
+\end{cases}
+}
+
+Production Quantities:
+
+\scaleeq{
+\begin{cases}
+	q^{H}_{1} &= \frac{5 \phi \left(\alpha - \gamma\right) \left(5 \phi - 6 \theta^{2}\right)}{125 \phi^{2} - 135 \phi \theta^{2} - 45 \phi + 18 \theta^{4} + 18 \theta^{2}}\\
+	q^{L}_{1} &= \frac{5 \phi \left(\alpha - \gamma\right) \left(5 \phi - 3 \theta^{2} - 3\right)}{125 \phi^{2} - 135 \phi \theta^{2} - 45 \phi + 18 \theta^{4} + 18 \theta^{2}}\\
+	q^{L}_{2} &= \frac{5 \phi \left(\alpha - \gamma\right) \left(5 \phi - 3 \theta^{2} - 3\right)}{125 \phi^{2} - 135 \phi \theta^{2} - 45 \phi + 18 \theta^{4} + 18 \theta^{2}}\\
+	q^{L}_{3} &= \frac{5 \phi \left(\alpha - \gamma\right) \left(5 \phi - 6 \theta^{2}\right)}{125 \phi^{2} - 135 \phi \theta^{2} - 45 \phi + 18 \theta^{4} + 18 \theta^{2}}
+\end{cases}
+}
+
+Profits:
+
+\begin{equation}
+\label{eq:E2C:1H3L_profit}
+\scaledequation{\begin{cases}
+	\pi^{H}_{1} &= \frac{\phi \left(\alpha - \gamma\right)^{2} \left(5 \phi - 6 \theta^{2}\right)^{2} \left(25 \phi - 9\right)}{\left(125 \phi^{2} - 135 \phi \theta^{2} - 45 \phi + 18 \theta^{4} + 18 \theta^{2}\right)^{2}}\\
+	\pi^{L}_{1} &= \frac{\phi \left(\alpha - \gamma\right)^{2} \left(25 \phi - 9 \theta^{2}\right) \left(5 \phi - 3 \theta^{2} - 3\right)^{2}}{\left(125 \phi^{2} - 135 \phi \theta^{2} - 45 \phi + 18 \theta^{4} + 18 \theta^{2}\right)^{2}}\\
+	\pi^{L}_{2} &= \frac{\phi \left(\alpha - \gamma\right)^{2} \left(25 \phi - 9 \theta^{2}\right) \left(5 \phi - 3 \theta^{2} - 3\right)^{2}}{\left(125 \phi^{2} - 135 \phi \theta^{2} - 45 \phi + 18 \theta^{4} + 18 \theta^{2}\right)^{2}}\\
+	\pi^{L}_{3} &= \frac{\phi \left(\alpha - \gamma\right)^{2} \left(5 \phi - 6 \theta^{2}\right)^{2} \left(25 \phi - 9 \theta^{2}\right)}{\left(125 \phi^{2} - 135 \phi \theta^{2} - 45 \phi + 18 \theta^{4} + 18 \theta^{2}\right)^{2}}
+\end{cases}
+}
+\end{equation}
+
+Total Production:
+
+\scaleeq{
+\frac{10 \phi \left(\alpha - \gamma\right) \left(10 \phi - 9 \theta^{2} - 3\right)}{125 \phi^{2} - 135 \phi \theta^{2} - 45 \phi + 18 \theta^{4} + 18 \theta^{2}}
+}
+
+Price:
+
+\scaleeq{
+\frac{25 \alpha \phi^{2} - 45 \alpha \phi \theta^{2} - 15 \alpha \phi + 18 \alpha \theta^{4} + 18 \alpha \theta^{2} + 100 \gamma \phi^{2} - 90 \gamma \phi \theta^{2} - 30 \gamma \phi}{125 \phi^{2} - 135 \phi \theta^{2} - 45 \phi + 18 \theta^{4} + 18 \theta^{2}}
+}
+
+Firm Surplus:
+
+\scaleeq{
+\frac{\phi \left(\alpha - \gamma\right)^{2} \left(2500 \phi^{3} - 5175 \phi^{2} \theta^{2} - 1725 \phi^{2} + 3330 \phi \theta^{4} + 1980 \phi \theta^{2} + 450 \phi - 486 \theta^{6} - 648 \theta^{4} - 162 \theta^{2}\right)}{\left(125 \phi^{2} - 135 \phi \theta^{2} - 45 \phi + 18 \theta^{4} + 18 \theta^{2}\right)^{2}}
+}
+
+Consumer Surplus:
+
+\scaleeq{
+\frac{50 \phi^{2} \left(\alpha - \gamma\right)^{2} \left(10 \phi - 9 \theta^{2} - 3\right)^{2}}{\left(125 \phi^{2} - 135 \phi \theta^{2} - 45 \phi + 18 \theta^{4} + 18 \theta^{2}\right)^{2}}
+}
+
+Social Welfare:
+
+\scaleeq{
+\frac{3 \phi \left(\alpha - \gamma\right)^{2} \left(2500 \phi^{3} - 4725 \phi^{2} \theta^{2} - 1575 \phi^{2} + 2460 \phi \theta^{4} + 1560 \phi \theta^{2} + 300 \phi - 162 \theta^{6} - 216 \theta^{4} - 54 \theta^{2}\right)}{\left(125 \phi^{2} - 135 \phi \theta^{2} - 45 \phi + 18 \theta^{4} + 18 \theta^{2}\right)^{2}}
+}
+
+%======================================================================
+
+\subsubsection{E2D [1H3L]}
+\label{apx:E2D:1H3L}
+
+\begin{multicols}{2}
+\begin{center}
+\begin{tikzpicture}[shorten >=1pt,draw=black!50]
+	\node (H1) at ( 1.06,  1.06)	[circle, draw, fill = gray!20]	{$H_{1}$};
+	\node (L1) at (-1.06,  1.06)	[circle, draw, fill = white]	{$L_{1}$};
+	\node (L2) at (-1.06, -1.06)	[circle, draw, fill = white]	{$L_{2}$};
+	\node (L3) at ( 1.06, -1.06)	[circle, draw, fill = white]	{$L_{3}$};
+	\draw (L1) -- (L3);
+	\draw (L2) -- (L3);
+\end{tikzpicture}
+\end{center}
+\columnbreak
+
+\scaleeq{
+Equations: \begin{cases}
+	e^{H}_{1} \left(\frac{25 \phi}{4} - 4\right) = \alpha - 2 e^{L}_{1} \theta - 2 e^{L}_{2} \theta - 3 e^{L}_{3} \theta - \gamma\\
+	e^{L}_{1} \left(\frac{25 \phi}{3 \theta} - 3 \theta\right) = \alpha - e^{H}_{1} - 2 e^{L}_{2} \theta + 2 e^{L}_{3} \theta - \gamma\\
+	e^{L}_{2} \left(\frac{25 \phi}{3 \theta} - 3 \theta\right) = \alpha - e^{H}_{1} - 2 e^{L}_{1} \theta + 2 e^{L}_{3} \theta - \gamma\\
+	e^{L}_{3} \left(\frac{25 \phi}{2 \theta} - 2 \theta\right) = \alpha - e^{H}_{1} + 3 e^{L}_{1} \theta + 3 e^{L}_{2} \theta - \gamma
+\end{cases}
+}\end{multicols}
+
+
+Optimal efforts:
+
+\scaleeq{
+\begin{cases}
+	e^{H}_{1} &= \frac{4 \left(\alpha - \gamma\right) \left(5 \phi - 6 \theta^{2}\right)}{125 \phi^{2} - 60 \phi \theta^{2} - 80 \phi + 24 \theta^{2}}\\
+	e^{L}_{1} &= \frac{15 \phi \theta \left(\alpha - \gamma\right) \left(5 \phi - 4\right)}{\left(5 \phi + \theta^{2}\right) \left(125 \phi^{2} - 60 \phi \theta^{2} - 80 \phi + 24 \theta^{2}\right)}\\
+	e^{L}_{2} &= \frac{15 \phi \theta \left(\alpha - \gamma\right) \left(5 \phi - 4\right)}{\left(5 \phi + \theta^{2}\right) \left(125 \phi^{2} - 60 \phi \theta^{2} - 80 \phi + 24 \theta^{2}\right)}\\
+	e^{L}_{3} &= \frac{2 \theta \left(\alpha - \gamma\right) \left(5 \phi - 4\right) \left(5 \phi + 3 \theta^{2}\right)}{\left(5 \phi + \theta^{2}\right) \left(125 \phi^{2} - 60 \phi \theta^{2} - 80 \phi + 24 \theta^{2}\right)}
+\end{cases}
+}
+
+Production Costs:
+
+\scaleeq{
+\begin{cases}
+	c^{H}_{1} &= - \frac{20 \alpha \phi - 24 \alpha \theta^{2} - 125 \gamma \phi^{2} + 60 \gamma \phi \theta^{2} + 60 \gamma \phi}{125 \phi^{2} - 60 \phi \theta^{2} - 80 \phi + 24 \theta^{2}}\\
+	c^{L}_{1} &= - \frac{125 \alpha \phi^{2} \theta^{2} + 30 \alpha \phi \theta^{4} - 100 \alpha \phi \theta^{2} - 24 \alpha \theta^{4} - 625 \gamma \phi^{3} + 50 \gamma \phi^{2} \theta^{2} + 400 \gamma \phi^{2} + 30 \gamma \phi \theta^{4} + 60 \gamma \phi \theta^{2}}{\left(5 \phi + \theta^{2}\right) \left(125 \phi^{2} - 60 \phi \theta^{2} - 80 \phi + 24 \theta^{2}\right)}\\
+	c^{L}_{2} &= - \frac{125 \alpha \phi^{2} \theta^{2} + 30 \alpha \phi \theta^{4} - 100 \alpha \phi \theta^{2} - 24 \alpha \theta^{4} - 625 \gamma \phi^{3} + 50 \gamma \phi^{2} \theta^{2} + 400 \gamma \phi^{2} + 30 \gamma \phi \theta^{4} + 60 \gamma \phi \theta^{2}}{\left(5 \phi + \theta^{2}\right) \left(125 \phi^{2} - 60 \phi \theta^{2} - 80 \phi + 24 \theta^{2}\right)}\\
+	c^{L}_{3} &= - \frac{200 \alpha \phi^{2} \theta^{2} + 30 \alpha \phi \theta^{4} - 160 \alpha \phi \theta^{2} - 24 \alpha \theta^{4} - 625 \gamma \phi^{3} - 25 \gamma \phi^{2} \theta^{2} + 400 \gamma \phi^{2} + 30 \gamma \phi \theta^{4} + 120 \gamma \phi \theta^{2}}{\left(5 \phi + \theta^{2}\right) \left(125 \phi^{2} - 60 \phi \theta^{2} - 80 \phi + 24 \theta^{2}\right)}
+\end{cases}
+}
+
+Production Quantities:
+
+\scaleeq{
+\begin{cases}
+	q^{H}_{1} &= \frac{5 \phi \left(\alpha - \gamma\right) \left(5 \phi - 6 \theta^{2}\right)}{125 \phi^{2} - 60 \phi \theta^{2} - 80 \phi + 24 \theta^{2}}\\
+	q^{L}_{1} &= \frac{25 \phi^{2} \left(\alpha - \gamma\right) \left(5 \phi - 4\right)}{\left(5 \phi + \theta^{2}\right) \left(125 \phi^{2} - 60 \phi \theta^{2} - 80 \phi + 24 \theta^{2}\right)}\\
+	q^{L}_{2} &= \frac{25 \phi^{2} \left(\alpha - \gamma\right) \left(5 \phi - 4\right)}{\left(5 \phi + \theta^{2}\right) \left(125 \phi^{2} - 60 \phi \theta^{2} - 80 \phi + 24 \theta^{2}\right)}\\
+	q^{L}_{3} &= \frac{5 \phi \left(\alpha - \gamma\right) \left(5 \phi - 4\right) \left(5 \phi + 3 \theta^{2}\right)}{\left(5 \phi + \theta^{2}\right) \left(125 \phi^{2} - 60 \phi \theta^{2} - 80 \phi + 24 \theta^{2}\right)}
+\end{cases}
+}
+
+Profits:
+
+\begin{equation}
+\label{eq:E2D:1H3L_profit}
+\scaledequation{\begin{cases}
+	\pi^{H}_{1} &= \frac{\phi \left(\alpha - \gamma\right)^{2} \left(5 \phi - 6 \theta^{2}\right)^{2} \left(25 \phi - 16\right)}{\left(125 \phi^{2} - 60 \phi \theta^{2} - 80 \phi + 24 \theta^{2}\right)^{2}}\\
+	\pi^{L}_{1} &= \frac{25 \phi^{3} \left(\alpha - \gamma\right)^{2} \left(5 \phi - 4\right)^{2} \left(25 \phi - 9 \theta^{2}\right)}{\left(5 \phi + \theta^{2}\right)^{2} \left(125 \phi^{2} - 60 \phi \theta^{2} - 80 \phi + 24 \theta^{2}\right)^{2}}\\
+	\pi^{L}_{2} &= \frac{25 \phi^{3} \left(\alpha - \gamma\right)^{2} \left(5 \phi - 4\right)^{2} \left(25 \phi - 9 \theta^{2}\right)}{\left(5 \phi + \theta^{2}\right)^{2} \left(125 \phi^{2} - 60 \phi \theta^{2} - 80 \phi + 24 \theta^{2}\right)^{2}}\\
+	\pi^{L}_{3} &= \frac{\phi \left(\alpha - \gamma\right)^{2} \left(5 \phi - 4\right)^{2} \left(5 \phi + 3 \theta^{2}\right)^{2} \left(25 \phi - 4 \theta^{2}\right)}{\left(5 \phi + \theta^{2}\right)^{2} \left(125 \phi^{2} - 60 \phi \theta^{2} - 80 \phi + 24 \theta^{2}\right)^{2}}
+\end{cases}
+}
+\end{equation}
+
+Total Production:
+
+\scaleeq{
+\frac{10 \phi \left(\alpha - \gamma\right) \left(10 \phi - 3 \theta^{2} - 6\right)}{125 \phi^{2} - 60 \phi \theta^{2} - 80 \phi + 24 \theta^{2}}
+}
+
+Price:
+
+\scaleeq{
+\frac{25 \alpha \phi^{2} - 30 \alpha \phi \theta^{2} - 20 \alpha \phi + 24 \alpha \theta^{2} + 100 \gamma \phi^{2} - 30 \gamma \phi \theta^{2} - 60 \gamma \phi}{125 \phi^{2} - 60 \phi \theta^{2} - 80 \phi + 24 \theta^{2}}
+}
+
+Firm Surplus:
+
+\scaleeq{
+\frac{2 \phi \left(\alpha - \gamma\right)^{2} \left(31250 \phi^{5} - 13125 \phi^{4} \theta^{2} - 42500 \phi^{4} + 5375 \phi^{3} \theta^{4} + 6000 \phi^{3} \theta^{2} + 15000 \phi^{3} + 3300 \phi^{2} \theta^{6} - 4700 \phi^{2} \theta^{4} + 1600 \phi^{2} \theta^{2} + 450 \phi \theta^{8} - 1680 \phi \theta^{6} + 840 \phi \theta^{4} - 288 \theta^{8} - 288 \theta^{6}\right)}{\left(5 \phi + \theta^{2}\right)^{2} \left(125 \phi^{2} - 60 \phi \theta^{2} - 80 \phi + 24 \theta^{2}\right)^{2}}
+}
+
+Consumer Surplus:
+
+\scaleeq{
+\frac{50 \phi^{2} \left(\alpha - \gamma\right)^{2} \left(10 \phi - 3 \theta^{2} - 6\right)^{2}}{\left(125 \phi^{2} - 60 \phi \theta^{2} - 80 \phi + 24 \theta^{2}\right)^{2}}
+}
+
+Social Welfare:
+
+\scaleeq{
+\frac{2 \phi \left(\alpha - \gamma\right)^{2} \left(93750 \phi^{5} - 25625 \phi^{4} \theta^{2} - 117500 \phi^{4} - 1500 \phi^{3} \theta^{4} - 1500 \phi^{3} \theta^{2} + 37500 \phi^{3} + 4050 \phi^{2} \theta^{6} + 1300 \phi^{2} \theta^{4} + 10600 \phi^{2} \theta^{2} + 675 \phi \theta^{8} - 780 \phi \theta^{6} + 1740 \phi \theta^{4} - 288 \theta^{8} - 288 \theta^{6}\right)}{\left(5 \phi + \theta^{2}\right)^{2} \left(125 \phi^{2} - 60 \phi \theta^{2} - 80 \phi + 24 \theta^{2}\right)^{2}}
+}
+
+%======================================================================
+
+\subsubsection{E3A [1H3L]}
+\label{apx:E3A:1H3L}
+
+\begin{multicols}{2}
+\begin{center}
+\begin{tikzpicture}[shorten >=1pt,draw=black!50]
+	\node (H1) at ( 1.06,  1.06)	[circle, draw, fill = gray!20]	{$H_{1}$};
+	\node (L1) at (-1.06,  1.06)	[circle, draw, fill = white]	{$L_{1}$};
+	\node (L2) at (-1.06, -1.06)	[circle, draw, fill = white]	{$L_{2}$};
+	\node (L3) at ( 1.06, -1.06)	[circle, draw, fill = white]	{$L_{3}$};
+	\draw (H1) -- (L1);
+	\draw (H1) -- (L2);
+	\draw (H1) -- (L3);
+\end{tikzpicture}
+\end{center}
+\columnbreak
+
+\scaleeq{
+Equations: \begin{cases}
+	e^{H}_{1} \left(25 \phi - 1\right) = \alpha + 3 e^{L}_{1} \theta + 3 e^{L}_{2} \theta + 3 e^{L}_{3} \theta - \gamma\\
+	e^{L}_{1} \left(\frac{25 \phi}{3 \theta} - 3 \theta\right) = \alpha + e^{H}_{1} - 2 e^{L}_{2} \theta - 2 e^{L}_{3} \theta - \gamma\\
+	e^{L}_{2} \left(\frac{25 \phi}{3 \theta} - 3 \theta\right) = \alpha + e^{H}_{1} - 2 e^{L}_{1} \theta - 2 e^{L}_{3} \theta - \gamma\\
+	e^{L}_{3} \left(\frac{25 \phi}{3 \theta} - 3 \theta\right) = \alpha + e^{H}_{1} - 2 e^{L}_{1} \theta - 2 e^{L}_{2} \theta - \gamma
+\end{cases}
+}\end{multicols}
+
+
+Optimal efforts:
+
+\scaleeq{
+\begin{cases}
+	e^{H}_{1} &= \frac{\left(\alpha - \gamma\right) \left(5 \phi + 6 \theta^{2}\right)}{125 \phi^{2} + 15 \phi \theta^{2} - 5 \phi - 6 \theta^{2}}\\
+	e^{L}_{1} &= \frac{15 \phi \theta \left(\alpha - \gamma\right)}{125 \phi^{2} + 15 \phi \theta^{2} - 5 \phi - 6 \theta^{2}}\\
+	e^{L}_{2} &= \frac{15 \phi \theta \left(\alpha - \gamma\right)}{125 \phi^{2} + 15 \phi \theta^{2} - 5 \phi - 6 \theta^{2}}\\
+	e^{L}_{3} &= \frac{15 \phi \theta \left(\alpha - \gamma\right)}{125 \phi^{2} + 15 \phi \theta^{2} - 5 \phi - 6 \theta^{2}}
+\end{cases}
+}
+
+Production Costs:
+
+\scaleeq{
+\begin{cases}
+	c^{H}_{1} &= - \frac{45 \alpha \phi \theta^{2} + 5 \alpha \phi + 6 \alpha \theta^{2} - 125 \gamma \phi^{2} - 60 \gamma \phi \theta^{2}}{125 \phi^{2} + 15 \phi \theta^{2} - 5 \phi - 6 \theta^{2}}\\
+	c^{L}_{1} &= - \frac{15 \alpha \phi \theta^{2} + 5 \alpha \phi + 6 \alpha \theta^{2} - 125 \gamma \phi^{2} - 30 \gamma \phi \theta^{2}}{125 \phi^{2} + 15 \phi \theta^{2} - 5 \phi - 6 \theta^{2}}\\
+	c^{L}_{2} &= - \frac{15 \alpha \phi \theta^{2} + 5 \alpha \phi + 6 \alpha \theta^{2} - 125 \gamma \phi^{2} - 30 \gamma \phi \theta^{2}}{125 \phi^{2} + 15 \phi \theta^{2} - 5 \phi - 6 \theta^{2}}\\
+	c^{L}_{3} &= - \frac{15 \alpha \phi \theta^{2} + 5 \alpha \phi + 6 \alpha \theta^{2} - 125 \gamma \phi^{2} - 30 \gamma \phi \theta^{2}}{125 \phi^{2} + 15 \phi \theta^{2} - 5 \phi - 6 \theta^{2}}
+\end{cases}
+}
+
+Production Quantities:
+
+\scaleeq{
+\begin{cases}
+	q^{H}_{1} &= \frac{5 \phi \left(\alpha - \gamma\right) \left(5 \phi + 6 \theta^{2}\right)}{125 \phi^{2} + 15 \phi \theta^{2} - 5 \phi - 6 \theta^{2}}\\
+	q^{L}_{1} &= \frac{25 \phi^{2} \left(\alpha - \gamma\right)}{125 \phi^{2} + 15 \phi \theta^{2} - 5 \phi - 6 \theta^{2}}\\
+	q^{L}_{2} &= \frac{25 \phi^{2} \left(\alpha - \gamma\right)}{125 \phi^{2} + 15 \phi \theta^{2} - 5 \phi - 6 \theta^{2}}\\
+	q^{L}_{3} &= \frac{25 \phi^{2} \left(\alpha - \gamma\right)}{125 \phi^{2} + 15 \phi \theta^{2} - 5 \phi - 6 \theta^{2}}
+\end{cases}
+}
+
+Profits:
+
+\begin{equation}
+\label{eq:E3A:1H3L_profit}
+\scaledequation{\begin{cases}
+	\pi^{H}_{1} &= \frac{\phi \left(\alpha - \gamma\right)^{2} \left(5 \phi + 6 \theta^{2}\right)^{2} \left(25 \phi - 1\right)}{\left(125 \phi^{2} + 15 \phi \theta^{2} - 5 \phi - 6 \theta^{2}\right)^{2}}\\
+	\pi^{L}_{1} &= \frac{25 \phi^{3} \left(\alpha - \gamma\right)^{2} \left(25 \phi - 9 \theta^{2}\right)}{\left(125 \phi^{2} + 15 \phi \theta^{2} - 5 \phi - 6 \theta^{2}\right)^{2}}\\
+	\pi^{L}_{2} &= \frac{25 \phi^{3} \left(\alpha - \gamma\right)^{2} \left(25 \phi - 9 \theta^{2}\right)}{\left(125 \phi^{2} + 15 \phi \theta^{2} - 5 \phi - 6 \theta^{2}\right)^{2}}\\
+	\pi^{L}_{3} &= \frac{25 \phi^{3} \left(\alpha - \gamma\right)^{2} \left(25 \phi - 9 \theta^{2}\right)}{\left(125 \phi^{2} + 15 \phi \theta^{2} - 5 \phi - 6 \theta^{2}\right)^{2}}
+\end{cases}
+}
+\end{equation}
+
+Total Production:
+
+\scaleeq{
+\frac{10 \phi \left(\alpha - \gamma\right) \left(10 \phi + 3 \theta^{2}\right)}{125 \phi^{2} + 15 \phi \theta^{2} - 5 \phi - 6 \theta^{2}}
+}
+
+Price:
+
+\scaleeq{
+\frac{25 \alpha \phi^{2} - 15 \alpha \phi \theta^{2} - 5 \alpha \phi - 6 \alpha \theta^{2} + 100 \gamma \phi^{2} + 30 \gamma \phi \theta^{2}}{125 \phi^{2} + 15 \phi \theta^{2} - 5 \phi - 6 \theta^{2}}
+}
+
+Firm Surplus:
+
+\scaleeq{
+\frac{\phi \left(\alpha - \gamma\right)^{2} \left(2500 \phi^{3} + 825 \phi^{2} \theta^{2} - 25 \phi^{2} + 900 \phi \theta^{4} - 60 \phi \theta^{2} - 36 \theta^{4}\right)}{\left(125 \phi^{2} + 15 \phi \theta^{2} - 5 \phi - 6 \theta^{2}\right)^{2}}
+}
+
+Consumer Surplus:
+
+\scaleeq{
+\frac{50 \phi^{2} \left(\alpha - \gamma\right)^{2} \left(10 \phi + 3 \theta^{2}\right)^{2}}{\left(125 \phi^{2} + 15 \phi \theta^{2} - 5 \phi - 6 \theta^{2}\right)^{2}}
+}
+
+Social Welfare:
+
+\scaleeq{
+\frac{\phi \left(\alpha - \gamma\right)^{2} \left(7500 \phi^{3} + 3825 \phi^{2} \theta^{2} - 25 \phi^{2} + 1350 \phi \theta^{4} - 60 \phi \theta^{2} - 36 \theta^{4}\right)}{\left(125 \phi^{2} + 15 \phi \theta^{2} - 5 \phi - 6 \theta^{2}\right)^{2}}
+}
+
+%======================================================================
+
+\subsubsection{E3B [1H3L]}
+\label{apx:E3B:1H3L}
+
+\begin{multicols}{2}
+\begin{center}
+\begin{tikzpicture}[shorten >=1pt,draw=black!50]
+	\node (H1) at ( 1.06,  1.06)	[circle, draw, fill = gray!20]	{$H_{1}$};
+	\node (L1) at (-1.06,  1.06)	[circle, draw, fill = white]	{$L_{1}$};
+	\node (L2) at (-1.06, -1.06)	[circle, draw, fill = white]	{$L_{2}$};
+	\node (L3) at ( 1.06, -1.06)	[circle, draw, fill = white]	{$L_{3}$};
+	\draw (H1) -- (L2);
+	\draw (H1) -- (L3);
+	\draw (L2) -- (L3);
+\end{tikzpicture}
+\end{center}
+\columnbreak
+
+\scaleeq{
+Equations: \begin{cases}
+	e^{H}_{1} \left(\frac{25 \phi}{2} - 2\right) = \alpha - e^{L}_{1} \theta + 2 e^{L}_{2} \theta + 2 e^{L}_{3} \theta - \gamma\\
+	e^{L}_{1} \left(\frac{25 \phi}{4 \theta} - 4 \theta\right) = \alpha - 3 e^{H}_{1} - 3 e^{L}_{2} \theta - 3 e^{L}_{3} \theta - \gamma\\
+	e^{L}_{2} \left(\frac{25 \phi}{2 \theta} - 2 \theta\right) = \alpha + 2 e^{H}_{1} - e^{L}_{1} \theta + 2 e^{L}_{3} \theta - \gamma\\
+	e^{L}_{3} \left(\frac{25 \phi}{2 \theta} - 2 \theta\right) = \alpha + 2 e^{H}_{1} - e^{L}_{1} \theta + 2 e^{L}_{2} \theta - \gamma
+\end{cases}
+}\end{multicols}
+
+
+Optimal efforts:
+
+\scaleeq{
+\begin{cases}
+	e^{H}_{1} &= \frac{2 \left(\alpha - \gamma\right) \left(5 \phi - 4 \theta^{2}\right)}{125 \phi^{2} - 120 \phi \theta^{2} - 20 \phi + 16 \theta^{4} + 8 \theta^{2}}\\
+	e^{L}_{1} &= \frac{4 \theta \left(\alpha - \gamma\right) \left(5 \phi - 4 \theta^{2} - 2\right)}{125 \phi^{2} - 120 \phi \theta^{2} - 20 \phi + 16 \theta^{4} + 8 \theta^{2}}\\
+	e^{L}_{2} &= \frac{2 \theta \left(\alpha - \gamma\right) \left(5 \phi - 4 \theta^{2}\right)}{125 \phi^{2} - 120 \phi \theta^{2} - 20 \phi + 16 \theta^{4} + 8 \theta^{2}}\\
+	e^{L}_{3} &= \frac{2 \theta \left(\alpha - \gamma\right) \left(5 \phi - 4 \theta^{2}\right)}{125 \phi^{2} - 120 \phi \theta^{2} - 20 \phi + 16 \theta^{4} + 8 \theta^{2}}
+\end{cases}
+}
+
+Production Costs:
+
+\scaleeq{
+\begin{cases}
+	c^{H}_{1} &= - \frac{20 \alpha \phi \theta^{2} + 10 \alpha \phi - 16 \alpha \theta^{4} - 8 \alpha \theta^{2} - 125 \gamma \phi^{2} + 100 \gamma \phi \theta^{2} + 10 \gamma \phi}{125 \phi^{2} - 120 \phi \theta^{2} - 20 \phi + 16 \theta^{4} + 8 \theta^{2}}\\
+	c^{L}_{1} &= - \frac{20 \alpha \phi \theta^{2} - 16 \alpha \theta^{4} - 8 \alpha \theta^{2} - 125 \gamma \phi^{2} + 100 \gamma \phi \theta^{2} + 20 \gamma \phi}{125 \phi^{2} - 120 \phi \theta^{2} - 20 \phi + 16 \theta^{4} + 8 \theta^{2}}\\
+	c^{L}_{2} &= - \frac{20 \alpha \phi \theta^{2} + 10 \alpha \phi - 16 \alpha \theta^{4} - 8 \alpha \theta^{2} - 125 \gamma \phi^{2} + 100 \gamma \phi \theta^{2} + 10 \gamma \phi}{125 \phi^{2} - 120 \phi \theta^{2} - 20 \phi + 16 \theta^{4} + 8 \theta^{2}}\\
+	c^{L}_{3} &= - \frac{20 \alpha \phi \theta^{2} + 10 \alpha \phi - 16 \alpha \theta^{4} - 8 \alpha \theta^{2} - 125 \gamma \phi^{2} + 100 \gamma \phi \theta^{2} + 10 \gamma \phi}{125 \phi^{2} - 120 \phi \theta^{2} - 20 \phi + 16 \theta^{4} + 8 \theta^{2}}
+\end{cases}
+}
+
+Production Quantities:
+
+\scaleeq{
+\begin{cases}
+	q^{H}_{1} &= \frac{5 \phi \left(\alpha - \gamma\right) \left(5 \phi - 4 \theta^{2}\right)}{125 \phi^{2} - 120 \phi \theta^{2} - 20 \phi + 16 \theta^{4} + 8 \theta^{2}}\\
+	q^{L}_{1} &= \frac{5 \phi \left(\alpha - \gamma\right) \left(5 \phi - 4 \theta^{2} - 2\right)}{125 \phi^{2} - 120 \phi \theta^{2} - 20 \phi + 16 \theta^{4} + 8 \theta^{2}}\\
+	q^{L}_{2} &= \frac{5 \phi \left(\alpha - \gamma\right) \left(5 \phi - 4 \theta^{2}\right)}{125 \phi^{2} - 120 \phi \theta^{2} - 20 \phi + 16 \theta^{4} + 8 \theta^{2}}\\
+	q^{L}_{3} &= \frac{5 \phi \left(\alpha - \gamma\right) \left(5 \phi - 4 \theta^{2}\right)}{125 \phi^{2} - 120 \phi \theta^{2} - 20 \phi + 16 \theta^{4} + 8 \theta^{2}}
+\end{cases}
+}
+
+Profits:
+
+\begin{equation}
+\label{eq:E3B:1H3L_profit}
+\scaledequation{\begin{cases}
+	\pi^{H}_{1} &= \frac{\phi \left(\alpha - \gamma\right)^{2} \left(5 \phi - 4 \theta^{2}\right)^{2} \left(25 \phi - 4\right)}{\left(125 \phi^{2} - 120 \phi \theta^{2} - 20 \phi + 16 \theta^{4} + 8 \theta^{2}\right)^{2}}\\
+	\pi^{L}_{1} &= \frac{\phi \left(\alpha - \gamma\right)^{2} \left(25 \phi - 16 \theta^{2}\right) \left(5 \phi - 4 \theta^{2} - 2\right)^{2}}{\left(125 \phi^{2} - 120 \phi \theta^{2} - 20 \phi + 16 \theta^{4} + 8 \theta^{2}\right)^{2}}\\
+	\pi^{L}_{2} &= \frac{\phi \left(\alpha - \gamma\right)^{2} \left(5 \phi - 4 \theta^{2}\right)^{2} \left(25 \phi - 4 \theta^{2}\right)}{\left(125 \phi^{2} - 120 \phi \theta^{2} - 20 \phi + 16 \theta^{4} + 8 \theta^{2}\right)^{2}}\\
+	\pi^{L}_{3} &= \frac{\phi \left(\alpha - \gamma\right)^{2} \left(5 \phi - 4 \theta^{2}\right)^{2} \left(25 \phi - 4 \theta^{2}\right)}{\left(125 \phi^{2} - 120 \phi \theta^{2} - 20 \phi + 16 \theta^{4} + 8 \theta^{2}\right)^{2}}
+\end{cases}
+}
+\end{equation}
+
+Total Production:
+
+\scaleeq{
+\frac{10 \phi \left(\alpha - \gamma\right) \left(10 \phi - 8 \theta^{2} - 1\right)}{125 \phi^{2} - 120 \phi \theta^{2} - 20 \phi + 16 \theta^{4} + 8 \theta^{2}}
+}
+
+Price:
+
+\scaleeq{
+\frac{25 \alpha \phi^{2} - 40 \alpha \phi \theta^{2} - 10 \alpha \phi + 16 \alpha \theta^{4} + 8 \alpha \theta^{2} + 100 \gamma \phi^{2} - 80 \gamma \phi \theta^{2} - 10 \gamma \phi}{125 \phi^{2} - 120 \phi \theta^{2} - 20 \phi + 16 \theta^{4} + 8 \theta^{2}}
+}
+
+Firm Surplus:
+
+\scaleeq{
+\frac{4 \phi \left(\alpha - \gamma\right)^{2} \left(625 \phi^{3} - 1150 \phi^{2} \theta^{2} - 150 \phi^{2} + 640 \phi \theta^{4} + 220 \phi \theta^{2} + 25 \phi - 96 \theta^{6} - 80 \theta^{4} - 16 \theta^{2}\right)}{\left(125 \phi^{2} - 120 \phi \theta^{2} - 20 \phi + 16 \theta^{4} + 8 \theta^{2}\right)^{2}}
+}
+
+Consumer Surplus:
+
+\scaleeq{
+\frac{50 \phi^{2} \left(\alpha - \gamma\right)^{2} \left(10 \phi - 8 \theta^{2} - 1\right)^{2}}{\left(125 \phi^{2} - 120 \phi \theta^{2} - 20 \phi + 16 \theta^{4} + 8 \theta^{2}\right)^{2}}
+}
+
+Social Welfare:
+
+\scaleeq{
+\frac{2 \phi \left(\alpha - \gamma\right)^{2} \left(3750 \phi^{3} - 6300 \phi^{2} \theta^{2} - 800 \phi^{2} + 2880 \phi \theta^{4} + 840 \phi \theta^{2} + 75 \phi - 192 \theta^{6} - 160 \theta^{4} - 32 \theta^{2}\right)}{\left(125 \phi^{2} - 120 \phi \theta^{2} - 20 \phi + 16 \theta^{4} + 8 \theta^{2}\right)^{2}}
+}
+
+%======================================================================
+
+\subsubsection{E3C [1H3L]}
+\label{apx:E3C:1H3L}
+
+\begin{multicols}{2}
+\begin{center}
+\begin{tikzpicture}[shorten >=1pt,draw=black!50]
+	\node (H1) at ( 1.06,  1.06)	[circle, draw, fill = gray!20]	{$H_{1}$};
+	\node (L1) at (-1.06,  1.06)	[circle, draw, fill = white]	{$L_{1}$};
+	\node (L2) at (-1.06, -1.06)	[circle, draw, fill = white]	{$L_{2}$};
+	\node (L3) at ( 1.06, -1.06)	[circle, draw, fill = white]	{$L_{3}$};
+	\draw (H1) -- (L2);
+	\draw (H1) -- (L3);
+	\draw (L1) -- (L3);
+\end{tikzpicture}
+\end{center}
+\columnbreak
+
+\scaleeq{
+Equations: \begin{cases}
+	e^{H}_{1} \left(\frac{25 \phi}{2} - 2\right) = \alpha - 2 e^{L}_{1} \theta + 3 e^{L}_{2} \theta + 2 e^{L}_{3} \theta - \gamma\\
+	e^{L}_{1} \left(\frac{25 \phi}{3 \theta} - 3 \theta\right) = \alpha - 3 e^{H}_{1} - 2 e^{L}_{2} \theta + 2 e^{L}_{3} \theta - \gamma\\
+	e^{L}_{2} \left(\frac{25 \phi}{3 \theta} - 3 \theta\right) = \alpha + 2 e^{H}_{1} - 2 e^{L}_{1} \theta - 3 e^{L}_{3} \theta - \gamma\\
+	e^{L}_{3} \left(\frac{25 \phi}{2 \theta} - 2 \theta\right) = \alpha + 2 e^{H}_{1} + 3 e^{L}_{1} \theta - 2 e^{L}_{2} \theta - \gamma
+\end{cases}
+}\end{multicols}
+
+
+Optimal efforts:
+
+\scaleeq{
+\begin{cases}
+	e^{H}_{1} &= \frac{10 \phi \left(\alpha - \gamma\right) \left(25 \phi^{2} - 15 \phi \theta^{2} - 6 \theta^{4}\right)}{3125 \phi^{4} - 2750 \phi^{3} \theta^{2} - 500 \phi^{3} + 225 \phi^{2} \theta^{4} + 240 \phi \theta^{4} - 36 \theta^{6}}\\
+	e^{L}_{1} &= \frac{3 \theta \left(\alpha - \gamma\right) \left(125 \phi^{3} - 75 \phi^{2} \theta^{2} - 50 \phi^{2} + 12 \theta^{4}\right)}{3125 \phi^{4} - 2750 \phi^{3} \theta^{2} - 500 \phi^{3} + 225 \phi^{2} \theta^{4} + 240 \phi \theta^{4} - 36 \theta^{6}}\\
+	e^{L}_{2} &= \frac{3 \theta \left(\alpha - \gamma\right) \left(125 \phi^{3} - 125 \phi^{2} \theta^{2} + 12 \theta^{4}\right)}{3125 \phi^{4} - 2750 \phi^{3} \theta^{2} - 500 \phi^{3} + 225 \phi^{2} \theta^{4} + 240 \phi \theta^{4} - 36 \theta^{6}}\\
+	e^{L}_{3} &= \frac{10 \phi \theta \left(\alpha - \gamma\right) \left(25 \phi^{2} - 15 \phi \theta^{2} - 6 \theta^{2}\right)}{3125 \phi^{4} - 2750 \phi^{3} \theta^{2} - 500 \phi^{3} + 225 \phi^{2} \theta^{4} + 240 \phi \theta^{4} - 36 \theta^{6}}
+\end{cases}
+}
+
+Production Costs:
+
+\scaleeq{
+\begin{cases}
+	c^{H}_{1} &= - \frac{625 \alpha \phi^{3} \theta^{2} + 250 \alpha \phi^{3} - 525 \alpha \phi^{2} \theta^{4} - 150 \alpha \phi^{2} \theta^{2} - 120 \alpha \phi \theta^{4} + 36 \alpha \theta^{6} - 3125 \gamma \phi^{4} + 2125 \gamma \phi^{3} \theta^{2} + 250 \gamma \phi^{3} + 300 \gamma \phi^{2} \theta^{4} + 150 \gamma \phi^{2} \theta^{2} - 120 \gamma \phi \theta^{4}}{3125 \phi^{4} - 2750 \phi^{3} \theta^{2} - 500 \phi^{3} + 225 \phi^{2} \theta^{4} + 240 \phi \theta^{4} - 36 \theta^{6}}\\
+	c^{L}_{1} &= - \frac{625 \alpha \phi^{3} \theta^{2} - 375 \alpha \phi^{2} \theta^{4} - 150 \alpha \phi^{2} \theta^{2} - 60 \alpha \phi \theta^{4} + 36 \alpha \theta^{6} - 3125 \gamma \phi^{4} + 2125 \gamma \phi^{3} \theta^{2} + 500 \gamma \phi^{3} + 150 \gamma \phi^{2} \theta^{4} + 150 \gamma \phi^{2} \theta^{2} - 180 \gamma \phi \theta^{4}}{3125 \phi^{4} - 2750 \phi^{3} \theta^{2} - 500 \phi^{3} + 225 \phi^{2} \theta^{4} + 240 \phi \theta^{4} - 36 \theta^{6}}\\
+	c^{L}_{2} &= - \frac{375 \alpha \phi^{3} \theta^{2} + 250 \alpha \phi^{3} - 375 \alpha \phi^{2} \theta^{4} - 150 \alpha \phi^{2} \theta^{2} - 60 \alpha \phi \theta^{4} + 36 \alpha \theta^{6} - 3125 \gamma \phi^{4} + 2375 \gamma \phi^{3} \theta^{2} + 250 \gamma \phi^{3} + 150 \gamma \phi^{2} \theta^{4} + 150 \gamma \phi^{2} \theta^{2} - 180 \gamma \phi \theta^{4}}{3125 \phi^{4} - 2750 \phi^{3} \theta^{2} - 500 \phi^{3} + 225 \phi^{2} \theta^{4} + 240 \phi \theta^{4} - 36 \theta^{6}}\\
+	c^{L}_{3} &= - \frac{625 \alpha \phi^{3} \theta^{2} + 250 \alpha \phi^{3} - 375 \alpha \phi^{2} \theta^{4} - 300 \alpha \phi^{2} \theta^{2} - 120 \alpha \phi \theta^{4} + 36 \alpha \theta^{6} - 3125 \gamma \phi^{4} + 2125 \gamma \phi^{3} \theta^{2} + 250 \gamma \phi^{3} + 150 \gamma \phi^{2} \theta^{4} + 300 \gamma \phi^{2} \theta^{2} - 120 \gamma \phi \theta^{4}}{3125 \phi^{4} - 2750 \phi^{3} \theta^{2} - 500 \phi^{3} + 225 \phi^{2} \theta^{4} + 240 \phi \theta^{4} - 36 \theta^{6}}
+\end{cases}
+}
+
+Production Quantities:
+
+\scaleeq{
+\begin{cases}
+	q^{H}_{1} &= \frac{25 \phi^{2} \left(\alpha - \gamma\right) \left(25 \phi^{2} - 15 \phi \theta^{2} - 6 \theta^{4}\right)}{3125 \phi^{4} - 2750 \phi^{3} \theta^{2} - 500 \phi^{3} + 225 \phi^{2} \theta^{4} + 240 \phi \theta^{4} - 36 \theta^{6}}\\
+	q^{L}_{1} &= \frac{5 \phi \left(\alpha - \gamma\right) \left(125 \phi^{3} - 75 \phi^{2} \theta^{2} - 50 \phi^{2} + 12 \theta^{4}\right)}{3125 \phi^{4} - 2750 \phi^{3} \theta^{2} - 500 \phi^{3} + 225 \phi^{2} \theta^{4} + 240 \phi \theta^{4} - 36 \theta^{6}}\\
+	q^{L}_{2} &= \frac{5 \phi \left(\alpha - \gamma\right) \left(125 \phi^{3} - 125 \phi^{2} \theta^{2} + 12 \theta^{4}\right)}{3125 \phi^{4} - 2750 \phi^{3} \theta^{2} - 500 \phi^{3} + 225 \phi^{2} \theta^{4} + 240 \phi \theta^{4} - 36 \theta^{6}}\\
+	q^{L}_{3} &= \frac{25 \phi^{2} \left(\alpha - \gamma\right) \left(25 \phi^{2} - 15 \phi \theta^{2} - 6 \theta^{2}\right)}{3125 \phi^{4} - 2750 \phi^{3} \theta^{2} - 500 \phi^{3} + 225 \phi^{2} \theta^{4} + 240 \phi \theta^{4} - 36 \theta^{6}}
+\end{cases}
+}
+
+Profits:
+
+\begin{equation}
+\label{eq:E3C:1H3L_profit}
+\scaledequation{\begin{cases}
+	\pi^{H}_{1} &= \frac{25 \phi^{3} \left(\alpha - \gamma\right)^{2} \left(25 \phi - 4\right) \left(25 \phi^{2} - 15 \phi \theta^{2} - 6 \theta^{4}\right)^{2}}{\left(3125 \phi^{4} - 2750 \phi^{3} \theta^{2} - 500 \phi^{3} + 225 \phi^{2} \theta^{4} + 240 \phi \theta^{4} - 36 \theta^{6}\right)^{2}}\\
+	\pi^{L}_{1} &= \frac{\phi \left(\alpha - \gamma\right)^{2} \left(25 \phi - 9 \theta^{2}\right) \left(125 \phi^{3} - 75 \phi^{2} \theta^{2} - 50 \phi^{2} + 12 \theta^{4}\right)^{2}}{\left(3125 \phi^{4} - 2750 \phi^{3} \theta^{2} - 500 \phi^{3} + 225 \phi^{2} \theta^{4} + 240 \phi \theta^{4} - 36 \theta^{6}\right)^{2}}\\
+	\pi^{L}_{2} &= \frac{\phi \left(\alpha - \gamma\right)^{2} \left(25 \phi - 9 \theta^{2}\right) \left(125 \phi^{3} - 125 \phi^{2} \theta^{2} + 12 \theta^{4}\right)^{2}}{\left(3125 \phi^{4} - 2750 \phi^{3} \theta^{2} - 500 \phi^{3} + 225 \phi^{2} \theta^{4} + 240 \phi \theta^{4} - 36 \theta^{6}\right)^{2}}\\
+	\pi^{L}_{3} &= \frac{25 \phi^{3} \left(\alpha - \gamma\right)^{2} \left(25 \phi - 4 \theta^{2}\right) \left(25 \phi^{2} - 15 \phi \theta^{2} - 6 \theta^{2}\right)^{2}}{\left(3125 \phi^{4} - 2750 \phi^{3} \theta^{2} - 500 \phi^{3} + 225 \phi^{2} \theta^{4} + 240 \phi \theta^{4} - 36 \theta^{6}\right)^{2}}
+\end{cases}
+}
+\end{equation}
+
+Total Production:
+
+\scaleeq{
+\frac{10 \phi \left(\alpha - \gamma\right) \left(250 \phi^{3} - 175 \phi^{2} \theta^{2} - 25 \phi^{2} - 15 \phi \theta^{4} - 15 \phi \theta^{2} + 12 \theta^{4}\right)}{3125 \phi^{4} - 2750 \phi^{3} \theta^{2} - 500 \phi^{3} + 225 \phi^{2} \theta^{4} + 240 \phi \theta^{4} - 36 \theta^{6}}
+}
+
+Price:
+
+\scaleeq{
+\frac{625 \alpha \phi^{4} - 1000 \alpha \phi^{3} \theta^{2} - 250 \alpha \phi^{3} + 375 \alpha \phi^{2} \theta^{4} + 150 \alpha \phi^{2} \theta^{2} + 120 \alpha \phi \theta^{4} - 36 \alpha \theta^{6} + 2500 \gamma \phi^{4} - 1750 \gamma \phi^{3} \theta^{2} - 250 \gamma \phi^{3} - 150 \gamma \phi^{2} \theta^{4} - 150 \gamma \phi^{2} \theta^{2} + 120 \gamma \phi \theta^{4}}{3125 \phi^{4} - 2750 \phi^{3} \theta^{2} - 500 \phi^{3} + 225 \phi^{2} \theta^{4} + 240 \phi \theta^{4} - 36 \theta^{6}}
+}
+
+Firm Surplus:
+
+\scaleeq{
+\frac{2 \phi \left(\alpha - \gamma\right)^{2} \left(781250 \phi^{7} - 1265625 \phi^{6} \theta^{2} - 187500 \phi^{6} + 575000 \phi^{5} \theta^{4} + 93750 \phi^{5} \theta^{2} + 31250 \phi^{5} - 50625 \phi^{4} \theta^{6} + 116250 \phi^{4} \theta^{4} - 11250 \phi^{4} \theta^{2} + 11250 \phi^{3} \theta^{8} - 105000 \phi^{3} \theta^{6} - 3750 \phi^{3} \theta^{4} + 19800 \phi^{2} \theta^{8} + 3600 \phi^{2} \theta^{6} + 3600 \phi \theta^{8} - 1296 \theta^{10}\right)}{\left(3125 \phi^{4} - 2750 \phi^{3} \theta^{2} - 500 \phi^{3} + 225 \phi^{2} \theta^{4} + 240 \phi \theta^{4} - 36 \theta^{6}\right)^{2}}
+}
+
+Consumer Surplus:
+
+\scaleeq{
+\frac{50 \phi^{2} \left(\alpha - \gamma\right)^{2} \left(250 \phi^{3} - 175 \phi^{2} \theta^{2} - 25 \phi^{2} - 15 \phi \theta^{4} - 15 \phi \theta^{2} + 12 \theta^{4}\right)^{2}}{\left(3125 \phi^{4} - 2750 \phi^{3} \theta^{2} - 500 \phi^{3} + 225 \phi^{2} \theta^{4} + 240 \phi \theta^{4} - 36 \theta^{6}\right)^{2}}
+}
+
+Social Welfare:
+
+\scaleeq{
+\frac{2 \phi \left(\alpha - \gamma\right)^{2} \left(2343750 \phi^{7} - 3453125 \phi^{6} \theta^{2} - 500000 \phi^{6} + 1153125 \phi^{5} \theta^{4} + 125000 \phi^{5} \theta^{2} + 46875 \phi^{5} + 80625 \phi^{4} \theta^{6} + 416250 \phi^{4} \theta^{4} + 7500 \phi^{4} \theta^{2} + 16875 \phi^{3} \theta^{8} - 198750 \phi^{3} \theta^{6} - 13125 \phi^{3} \theta^{4} + 10800 \phi^{2} \theta^{8} - 5400 \phi^{2} \theta^{6} + 7200 \phi \theta^{8} - 1296 \theta^{10}\right)}{\left(3125 \phi^{4} - 2750 \phi^{3} \theta^{2} - 500 \phi^{3} + 225 \phi^{2} \theta^{4} + 240 \phi \theta^{4} - 36 \theta^{6}\right)^{2}}
+}
+
+%======================================================================
+
+\subsubsection{E3D [1H3L]}
+\label{apx:E3D:1H3L}
+
+\begin{multicols}{2}
+\begin{center}
+\begin{tikzpicture}[shorten >=1pt,draw=black!50]
+	\node (H1) at ( 1.06,  1.06)	[circle, draw, fill = gray!20]	{$H_{1}$};
+	\node (L1) at (-1.06,  1.06)	[circle, draw, fill = white]	{$L_{1}$};
+	\node (L2) at (-1.06, -1.06)	[circle, draw, fill = white]	{$L_{2}$};
+	\node (L3) at ( 1.06, -1.06)	[circle, draw, fill = white]	{$L_{3}$};
+	\draw (H1) -- (L3);
+	\draw (L1) -- (L3);
+	\draw (L2) -- (L3);
+\end{tikzpicture}
+\end{center}
+\columnbreak
+
+\scaleeq{
+Equations: \begin{cases}
+	e^{H}_{1} \left(\frac{25 \phi}{3} - 3\right) = \alpha - 2 e^{L}_{1} \theta - 2 e^{L}_{2} \theta + e^{L}_{3} \theta - \gamma\\
+	e^{L}_{1} \left(\frac{25 \phi}{3 \theta} - 3 \theta\right) = \alpha - 2 e^{H}_{1} - 2 e^{L}_{2} \theta + e^{L}_{3} \theta - \gamma\\
+	e^{L}_{2} \left(\frac{25 \phi}{3 \theta} - 3 \theta\right) = \alpha - 2 e^{H}_{1} - 2 e^{L}_{1} \theta + e^{L}_{3} \theta - \gamma\\
+	e^{L}_{3} \left(\frac{25 \phi}{\theta} - \theta\right) = \alpha + 3 e^{H}_{1} + 3 e^{L}_{1} \theta + 3 e^{L}_{2} \theta - \gamma
+\end{cases}
+}\end{multicols}
+
+
+Optimal efforts:
+
+\scaleeq{
+\begin{cases}
+	e^{H}_{1} &= \frac{15 \phi \left(\alpha - \gamma\right) \left(5 \phi - 3 \theta^{2}\right)}{625 \phi^{3} - 100 \phi^{2} \theta^{2} - 225 \phi^{2} - 15 \phi \theta^{4} - 45 \phi \theta^{2} + 18 \theta^{4}}\\
+	e^{L}_{1} &= \frac{15 \phi \theta \left(\alpha - \gamma\right) \left(5 \phi - 3\right)}{625 \phi^{3} - 100 \phi^{2} \theta^{2} - 225 \phi^{2} - 15 \phi \theta^{4} - 45 \phi \theta^{2} + 18 \theta^{4}}\\
+	e^{L}_{2} &= \frac{15 \phi \theta \left(\alpha - \gamma\right) \left(5 \phi - 3\right)}{625 \phi^{3} - 100 \phi^{2} \theta^{2} - 225 \phi^{2} - 15 \phi \theta^{4} - 45 \phi \theta^{2} + 18 \theta^{4}}\\
+	e^{L}_{3} &= \frac{\theta \left(\alpha - \gamma\right) \left(25 \phi^{2} + 15 \phi \theta^{2} - 18 \theta^{2}\right)}{625 \phi^{3} - 100 \phi^{2} \theta^{2} - 225 \phi^{2} - 15 \phi \theta^{4} - 45 \phi \theta^{2} + 18 \theta^{4}}
+\end{cases}
+}
+
+Production Costs:
+
+\scaleeq{
+\begin{cases}
+	c^{H}_{1} &= - \frac{25 \alpha \phi^{2} \theta^{2} + 75 \alpha \phi^{2} + 15 \alpha \phi \theta^{4} - 45 \alpha \phi \theta^{2} - 18 \alpha \theta^{4} - 625 \gamma \phi^{3} + 75 \gamma \phi^{2} \theta^{2} + 150 \gamma \phi^{2} + 90 \gamma \phi \theta^{2}}{625 \phi^{3} - 100 \phi^{2} \theta^{2} - 225 \phi^{2} - 15 \phi \theta^{4} - 45 \phi \theta^{2} + 18 \theta^{4}}\\
+	c^{L}_{1} &= - \frac{100 \alpha \phi^{2} \theta^{2} + 15 \alpha \phi \theta^{4} - 45 \alpha \phi \theta^{2} - 18 \alpha \theta^{4} - 625 \gamma \phi^{3} + 225 \gamma \phi^{2} + 90 \gamma \phi \theta^{2}}{625 \phi^{3} - 100 \phi^{2} \theta^{2} - 225 \phi^{2} - 15 \phi \theta^{4} - 45 \phi \theta^{2} + 18 \theta^{4}}\\
+	c^{L}_{2} &= - \frac{100 \alpha \phi^{2} \theta^{2} + 15 \alpha \phi \theta^{4} - 45 \alpha \phi \theta^{2} - 18 \alpha \theta^{4} - 625 \gamma \phi^{3} + 225 \gamma \phi^{2} + 90 \gamma \phi \theta^{2}}{625 \phi^{3} - 100 \phi^{2} \theta^{2} - 225 \phi^{2} - 15 \phi \theta^{4} - 45 \phi \theta^{2} + 18 \theta^{4}}\\
+	c^{L}_{3} &= - \frac{175 \alpha \phi^{2} \theta^{2} + 75 \alpha \phi^{2} + 15 \alpha \phi \theta^{4} - 135 \alpha \phi \theta^{2} - 18 \alpha \theta^{4} - 625 \gamma \phi^{3} - 75 \gamma \phi^{2} \theta^{2} + 150 \gamma \phi^{2} + 180 \gamma \phi \theta^{2}}{625 \phi^{3} - 100 \phi^{2} \theta^{2} - 225 \phi^{2} - 15 \phi \theta^{4} - 45 \phi \theta^{2} + 18 \theta^{4}}
+\end{cases}
+}
+
+Production Quantities:
+
+\scaleeq{
+\begin{cases}
+	q^{H}_{1} &= \frac{25 \phi^{2} \left(\alpha - \gamma\right) \left(5 \phi - 3 \theta^{2}\right)}{625 \phi^{3} - 100 \phi^{2} \theta^{2} - 225 \phi^{2} - 15 \phi \theta^{4} - 45 \phi \theta^{2} + 18 \theta^{4}}\\
+	q^{L}_{1} &= \frac{25 \phi^{2} \left(\alpha - \gamma\right) \left(5 \phi - 3\right)}{625 \phi^{3} - 100 \phi^{2} \theta^{2} - 225 \phi^{2} - 15 \phi \theta^{4} - 45 \phi \theta^{2} + 18 \theta^{4}}\\
+	q^{L}_{2} &= \frac{25 \phi^{2} \left(\alpha - \gamma\right) \left(5 \phi - 3\right)}{625 \phi^{3} - 100 \phi^{2} \theta^{2} - 225 \phi^{2} - 15 \phi \theta^{4} - 45 \phi \theta^{2} + 18 \theta^{4}}\\
+	q^{L}_{3} &= \frac{5 \phi \left(\alpha - \gamma\right) \left(25 \phi^{2} + 15 \phi \theta^{2} - 18 \theta^{2}\right)}{625 \phi^{3} - 100 \phi^{2} \theta^{2} - 225 \phi^{2} - 15 \phi \theta^{4} - 45 \phi \theta^{2} + 18 \theta^{4}}
+\end{cases}
+}
+
+Profits:
+
+\begin{equation}
+\label{eq:E3D:1H3L_profit}
+\scaledequation{\begin{cases}
+	\pi^{H}_{1} &= \frac{25 \phi^{3} \left(\alpha - \gamma\right)^{2} \left(5 \phi - 3 \theta^{2}\right)^{2} \left(25 \phi - 9\right)}{\left(625 \phi^{3} - 100 \phi^{2} \theta^{2} - 225 \phi^{2} - 15 \phi \theta^{4} - 45 \phi \theta^{2} + 18 \theta^{4}\right)^{2}}\\
+	\pi^{L}_{1} &= \frac{25 \phi^{3} \left(\alpha - \gamma\right)^{2} \left(5 \phi - 3\right)^{2} \left(25 \phi - 9 \theta^{2}\right)}{\left(625 \phi^{3} - 100 \phi^{2} \theta^{2} - 225 \phi^{2} - 15 \phi \theta^{4} - 45 \phi \theta^{2} + 18 \theta^{4}\right)^{2}}\\
+	\pi^{L}_{2} &= \frac{25 \phi^{3} \left(\alpha - \gamma\right)^{2} \left(5 \phi - 3\right)^{2} \left(25 \phi - 9 \theta^{2}\right)}{\left(625 \phi^{3} - 100 \phi^{2} \theta^{2} - 225 \phi^{2} - 15 \phi \theta^{4} - 45 \phi \theta^{2} + 18 \theta^{4}\right)^{2}}\\
+	\pi^{L}_{3} &= \frac{\phi \left(\alpha - \gamma\right)^{2} \left(25 \phi - \theta^{2}\right) \left(25 \phi^{2} + 15 \phi \theta^{2} - 18 \theta^{2}\right)^{2}}{\left(625 \phi^{3} - 100 \phi^{2} \theta^{2} - 225 \phi^{2} - 15 \phi \theta^{4} - 45 \phi \theta^{2} + 18 \theta^{4}\right)^{2}}
+\end{cases}
+}
+\end{equation}
+
+Total Production:
+
+\scaleeq{
+\frac{10 \phi \left(\alpha - \gamma\right) \left(50 \phi^{2} - 15 \phi - 9 \theta^{2}\right)}{625 \phi^{3} - 100 \phi^{2} \theta^{2} - 225 \phi^{2} - 15 \phi \theta^{4} - 45 \phi \theta^{2} + 18 \theta^{4}}
+}
+
+Price:
+
+\scaleeq{
+\frac{125 \alpha \phi^{3} - 100 \alpha \phi^{2} \theta^{2} - 75 \alpha \phi^{2} - 15 \alpha \phi \theta^{4} + 45 \alpha \phi \theta^{2} + 18 \alpha \theta^{4} + 500 \gamma \phi^{3} - 150 \gamma \phi^{2} - 90 \gamma \phi \theta^{2}}{625 \phi^{3} - 100 \phi^{2} \theta^{2} - 225 \phi^{2} - 15 \phi \theta^{4} - 45 \phi \theta^{2} + 18 \theta^{4}}
+}
+
+Firm Surplus:
+
+\scaleeq{
+\frac{\phi \left(\alpha - \gamma\right)^{2} \left(62500 \phi^{5} - 11875 \phi^{4} \theta^{2} - 43125 \phi^{4} + 10500 \phi^{3} \theta^{4} - 2250 \phi^{3} \theta^{2} + 11250 \phi^{3} - 225 \phi^{2} \theta^{6} - 14625 \phi^{2} \theta^{4} - 4050 \phi^{2} \theta^{2} + 540 \phi \theta^{6} + 8100 \phi \theta^{4} - 324 \theta^{6}\right)}{\left(625 \phi^{3} - 100 \phi^{2} \theta^{2} - 225 \phi^{2} - 15 \phi \theta^{4} - 45 \phi \theta^{2} + 18 \theta^{4}\right)^{2}}
+}
+
+Consumer Surplus:
+
+\scaleeq{
+\frac{50 \phi^{2} \left(\alpha - \gamma\right)^{2} \left(50 \phi^{2} - 15 \phi - 9 \theta^{2}\right)^{2}}{\left(625 \phi^{3} - 100 \phi^{2} \theta^{2} - 225 \phi^{2} - 15 \phi \theta^{4} - 45 \phi \theta^{2} + 18 \theta^{4}\right)^{2}}
+}
+
+Social Welfare:
+
+\scaleeq{
+\frac{\phi \left(\alpha - \gamma\right)^{2} \left(187500 \phi^{5} - 11875 \phi^{4} \theta^{2} - 118125 \phi^{4} + 10500 \phi^{3} \theta^{4} - 47250 \phi^{3} \theta^{2} + 22500 \phi^{3} - 225 \phi^{2} \theta^{6} - 14625 \phi^{2} \theta^{4} + 9450 \phi^{2} \theta^{2} + 540 \phi \theta^{6} + 12150 \phi \theta^{4} - 324 \theta^{6}\right)}{\left(625 \phi^{3} - 100 \phi^{2} \theta^{2} - 225 \phi^{2} - 15 \phi \theta^{4} - 45 \phi \theta^{2} + 18 \theta^{4}\right)^{2}}
+}
+
+%======================================================================
+
+\subsubsection{E3E [1H3L]}
+\label{apx:E3E:1H3L}
+
+\begin{multicols}{2}
+\begin{center}
+\begin{tikzpicture}[shorten >=1pt,draw=black!50]
+	\node (H1) at ( 1.06,  1.06)	[circle, draw, fill = gray!20]	{$H_{1}$};
+	\node (L1) at (-1.06,  1.06)	[circle, draw, fill = white]	{$L_{1}$};
+	\node (L2) at (-1.06, -1.06)	[circle, draw, fill = white]	{$L_{2}$};
+	\node (L3) at ( 1.06, -1.06)	[circle, draw, fill = white]	{$L_{3}$};
+	\draw (H1) -- (L3);
+	\draw (L1) -- (L2);
+	\draw (L2) -- (L3);
+\end{tikzpicture}
+\end{center}
+\columnbreak
+
+\scaleeq{
+Equations: \begin{cases}
+	e^{H}_{1} \left(\frac{25 \phi}{3} - 3\right) = \alpha - 2 e^{L}_{1} \theta - 3 e^{L}_{2} \theta + 2 e^{L}_{3} \theta - \gamma\\
+	e^{L}_{1} \left(\frac{25 \phi}{3 \theta} - 3 \theta\right) = \alpha - 2 e^{H}_{1} + 2 e^{L}_{2} \theta - 3 e^{L}_{3} \theta - \gamma\\
+	e^{L}_{2} \left(\frac{25 \phi}{2 \theta} - 2 \theta\right) = \alpha - 2 e^{H}_{1} + 3 e^{L}_{1} \theta + 2 e^{L}_{3} \theta - \gamma\\
+	e^{L}_{3} \left(\frac{25 \phi}{2 \theta} - 2 \theta\right) = \alpha + 3 e^{H}_{1} - 2 e^{L}_{1} \theta + 2 e^{L}_{2} \theta - \gamma
+\end{cases}
+}\end{multicols}
+
+
+Optimal efforts:
+
+\scaleeq{
+\begin{cases}
+	e^{H}_{1} &= \frac{3 \left(\alpha - \gamma\right) \left(5 \phi - 2 \theta^{2}\right) \left(25 \phi^{2} - 15 \phi \theta^{2} - 6 \theta^{4}\right)}{3125 \phi^{4} - 2125 \phi^{3} \theta^{2} - 1125 \phi^{3} + 225 \phi^{2} \theta^{2} + 120 \phi \theta^{6} + 120 \phi \theta^{4} - 36 \theta^{6}}\\
+	e^{L}_{1} &= \frac{3 \theta \left(\alpha - \gamma\right) \left(5 \phi - 2 \theta^{2}\right) \left(25 \phi^{2} - 15 \phi - 6 \theta^{2}\right)}{3125 \phi^{4} - 2125 \phi^{3} \theta^{2} - 1125 \phi^{3} + 225 \phi^{2} \theta^{2} + 120 \phi \theta^{6} + 120 \phi \theta^{4} - 36 \theta^{6}}\\
+	e^{L}_{2} &= \frac{10 \phi \theta \left(\alpha - \gamma\right) \left(25 \phi^{2} - 15 \phi - 6 \theta^{4}\right)}{3125 \phi^{4} - 2125 \phi^{3} \theta^{2} - 1125 \phi^{3} + 225 \phi^{2} \theta^{2} + 120 \phi \theta^{6} + 120 \phi \theta^{4} - 36 \theta^{6}}\\
+	e^{L}_{3} &= \frac{10 \phi \theta \left(\alpha - \gamma\right) \left(25 \phi^{2} - 15 \phi \theta^{2} - 6 \theta^{2}\right)}{3125 \phi^{4} - 2125 \phi^{3} \theta^{2} - 1125 \phi^{3} + 225 \phi^{2} \theta^{2} + 120 \phi \theta^{6} + 120 \phi \theta^{4} - 36 \theta^{6}}
+\end{cases}
+}
+
+Production Costs:
+
+\scaleeq{
+\begin{cases}
+	c^{H}_{1} &= - \frac{250 \alpha \phi^{3} \theta^{2} + 375 \alpha \phi^{3} - 150 \alpha \phi^{2} \theta^{4} - 375 \alpha \phi^{2} \theta^{2} - 60 \alpha \phi \theta^{4} + 36 \alpha \theta^{6} - 3125 \gamma \phi^{4} + 1875 \gamma \phi^{3} \theta^{2} + 750 \gamma \phi^{3} + 150 \gamma \phi^{2} \theta^{4} + 150 \gamma \phi^{2} \theta^{2} - 120 \gamma \phi \theta^{6} - 60 \gamma \phi \theta^{4}}{3125 \phi^{4} - 2125 \phi^{3} \theta^{2} - 1125 \phi^{3} + 225 \phi^{2} \theta^{2} + 120 \phi \theta^{6} + 120 \phi \theta^{4} - 36 \theta^{6}}\\
+	c^{L}_{1} &= - \frac{625 \alpha \phi^{3} \theta^{2} - 150 \alpha \phi^{2} \theta^{4} - 375 \alpha \phi^{2} \theta^{2} - 60 \alpha \phi \theta^{6} + 36 \alpha \theta^{6} - 3125 \gamma \phi^{4} + 1500 \gamma \phi^{3} \theta^{2} + 1125 \gamma \phi^{3} + 150 \gamma \phi^{2} \theta^{4} + 150 \gamma \phi^{2} \theta^{2} - 60 \gamma \phi \theta^{6} - 120 \gamma \phi \theta^{4}}{3125 \phi^{4} - 2125 \phi^{3} \theta^{2} - 1125 \phi^{3} + 225 \phi^{2} \theta^{2} + 120 \phi \theta^{6} + 120 \phi \theta^{4} - 36 \theta^{6}}\\
+	c^{L}_{2} &= - \frac{875 \alpha \phi^{3} \theta^{2} - 300 \alpha \phi^{2} \theta^{4} - 375 \alpha \phi^{2} \theta^{2} - 60 \alpha \phi \theta^{6} - 60 \alpha \phi \theta^{4} + 36 \alpha \theta^{6} - 3125 \gamma \phi^{4} + 1250 \gamma \phi^{3} \theta^{2} + 1125 \gamma \phi^{3} + 300 \gamma \phi^{2} \theta^{4} + 150 \gamma \phi^{2} \theta^{2} - 60 \gamma \phi \theta^{6} - 60 \gamma \phi \theta^{4}}{3125 \phi^{4} - 2125 \phi^{3} \theta^{2} - 1125 \phi^{3} + 225 \phi^{2} \theta^{2} + 120 \phi \theta^{6} + 120 \phi \theta^{4} - 36 \theta^{6}}\\
+	c^{L}_{3} &= - \frac{500 \alpha \phi^{3} \theta^{2} + 375 \alpha \phi^{3} - 150 \alpha \phi^{2} \theta^{4} - 525 \alpha \phi^{2} \theta^{2} - 60 \alpha \phi \theta^{6} - 60 \alpha \phi \theta^{4} + 36 \alpha \theta^{6} - 3125 \gamma \phi^{4} + 1625 \gamma \phi^{3} \theta^{2} + 750 \gamma \phi^{3} + 150 \gamma \phi^{2} \theta^{4} + 300 \gamma \phi^{2} \theta^{2} - 60 \gamma \phi \theta^{6} - 60 \gamma \phi \theta^{4}}{3125 \phi^{4} - 2125 \phi^{3} \theta^{2} - 1125 \phi^{3} + 225 \phi^{2} \theta^{2} + 120 \phi \theta^{6} + 120 \phi \theta^{4} - 36 \theta^{6}}
+\end{cases}
+}
+
+Production Quantities:
+
+\scaleeq{
+\begin{cases}
+	q^{H}_{1} &= \frac{5 \phi \left(\alpha - \gamma\right) \left(5 \phi - 2 \theta^{2}\right) \left(25 \phi^{2} - 15 \phi \theta^{2} - 6 \theta^{4}\right)}{3125 \phi^{4} - 2125 \phi^{3} \theta^{2} - 1125 \phi^{3} + 225 \phi^{2} \theta^{2} + 120 \phi \theta^{6} + 120 \phi \theta^{4} - 36 \theta^{6}}\\
+	q^{L}_{1} &= \frac{5 \phi \left(\alpha - \gamma\right) \left(5 \phi - 2 \theta^{2}\right) \left(25 \phi^{2} - 15 \phi - 6 \theta^{2}\right)}{3125 \phi^{4} - 2125 \phi^{3} \theta^{2} - 1125 \phi^{3} + 225 \phi^{2} \theta^{2} + 120 \phi \theta^{6} + 120 \phi \theta^{4} - 36 \theta^{6}}\\
+	q^{L}_{2} &= \frac{25 \phi^{2} \left(\alpha - \gamma\right) \left(25 \phi^{2} - 15 \phi - 6 \theta^{4}\right)}{3125 \phi^{4} - 2125 \phi^{3} \theta^{2} - 1125 \phi^{3} + 225 \phi^{2} \theta^{2} + 120 \phi \theta^{6} + 120 \phi \theta^{4} - 36 \theta^{6}}\\
+	q^{L}_{3} &= \frac{25 \phi^{2} \left(\alpha - \gamma\right) \left(25 \phi^{2} - 15 \phi \theta^{2} - 6 \theta^{2}\right)}{3125 \phi^{4} - 2125 \phi^{3} \theta^{2} - 1125 \phi^{3} + 225 \phi^{2} \theta^{2} + 120 \phi \theta^{6} + 120 \phi \theta^{4} - 36 \theta^{6}}
+\end{cases}
+}
+
+Profits:
+
+\begin{equation}
+\label{eq:E3E:1H3L_profit}
+\scaledequation{\begin{cases}
+	\pi^{H}_{1} &= \frac{\phi \left(\alpha - \gamma\right)^{2} \left(5 \phi - 2 \theta^{2}\right)^{2} \left(25 \phi - 9\right) \left(25 \phi^{2} - 15 \phi \theta^{2} - 6 \theta^{4}\right)^{2}}{\left(3125 \phi^{4} - 2125 \phi^{3} \theta^{2} - 1125 \phi^{3} + 225 \phi^{2} \theta^{2} + 120 \phi \theta^{6} + 120 \phi \theta^{4} - 36 \theta^{6}\right)^{2}}\\
+	\pi^{L}_{1} &= \frac{\phi \left(\alpha - \gamma\right)^{2} \left(5 \phi - 2 \theta^{2}\right)^{2} \left(25 \phi - 9 \theta^{2}\right) \left(25 \phi^{2} - 15 \phi - 6 \theta^{2}\right)^{2}}{\left(3125 \phi^{4} - 2125 \phi^{3} \theta^{2} - 1125 \phi^{3} + 225 \phi^{2} \theta^{2} + 120 \phi \theta^{6} + 120 \phi \theta^{4} - 36 \theta^{6}\right)^{2}}\\
+	\pi^{L}_{2} &= \frac{25 \phi^{3} \left(\alpha - \gamma\right)^{2} \left(25 \phi - 4 \theta^{2}\right) \left(25 \phi^{2} - 15 \phi - 6 \theta^{4}\right)^{2}}{\left(3125 \phi^{4} - 2125 \phi^{3} \theta^{2} - 1125 \phi^{3} + 225 \phi^{2} \theta^{2} + 120 \phi \theta^{6} + 120 \phi \theta^{4} - 36 \theta^{6}\right)^{2}}\\
+	\pi^{L}_{3} &= \frac{25 \phi^{3} \left(\alpha - \gamma\right)^{2} \left(25 \phi - 4 \theta^{2}\right) \left(25 \phi^{2} - 15 \phi \theta^{2} - 6 \theta^{2}\right)^{2}}{\left(3125 \phi^{4} - 2125 \phi^{3} \theta^{2} - 1125 \phi^{3} + 225 \phi^{2} \theta^{2} + 120 \phi \theta^{6} + 120 \phi \theta^{4} - 36 \theta^{6}\right)^{2}}
+\end{cases}
+}
+\end{equation}
+
+Total Production:
+
+\scaleeq{
+\frac{10 \phi \left(\alpha - \gamma\right) \left(5 \phi - \theta^{2}\right) \left(50 \phi^{2} - 15 \phi \theta^{2} - 15 \phi - 6 \theta^{4} - 6 \theta^{2}\right)}{3125 \phi^{4} - 2125 \phi^{3} \theta^{2} - 1125 \phi^{3} + 225 \phi^{2} \theta^{2} + 120 \phi \theta^{6} + 120 \phi \theta^{4} - 36 \theta^{6}}
+}
+
+Price:
+
+\scaleeq{
+\frac{625 \alpha \phi^{4} - 875 \alpha \phi^{3} \theta^{2} - 375 \alpha \phi^{3} + 150 \alpha \phi^{2} \theta^{4} + 375 \alpha \phi^{2} \theta^{2} + 60 \alpha \phi \theta^{6} + 60 \alpha \phi \theta^{4} - 36 \alpha \theta^{6} + 2500 \gamma \phi^{4} - 1250 \gamma \phi^{3} \theta^{2} - 750 \gamma \phi^{3} - 150 \gamma \phi^{2} \theta^{4} - 150 \gamma \phi^{2} \theta^{2} + 60 \gamma \phi \theta^{6} + 60 \gamma \phi \theta^{4}}{3125 \phi^{4} - 2125 \phi^{3} \theta^{2} - 1125 \phi^{3} + 225 \phi^{2} \theta^{2} + 120 \phi \theta^{6} + 120 \phi \theta^{4} - 36 \theta^{6}}
+}
+
+Firm Surplus:
+
+\scaleeq{
+\frac{\phi \left(\alpha - \gamma\right)^{2} \left(1562500 \phi^{7} - 1828125 \phi^{6} \theta^{2} - 1078125 \phi^{6} + 593750 \phi^{5} \theta^{4} + 525000 \phi^{5} \theta^{2} + 281250 \phi^{5} + 60000 \phi^{4} \theta^{6} + 121875 \phi^{4} \theta^{4} - 73125 \phi^{4} \theta^{2} - 52500 \phi^{3} \theta^{8} - 120000 \phi^{3} \theta^{6} - 22500 \phi^{3} \theta^{4} - 3600 \phi^{2} \theta^{10} + 37800 \phi^{2} \theta^{8} + 12600 \phi^{2} \theta^{6} + 3600 \phi \theta^{12} + 3600 \phi \theta^{8} - 1296 \theta^{12} - 1296 \theta^{10}\right)}{\left(3125 \phi^{4} - 2125 \phi^{3} \theta^{2} - 1125 \phi^{3} + 225 \phi^{2} \theta^{2} + 120 \phi \theta^{6} + 120 \phi \theta^{4} - 36 \theta^{6}\right)^{2}}
+}
+
+Consumer Surplus:
+
+\scaleeq{
+\frac{50 \phi^{2} \left(\alpha - \gamma\right)^{2} \left(5 \phi - \theta^{2}\right)^{2} \left(50 \phi^{2} - 15 \phi \theta^{2} - 15 \phi - 6 \theta^{4} - 6 \theta^{2}\right)^{2}}{\left(3125 \phi^{4} - 2125 \phi^{3} \theta^{2} - 1125 \phi^{3} + 225 \phi^{2} \theta^{2} + 120 \phi \theta^{6} + 120 \phi \theta^{4} - 36 \theta^{6}\right)^{2}}
+}
+
+Social Welfare:
+
+\scaleeq{
+\frac{\phi \left(\alpha - \gamma\right)^{2} \left(4687500 \phi^{7} - 4953125 \phi^{6} \theta^{2} - 2953125 \phi^{6} + 1000000 \phi^{5} \theta^{4} + 1087500 \phi^{5} \theta^{2} + 562500 \phi^{5} + 397500 \phi^{4} \theta^{6} + 571875 \phi^{4} \theta^{4} + 39375 \phi^{4} \theta^{2} - 116250 \phi^{3} \theta^{8} - 217500 \phi^{3} \theta^{6} - 56250 \phi^{3} \theta^{4} - 12600 \phi^{2} \theta^{10} + 19800 \phi^{2} \theta^{8} + 3600 \phi^{2} \theta^{6} + 5400 \phi \theta^{12} + 3600 \phi \theta^{10} + 5400 \phi \theta^{8} - 1296 \theta^{12} - 1296 \theta^{10}\right)}{\left(3125 \phi^{4} - 2125 \phi^{3} \theta^{2} - 1125 \phi^{3} + 225 \phi^{2} \theta^{2} + 120 \phi \theta^{6} + 120 \phi \theta^{4} - 36 \theta^{6}\right)^{2}}
+}
+
+%======================================================================
+
+\subsubsection{E3F [1H3L]}
+\label{apx:E3F:1H3L}
+
+\begin{multicols}{2}
+\begin{center}
+\begin{tikzpicture}[shorten >=1pt,draw=black!50]
+	\node (H1) at ( 1.06,  1.06)	[circle, draw, fill = gray!20]	{$H_{1}$};
+	\node (L1) at (-1.06,  1.06)	[circle, draw, fill = white]	{$L_{1}$};
+	\node (L2) at (-1.06, -1.06)	[circle, draw, fill = white]	{$L_{2}$};
+	\node (L3) at ( 1.06, -1.06)	[circle, draw, fill = white]	{$L_{3}$};
+	\draw (L1) -- (L2);
+	\draw (L1) -- (L3);
+	\draw (L2) -- (L3);
+\end{tikzpicture}
+\end{center}
+\columnbreak
+
+\scaleeq{
+Equations: \begin{cases}
+	e^{H}_{1} \left(\frac{25 \phi}{4} - 4\right) = \alpha - 3 e^{L}_{1} \theta - 3 e^{L}_{2} \theta - 3 e^{L}_{3} \theta - \gamma\\
+	e^{L}_{1} \left(\frac{25 \phi}{2 \theta} - 2 \theta\right) = \alpha - e^{H}_{1} + 2 e^{L}_{2} \theta + 2 e^{L}_{3} \theta - \gamma\\
+	e^{L}_{2} \left(\frac{25 \phi}{2 \theta} - 2 \theta\right) = \alpha - e^{H}_{1} + 2 e^{L}_{1} \theta + 2 e^{L}_{3} \theta - \gamma\\
+	e^{L}_{3} \left(\frac{25 \phi}{2 \theta} - 2 \theta\right) = \alpha - e^{H}_{1} + 2 e^{L}_{1} \theta + 2 e^{L}_{2} \theta - \gamma
+\end{cases}
+}\end{multicols}
+
+
+Optimal efforts:
+
+\scaleeq{
+\begin{cases}
+	e^{H}_{1} &= \frac{4 \left(\alpha - \gamma\right) \left(5 \phi - 6 \theta^{2}\right)}{125 \phi^{2} - 60 \phi \theta^{2} - 80 \phi + 24 \theta^{2}}\\
+	e^{L}_{1} &= \frac{2 \theta \left(\alpha - \gamma\right) \left(5 \phi - 4\right)}{125 \phi^{2} - 60 \phi \theta^{2} - 80 \phi + 24 \theta^{2}}\\
+	e^{L}_{2} &= \frac{2 \theta \left(\alpha - \gamma\right) \left(5 \phi - 4\right)}{125 \phi^{2} - 60 \phi \theta^{2} - 80 \phi + 24 \theta^{2}}\\
+	e^{L}_{3} &= \frac{2 \theta \left(\alpha - \gamma\right) \left(5 \phi - 4\right)}{125 \phi^{2} - 60 \phi \theta^{2} - 80 \phi + 24 \theta^{2}}
+\end{cases}
+}
+
+Production Costs:
+
+\scaleeq{
+\begin{cases}
+	c^{H}_{1} &= - \frac{20 \alpha \phi - 24 \alpha \theta^{2} - 125 \gamma \phi^{2} + 60 \gamma \phi \theta^{2} + 60 \gamma \phi}{125 \phi^{2} - 60 \phi \theta^{2} - 80 \phi + 24 \theta^{2}}\\
+	c^{L}_{1} &= - \frac{30 \alpha \phi \theta^{2} - 24 \alpha \theta^{2} - 125 \gamma \phi^{2} + 30 \gamma \phi \theta^{2} + 80 \gamma \phi}{125 \phi^{2} - 60 \phi \theta^{2} - 80 \phi + 24 \theta^{2}}\\
+	c^{L}_{2} &= - \frac{30 \alpha \phi \theta^{2} - 24 \alpha \theta^{2} - 125 \gamma \phi^{2} + 30 \gamma \phi \theta^{2} + 80 \gamma \phi}{125 \phi^{2} - 60 \phi \theta^{2} - 80 \phi + 24 \theta^{2}}\\
+	c^{L}_{3} &= - \frac{30 \alpha \phi \theta^{2} - 24 \alpha \theta^{2} - 125 \gamma \phi^{2} + 30 \gamma \phi \theta^{2} + 80 \gamma \phi}{125 \phi^{2} - 60 \phi \theta^{2} - 80 \phi + 24 \theta^{2}}
+\end{cases}
+}
+
+Production Quantities:
+
+\scaleeq{
+\begin{cases}
+	q^{H}_{1} &= \frac{5 \phi \left(\alpha - \gamma\right) \left(5 \phi - 6 \theta^{2}\right)}{125 \phi^{2} - 60 \phi \theta^{2} - 80 \phi + 24 \theta^{2}}\\
+	q^{L}_{1} &= \frac{5 \phi \left(\alpha - \gamma\right) \left(5 \phi - 4\right)}{125 \phi^{2} - 60 \phi \theta^{2} - 80 \phi + 24 \theta^{2}}\\
+	q^{L}_{2} &= \frac{5 \phi \left(\alpha - \gamma\right) \left(5 \phi - 4\right)}{125 \phi^{2} - 60 \phi \theta^{2} - 80 \phi + 24 \theta^{2}}\\
+	q^{L}_{3} &= \frac{5 \phi \left(\alpha - \gamma\right) \left(5 \phi - 4\right)}{125 \phi^{2} - 60 \phi \theta^{2} - 80 \phi + 24 \theta^{2}}
+\end{cases}
+}
+
+Profits:
+
+\begin{equation}
+\label{eq:E3F:1H3L_profit}
+\scaledequation{\begin{cases}
+	\pi^{H}_{1} &= \frac{\phi \left(\alpha - \gamma\right)^{2} \left(5 \phi - 6 \theta^{2}\right)^{2} \left(25 \phi - 16\right)}{\left(125 \phi^{2} - 60 \phi \theta^{2} - 80 \phi + 24 \theta^{2}\right)^{2}}\\
+	\pi^{L}_{1} &= \frac{\phi \left(\alpha - \gamma\right)^{2} \left(5 \phi - 4\right)^{2} \left(25 \phi - 4 \theta^{2}\right)}{\left(125 \phi^{2} - 60 \phi \theta^{2} - 80 \phi + 24 \theta^{2}\right)^{2}}\\
+	\pi^{L}_{2} &= \frac{\phi \left(\alpha - \gamma\right)^{2} \left(5 \phi - 4\right)^{2} \left(25 \phi - 4 \theta^{2}\right)}{\left(125 \phi^{2} - 60 \phi \theta^{2} - 80 \phi + 24 \theta^{2}\right)^{2}}\\
+	\pi^{L}_{3} &= \frac{\phi \left(\alpha - \gamma\right)^{2} \left(5 \phi - 4\right)^{2} \left(25 \phi - 4 \theta^{2}\right)}{\left(125 \phi^{2} - 60 \phi \theta^{2} - 80 \phi + 24 \theta^{2}\right)^{2}}
+\end{cases}
+}
+\end{equation}
+
+Total Production:
+
+\scaleeq{
+\frac{10 \phi \left(\alpha - \gamma\right) \left(10 \phi - 3 \theta^{2} - 6\right)}{125 \phi^{2} - 60 \phi \theta^{2} - 80 \phi + 24 \theta^{2}}
+}
+
+Price:
+
+\scaleeq{
+\frac{25 \alpha \phi^{2} - 30 \alpha \phi \theta^{2} - 20 \alpha \phi + 24 \alpha \theta^{2} + 100 \gamma \phi^{2} - 30 \gamma \phi \theta^{2} - 60 \gamma \phi}{125 \phi^{2} - 60 \phi \theta^{2} - 80 \phi + 24 \theta^{2}}
+}
+
+Firm Surplus:
+
+\scaleeq{
+\frac{4 \phi \left(\alpha - \gamma\right)^{2} \left(625 \phi^{3} - 450 \phi^{2} \theta^{2} - 850 \phi^{2} + 225 \phi \theta^{4} + 360 \phi \theta^{2} + 300 \phi - 144 \theta^{4} - 48 \theta^{2}\right)}{\left(125 \phi^{2} - 60 \phi \theta^{2} - 80 \phi + 24 \theta^{2}\right)^{2}}
+}
+
+Consumer Surplus:
+
+\scaleeq{
+\frac{50 \phi^{2} \left(\alpha - \gamma\right)^{2} \left(10 \phi - 3 \theta^{2} - 6\right)^{2}}{\left(125 \phi^{2} - 60 \phi \theta^{2} - 80 \phi + 24 \theta^{2}\right)^{2}}
+}
+
+Social Welfare:
+
+\scaleeq{
+\frac{2 \phi \left(\alpha - \gamma\right)^{2} \left(3750 \phi^{3} - 2400 \phi^{2} \theta^{2} - 4700 \phi^{2} + 675 \phi \theta^{4} + 1620 \phi \theta^{2} + 1500 \phi - 288 \theta^{4} - 96 \theta^{2}\right)}{\left(125 \phi^{2} - 60 \phi \theta^{2} - 80 \phi + 24 \theta^{2}\right)^{2}}
+}
+
+%======================================================================
+
+\subsubsection{E4A [1H3L]}
+\label{apx:E4A:1H3L}
+
+\begin{multicols}{2}
+\begin{center}
+\begin{tikzpicture}[shorten >=1pt,draw=black!50]
+	\node (H1) at ( 1.06,  1.06)	[circle, draw, fill = gray!20]	{$H_{1}$};
+	\node (L1) at (-1.06,  1.06)	[circle, draw, fill = white]	{$L_{1}$};
+	\node (L2) at (-1.06, -1.06)	[circle, draw, fill = white]	{$L_{2}$};
+	\node (L3) at ( 1.06, -1.06)	[circle, draw, fill = white]	{$L_{3}$};
+	\draw (H1) -- (L1);
+	\draw (H1) -- (L2);
+	\draw (H1) -- (L3);
+	\draw (L2) -- (L3);
+\end{tikzpicture}
+\end{center}
+\columnbreak
+
+\scaleeq{
+Equations: \begin{cases}
+	e^{H}_{1} \left(25 \phi - 1\right) = \alpha + 3 e^{L}_{1} \theta + 2 e^{L}_{2} \theta + 2 e^{L}_{3} \theta - \gamma\\
+	e^{L}_{1} \left(\frac{25 \phi}{3 \theta} - 3 \theta\right) = \alpha + e^{H}_{1} - 3 e^{L}_{2} \theta - 3 e^{L}_{3} \theta - \gamma\\
+	e^{L}_{2} \left(\frac{25 \phi}{2 \theta} - 2 \theta\right) = \alpha + e^{H}_{1} - 2 e^{L}_{1} \theta + 2 e^{L}_{3} \theta - \gamma\\
+	e^{L}_{3} \left(\frac{25 \phi}{2 \theta} - 2 \theta\right) = \alpha + e^{H}_{1} - 2 e^{L}_{1} \theta + 2 e^{L}_{2} \theta - \gamma
+\end{cases}
+}\end{multicols}
+
+
+Optimal efforts:
+
+\scaleeq{
+\begin{cases}
+	e^{H}_{1} &= \frac{\left(\alpha - \gamma\right) \left(25 \phi^{2} - 12 \theta^{4}\right)}{625 \phi^{3} - 425 \phi^{2} \theta^{2} - 25 \phi^{2} + 12 \theta^{4}}\\
+	e^{L}_{1} &= \frac{15 \phi \theta \left(\alpha - \gamma\right) \left(5 \phi - 4 \theta^{2}\right)}{625 \phi^{3} - 425 \phi^{2} \theta^{2} - 25 \phi^{2} + 12 \theta^{4}}\\
+	e^{L}_{2} &= \frac{10 \phi \theta \left(\alpha - \gamma\right) \left(5 \phi - 3 \theta^{2}\right)}{625 \phi^{3} - 425 \phi^{2} \theta^{2} - 25 \phi^{2} + 12 \theta^{4}}\\
+	e^{L}_{3} &= \frac{10 \phi \theta \left(\alpha - \gamma\right) \left(5 \phi - 3 \theta^{2}\right)}{625 \phi^{3} - 425 \phi^{2} \theta^{2} - 25 \phi^{2} + 12 \theta^{4}}
+\end{cases}
+}
+
+Production Costs:
+
+\scaleeq{
+\begin{cases}
+	c^{H}_{1} &= - \frac{175 \alpha \phi^{2} \theta^{2} + 25 \alpha \phi^{2} - 120 \alpha \phi \theta^{4} - 12 \alpha \theta^{4} - 625 \gamma \phi^{3} + 250 \gamma \phi^{2} \theta^{2} + 120 \gamma \phi \theta^{4}}{625 \phi^{3} - 425 \phi^{2} \theta^{2} - 25 \phi^{2} + 12 \theta^{4}}\\
+	c^{L}_{1} &= - \frac{75 \alpha \phi^{2} \theta^{2} + 25 \alpha \phi^{2} - 60 \alpha \phi \theta^{4} - 12 \alpha \theta^{4} - 625 \gamma \phi^{3} + 350 \gamma \phi^{2} \theta^{2} + 60 \gamma \phi \theta^{4}}{625 \phi^{3} - 425 \phi^{2} \theta^{2} - 25 \phi^{2} + 12 \theta^{4}}\\
+	c^{L}_{2} &= - \frac{100 \alpha \phi^{2} \theta^{2} + 25 \alpha \phi^{2} - 60 \alpha \phi \theta^{4} - 12 \alpha \theta^{4} - 625 \gamma \phi^{3} + 325 \gamma \phi^{2} \theta^{2} + 60 \gamma \phi \theta^{4}}{625 \phi^{3} - 425 \phi^{2} \theta^{2} - 25 \phi^{2} + 12 \theta^{4}}\\
+	c^{L}_{3} &= - \frac{100 \alpha \phi^{2} \theta^{2} + 25 \alpha \phi^{2} - 60 \alpha \phi \theta^{4} - 12 \alpha \theta^{4} - 625 \gamma \phi^{3} + 325 \gamma \phi^{2} \theta^{2} + 60 \gamma \phi \theta^{4}}{625 \phi^{3} - 425 \phi^{2} \theta^{2} - 25 \phi^{2} + 12 \theta^{4}}
+\end{cases}
+}
+
+Production Quantities:
+
+\scaleeq{
+\begin{cases}
+	q^{H}_{1} &= \frac{5 \phi \left(\alpha - \gamma\right) \left(25 \phi^{2} - 12 \theta^{4}\right)}{625 \phi^{3} - 425 \phi^{2} \theta^{2} - 25 \phi^{2} + 12 \theta^{4}}\\
+	q^{L}_{1} &= \frac{25 \phi^{2} \left(\alpha - \gamma\right) \left(5 \phi - 4 \theta^{2}\right)}{625 \phi^{3} - 425 \phi^{2} \theta^{2} - 25 \phi^{2} + 12 \theta^{4}}\\
+	q^{L}_{2} &= \frac{25 \phi^{2} \left(\alpha - \gamma\right) \left(5 \phi - 3 \theta^{2}\right)}{625 \phi^{3} - 425 \phi^{2} \theta^{2} - 25 \phi^{2} + 12 \theta^{4}}\\
+	q^{L}_{3} &= \frac{25 \phi^{2} \left(\alpha - \gamma\right) \left(5 \phi - 3 \theta^{2}\right)}{625 \phi^{3} - 425 \phi^{2} \theta^{2} - 25 \phi^{2} + 12 \theta^{4}}
+\end{cases}
+}
+
+Profits:
+
+\begin{equation}
+\label{eq:E4A:1H3L_profit}
+\scaledequation{\begin{cases}
+	\pi^{H}_{1} &= \frac{\phi \left(\alpha - \gamma\right)^{2} \left(25 \phi - 1\right) \left(25 \phi^{2} - 12 \theta^{4}\right)^{2}}{\left(625 \phi^{3} - 425 \phi^{2} \theta^{2} - 25 \phi^{2} + 12 \theta^{4}\right)^{2}}\\
+	\pi^{L}_{1} &= \frac{25 \phi^{3} \left(\alpha - \gamma\right)^{2} \left(5 \phi - 4 \theta^{2}\right)^{2} \left(25 \phi - 9 \theta^{2}\right)}{\left(625 \phi^{3} - 425 \phi^{2} \theta^{2} - 25 \phi^{2} + 12 \theta^{4}\right)^{2}}\\
+	\pi^{L}_{2} &= \frac{25 \phi^{3} \left(\alpha - \gamma\right)^{2} \left(5 \phi - 3 \theta^{2}\right)^{2} \left(25 \phi - 4 \theta^{2}\right)}{\left(625 \phi^{3} - 425 \phi^{2} \theta^{2} - 25 \phi^{2} + 12 \theta^{4}\right)^{2}}\\
+	\pi^{L}_{3} &= \frac{25 \phi^{3} \left(\alpha - \gamma\right)^{2} \left(5 \phi - 3 \theta^{2}\right)^{2} \left(25 \phi - 4 \theta^{2}\right)}{\left(625 \phi^{3} - 425 \phi^{2} \theta^{2} - 25 \phi^{2} + 12 \theta^{4}\right)^{2}}
+\end{cases}
+}
+\end{equation}
+
+Total Production:
+
+\scaleeq{
+\frac{10 \phi \left(\alpha - \gamma\right) \left(50 \phi^{2} - 25 \phi \theta^{2} - 6 \theta^{4}\right)}{625 \phi^{3} - 425 \phi^{2} \theta^{2} - 25 \phi^{2} + 12 \theta^{4}}
+}
+
+Price:
+
+\scaleeq{
+\frac{125 \alpha \phi^{3} - 175 \alpha \phi^{2} \theta^{2} - 25 \alpha \phi^{2} + 60 \alpha \phi \theta^{4} + 12 \alpha \theta^{4} + 500 \gamma \phi^{3} - 250 \gamma \phi^{2} \theta^{2} - 60 \gamma \phi \theta^{4}}{625 \phi^{3} - 425 \phi^{2} \theta^{2} - 25 \phi^{2} + 12 \theta^{4}}
+}
+
+Firm Surplus:
+
+\scaleeq{
+\frac{\phi \left(\alpha - \gamma\right)^{2} \left(62500 \phi^{5} - 73125 \phi^{4} \theta^{2} - 625 \phi^{4} + 21250 \phi^{3} \theta^{4} - 5400 \phi^{2} \theta^{6} + 600 \phi^{2} \theta^{4} + 3600 \phi \theta^{8} - 144 \theta^{8}\right)}{\left(625 \phi^{3} - 425 \phi^{2} \theta^{2} - 25 \phi^{2} + 12 \theta^{4}\right)^{2}}
+}
+
+Consumer Surplus:
+
+\scaleeq{
+\frac{50 \phi^{2} \left(\alpha - \gamma\right)^{2} \left(50 \phi^{2} - 25 \phi \theta^{2} - 6 \theta^{4}\right)^{2}}{\left(625 \phi^{3} - 425 \phi^{2} \theta^{2} - 25 \phi^{2} + 12 \theta^{4}\right)^{2}}
+}
+
+Social Welfare:
+
+\scaleeq{
+\frac{\phi \left(\alpha - \gamma\right)^{2} \left(187500 \phi^{5} - 198125 \phi^{4} \theta^{2} - 625 \phi^{4} + 22500 \phi^{3} \theta^{4} + 9600 \phi^{2} \theta^{6} + 600 \phi^{2} \theta^{4} + 5400 \phi \theta^{8} - 144 \theta^{8}\right)}{\left(625 \phi^{3} - 425 \phi^{2} \theta^{2} - 25 \phi^{2} + 12 \theta^{4}\right)^{2}}
+}
+
+%======================================================================
+
+\subsubsection{E4B [1H3L]}
+\label{apx:E4B:1H3L}
+
+\begin{multicols}{2}
+\begin{center}
+\begin{tikzpicture}[shorten >=1pt,draw=black!50]
+	\node (H1) at ( 1.06,  1.06)	[circle, draw, fill = gray!20]	{$H_{1}$};
+	\node (L1) at (-1.06,  1.06)	[circle, draw, fill = white]	{$L_{1}$};
+	\node (L2) at (-1.06, -1.06)	[circle, draw, fill = white]	{$L_{2}$};
+	\node (L3) at ( 1.06, -1.06)	[circle, draw, fill = white]	{$L_{3}$};
+	\draw (H1) -- (L2);
+	\draw (H1) -- (L3);
+	\draw (L1) -- (L3);
+	\draw (L2) -- (L3);
+\end{tikzpicture}
+\end{center}
+\columnbreak
+
+\scaleeq{
+Equations: \begin{cases}
+	e^{H}_{1} \left(\frac{25 \phi}{2} - 2\right) = \alpha - 2 e^{L}_{1} \theta + 2 e^{L}_{2} \theta + e^{L}_{3} \theta - \gamma\\
+	e^{L}_{1} \left(\frac{25 \phi}{3 \theta} - 3 \theta\right) = \alpha - 3 e^{H}_{1} - 3 e^{L}_{2} \theta + e^{L}_{3} \theta - \gamma\\
+	e^{L}_{2} \left(\frac{25 \phi}{2 \theta} - 2 \theta\right) = \alpha + 2 e^{H}_{1} - 2 e^{L}_{1} \theta + e^{L}_{3} \theta - \gamma\\
+	e^{L}_{3} \left(\frac{25 \phi}{\theta} - \theta\right) = \alpha + 2 e^{H}_{1} + 3 e^{L}_{1} \theta + 2 e^{L}_{2} \theta - \gamma
+\end{cases}
+}\end{multicols}
+
+
+Optimal efforts:
+
+\scaleeq{
+\begin{cases}
+	e^{H}_{1} &= \frac{10 \phi \left(\alpha - \gamma\right) \left(5 \phi - 3 \theta^{2}\right)}{625 \phi^{3} - 350 \phi^{2} \theta^{2} - 100 \phi^{2} + 6 \theta^{6} + 6 \theta^{4}}\\
+	e^{L}_{1} &= \frac{15 \phi \theta \left(\alpha - \gamma\right) \left(5 \phi - 2 \theta^{2} - 2\right)}{625 \phi^{3} - 350 \phi^{2} \theta^{2} - 100 \phi^{2} + 6 \theta^{6} + 6 \theta^{4}}\\
+	e^{L}_{2} &= \frac{10 \phi \theta \left(\alpha - \gamma\right) \left(5 \phi - 3 \theta^{2}\right)}{625 \phi^{3} - 350 \phi^{2} \theta^{2} - 100 \phi^{2} + 6 \theta^{6} + 6 \theta^{4}}\\
+	e^{L}_{3} &= \frac{\theta \left(\alpha - \gamma\right) \left(25 \phi^{2} - 6 \theta^{4} - 6 \theta^{2}\right)}{625 \phi^{3} - 350 \phi^{2} \theta^{2} - 100 \phi^{2} + 6 \theta^{6} + 6 \theta^{4}}
+\end{cases}
+}
+
+Production Costs:
+
+\scaleeq{
+\begin{cases}
+	c^{H}_{1} &= - \frac{75 \alpha \phi^{2} \theta^{2} + 50 \alpha \phi^{2} - 30 \alpha \phi \theta^{4} - 30 \alpha \phi \theta^{2} - 6 \alpha \theta^{6} - 6 \alpha \theta^{4} - 625 \gamma \phi^{3} + 275 \gamma \phi^{2} \theta^{2} + 50 \gamma \phi^{2} + 30 \gamma \phi \theta^{4} + 30 \gamma \phi \theta^{2}}{625 \phi^{3} - 350 \phi^{2} \theta^{2} - 100 \phi^{2} + 6 \theta^{6} + 6 \theta^{4}}\\
+	c^{L}_{1} &= - \frac{100 \alpha \phi^{2} \theta^{2} - 30 \alpha \phi \theta^{4} - 30 \alpha \phi \theta^{2} - 6 \alpha \theta^{6} - 6 \alpha \theta^{4} - 625 \gamma \phi^{3} + 250 \gamma \phi^{2} \theta^{2} + 100 \gamma \phi^{2} + 30 \gamma \phi \theta^{4} + 30 \gamma \phi \theta^{2}}{625 \phi^{3} - 350 \phi^{2} \theta^{2} - 100 \phi^{2} + 6 \theta^{6} + 6 \theta^{4}}\\
+	c^{L}_{2} &= - \frac{75 \alpha \phi^{2} \theta^{2} + 50 \alpha \phi^{2} - 30 \alpha \phi \theta^{4} - 30 \alpha \phi \theta^{2} - 6 \alpha \theta^{6} - 6 \alpha \theta^{4} - 625 \gamma \phi^{3} + 275 \gamma \phi^{2} \theta^{2} + 50 \gamma \phi^{2} + 30 \gamma \phi \theta^{4} + 30 \gamma \phi \theta^{2}}{625 \phi^{3} - 350 \phi^{2} \theta^{2} - 100 \phi^{2} + 6 \theta^{6} + 6 \theta^{4}}\\
+	c^{L}_{3} &= - \frac{150 \alpha \phi^{2} \theta^{2} + 50 \alpha \phi^{2} - 60 \alpha \phi \theta^{4} - 60 \alpha \phi \theta^{2} - 6 \alpha \theta^{6} - 6 \alpha \theta^{4} - 625 \gamma \phi^{3} + 200 \gamma \phi^{2} \theta^{2} + 50 \gamma \phi^{2} + 60 \gamma \phi \theta^{4} + 60 \gamma \phi \theta^{2}}{625 \phi^{3} - 350 \phi^{2} \theta^{2} - 100 \phi^{2} + 6 \theta^{6} + 6 \theta^{4}}
+\end{cases}
+}
+
+Production Quantities:
+
+\scaleeq{
+\begin{cases}
+	q^{H}_{1} &= \frac{25 \phi^{2} \left(\alpha - \gamma\right) \left(5 \phi - 3 \theta^{2}\right)}{625 \phi^{3} - 350 \phi^{2} \theta^{2} - 100 \phi^{2} + 6 \theta^{6} + 6 \theta^{4}}\\
+	q^{L}_{1} &= \frac{25 \phi^{2} \left(\alpha - \gamma\right) \left(5 \phi - 2 \theta^{2} - 2\right)}{625 \phi^{3} - 350 \phi^{2} \theta^{2} - 100 \phi^{2} + 6 \theta^{6} + 6 \theta^{4}}\\
+	q^{L}_{2} &= \frac{25 \phi^{2} \left(\alpha - \gamma\right) \left(5 \phi - 3 \theta^{2}\right)}{625 \phi^{3} - 350 \phi^{2} \theta^{2} - 100 \phi^{2} + 6 \theta^{6} + 6 \theta^{4}}\\
+	q^{L}_{3} &= \frac{5 \phi \left(\alpha - \gamma\right) \left(25 \phi^{2} - 6 \theta^{4} - 6 \theta^{2}\right)}{625 \phi^{3} - 350 \phi^{2} \theta^{2} - 100 \phi^{2} + 6 \theta^{6} + 6 \theta^{4}}
+\end{cases}
+}
+
+Profits:
+
+\begin{equation}
+\label{eq:E4B:1H3L_profit}
+\scaledequation{\begin{cases}
+	\pi^{H}_{1} &= \frac{25 \phi^{3} \left(\alpha - \gamma\right)^{2} \left(5 \phi - 3 \theta^{2}\right)^{2} \left(25 \phi - 4\right)}{\left(625 \phi^{3} - 350 \phi^{2} \theta^{2} - 100 \phi^{2} + 6 \theta^{6} + 6 \theta^{4}\right)^{2}}\\
+	\pi^{L}_{1} &= \frac{25 \phi^{3} \left(\alpha - \gamma\right)^{2} \left(25 \phi - 9 \theta^{2}\right) \left(5 \phi - 2 \theta^{2} - 2\right)^{2}}{\left(625 \phi^{3} - 350 \phi^{2} \theta^{2} - 100 \phi^{2} + 6 \theta^{6} + 6 \theta^{4}\right)^{2}}\\
+	\pi^{L}_{2} &= \frac{25 \phi^{3} \left(\alpha - \gamma\right)^{2} \left(5 \phi - 3 \theta^{2}\right)^{2} \left(25 \phi - 4 \theta^{2}\right)}{\left(625 \phi^{3} - 350 \phi^{2} \theta^{2} - 100 \phi^{2} + 6 \theta^{6} + 6 \theta^{4}\right)^{2}}\\
+	\pi^{L}_{3} &= \frac{\phi \left(\alpha - \gamma\right)^{2} \left(25 \phi - \theta^{2}\right) \left(25 \phi^{2} - 6 \theta^{4} - 6 \theta^{2}\right)^{2}}{\left(625 \phi^{3} - 350 \phi^{2} \theta^{2} - 100 \phi^{2} + 6 \theta^{6} + 6 \theta^{4}\right)^{2}}
+\end{cases}
+}
+\end{equation}
+
+Total Production:
+
+\scaleeq{
+\frac{10 \phi \left(\alpha - \gamma\right) \left(50 \phi^{2} - 20 \phi \theta^{2} - 5 \phi - 3 \theta^{4} - 3 \theta^{2}\right)}{625 \phi^{3} - 350 \phi^{2} \theta^{2} - 100 \phi^{2} + 6 \theta^{6} + 6 \theta^{4}}
+}
+
+Price:
+
+\scaleeq{
+\frac{125 \alpha \phi^{3} - 150 \alpha \phi^{2} \theta^{2} - 50 \alpha \phi^{2} + 30 \alpha \phi \theta^{4} + 30 \alpha \phi \theta^{2} + 6 \alpha \theta^{6} + 6 \alpha \theta^{4} + 500 \gamma \phi^{3} - 200 \gamma \phi^{2} \theta^{2} - 50 \gamma \phi^{2} - 30 \gamma \phi \theta^{4} - 30 \gamma \phi \theta^{2}}{625 \phi^{3} - 350 \phi^{2} \theta^{2} - 100 \phi^{2} + 6 \theta^{6} + 6 \theta^{4}}
+}
+
+Firm Surplus:
+
+\scaleeq{
+\frac{2 \phi \left(\alpha - \gamma\right)^{2} \left(31250 \phi^{5} - 29375 \phi^{4} \theta^{2} - 7500 \phi^{4} + 6875 \phi^{3} \theta^{4} + 2500 \phi^{3} \theta^{2} + 1250 \phi^{3} - 750 \phi^{2} \theta^{6} - 1200 \phi^{2} \theta^{4} - 450 \phi^{2} \theta^{2} + 450 \phi \theta^{8} + 900 \phi \theta^{6} + 450 \phi \theta^{4} - 18 \theta^{10} - 36 \theta^{8} - 18 \theta^{6}\right)}{\left(625 \phi^{3} - 350 \phi^{2} \theta^{2} - 100 \phi^{2} + 6 \theta^{6} + 6 \theta^{4}\right)^{2}}
+}
+
+Consumer Surplus:
+
+\scaleeq{
+\frac{50 \phi^{2} \left(\alpha - \gamma\right)^{2} \left(50 \phi^{2} - 20 \phi \theta^{2} - 5 \phi - 3 \theta^{4} - 3 \theta^{2}\right)^{2}}{\left(625 \phi^{3} - 350 \phi^{2} \theta^{2} - 100 \phi^{2} + 6 \theta^{6} + 6 \theta^{4}\right)^{2}}
+}
+
+Social Welfare:
+
+\scaleeq{
+\frac{2 \phi \left(\alpha - \gamma\right)^{2} \left(93750 \phi^{5} - 79375 \phi^{4} \theta^{2} - 20000 \phi^{4} + 9375 \phi^{3} \theta^{4} + 1875 \phi^{3} + 2250 \phi^{2} \theta^{6} + 2550 \phi^{2} \theta^{4} + 300 \phi^{2} \theta^{2} + 675 \phi \theta^{8} + 1350 \phi \theta^{6} + 675 \phi \theta^{4} - 18 \theta^{10} - 36 \theta^{8} - 18 \theta^{6}\right)}{\left(625 \phi^{3} - 350 \phi^{2} \theta^{2} - 100 \phi^{2} + 6 \theta^{6} + 6 \theta^{4}\right)^{2}}
+}
+
+%======================================================================
+
+\subsubsection{E4C [1H3L]}
+\label{apx:E4C:1H3L}
+
+\begin{multicols}{2}
+\begin{center}
+\begin{tikzpicture}[shorten >=1pt,draw=black!50]
+	\node (H1) at ( 1.06,  1.06)	[circle, draw, fill = gray!20]	{$H_{1}$};
+	\node (L1) at (-1.06,  1.06)	[circle, draw, fill = white]	{$L_{1}$};
+	\node (L2) at (-1.06, -1.06)	[circle, draw, fill = white]	{$L_{2}$};
+	\node (L3) at ( 1.06, -1.06)	[circle, draw, fill = white]	{$L_{3}$};
+	\draw (H1) -- (L2);
+	\draw (H1) -- (L3);
+	\draw (L1) -- (L2);
+	\draw (L1) -- (L3);
+\end{tikzpicture}
+\end{center}
+\columnbreak
+
+\scaleeq{
+Equations: \begin{cases}
+	e^{H}_{1} \left(\frac{25 \phi}{2} - 2\right) = \alpha - 3 e^{L}_{1} \theta + 2 e^{L}_{2} \theta + 2 e^{L}_{3} \theta - \gamma\\
+	e^{L}_{1} \left(\frac{25 \phi}{2 \theta} - 2 \theta\right) = \alpha - 3 e^{H}_{1} + 2 e^{L}_{2} \theta + 2 e^{L}_{3} \theta - \gamma\\
+	e^{L}_{2} \left(\frac{25 \phi}{2 \theta} - 2 \theta\right) = \alpha + 2 e^{H}_{1} + 2 e^{L}_{1} \theta - 3 e^{L}_{3} \theta - \gamma\\
+	e^{L}_{3} \left(\frac{25 \phi}{2 \theta} - 2 \theta\right) = \alpha + 2 e^{H}_{1} + 2 e^{L}_{1} \theta - 3 e^{L}_{2} \theta - \gamma
+\end{cases}
+}\end{multicols}
+
+
+Optimal efforts:
+
+\scaleeq{
+\begin{cases}
+	e^{H}_{1} &= \frac{2 \left(\alpha - \gamma\right) \left(5 \phi - 2 \theta^{2}\right) \left(5 \phi + 2 \theta^{2}\right)}{625 \phi^{3} - 50 \phi^{2} \theta^{2} - 100 \phi^{2} - 40 \phi \theta^{4} - 60 \phi \theta^{2} + 24 \theta^{4}}\\
+	e^{L}_{1} &= \frac{2 \theta \left(\alpha - \gamma\right) \left(5 \phi - 2\right) \left(5 \phi + 2 \theta^{2}\right)}{625 \phi^{3} - 50 \phi^{2} \theta^{2} - 100 \phi^{2} - 40 \phi \theta^{4} - 60 \phi \theta^{2} + 24 \theta^{4}}\\
+	e^{L}_{2} &= \frac{2 \theta \left(\alpha - \gamma\right) \left(5 \phi - 2 \theta\right) \left(5 \phi + 2 \theta\right)}{625 \phi^{3} - 50 \phi^{2} \theta^{2} - 100 \phi^{2} - 40 \phi \theta^{4} - 60 \phi \theta^{2} + 24 \theta^{4}}\\
+	e^{L}_{3} &= \frac{2 \theta \left(\alpha - \gamma\right) \left(5 \phi - 2 \theta\right) \left(5 \phi + 2 \theta\right)}{625 \phi^{3} - 50 \phi^{2} \theta^{2} - 100 \phi^{2} - 40 \phi \theta^{4} - 60 \phi \theta^{2} + 24 \theta^{4}}
+\end{cases}
+}
+
+Production Costs:
+
+\scaleeq{
+\begin{cases}
+	c^{H}_{1} &= - \frac{100 \alpha \phi^{2} \theta^{2} + 50 \alpha \phi^{2} - 24 \alpha \theta^{4} - 625 \gamma \phi^{3} - 50 \gamma \phi^{2} \theta^{2} + 50 \gamma \phi^{2} + 40 \gamma \phi \theta^{4} + 60 \gamma \phi \theta^{2}}{625 \phi^{3} - 50 \phi^{2} \theta^{2} - 100 \phi^{2} - 40 \phi \theta^{4} - 60 \phi \theta^{2} + 24 \theta^{4}}\\
+	c^{L}_{1} &= - \frac{150 \alpha \phi^{2} \theta^{2} + 20 \alpha \phi \theta^{4} - 20 \alpha \phi \theta^{2} - 24 \alpha \theta^{4} - 625 \gamma \phi^{3} - 100 \gamma \phi^{2} \theta^{2} + 100 \gamma \phi^{2} + 20 \gamma \phi \theta^{4} + 80 \gamma \phi \theta^{2}}{625 \phi^{3} - 50 \phi^{2} \theta^{2} - 100 \phi^{2} - 40 \phi \theta^{4} - 60 \phi \theta^{2} + 24 \theta^{4}}\\
+	c^{L}_{2} &= - \frac{100 \alpha \phi^{2} \theta^{2} + 50 \alpha \phi^{2} + 20 \alpha \phi \theta^{4} - 20 \alpha \phi \theta^{2} - 24 \alpha \theta^{4} - 625 \gamma \phi^{3} - 50 \gamma \phi^{2} \theta^{2} + 50 \gamma \phi^{2} + 20 \gamma \phi \theta^{4} + 80 \gamma \phi \theta^{2}}{625 \phi^{3} - 50 \phi^{2} \theta^{2} - 100 \phi^{2} - 40 \phi \theta^{4} - 60 \phi \theta^{2} + 24 \theta^{4}}\\
+	c^{L}_{3} &= - \frac{100 \alpha \phi^{2} \theta^{2} + 50 \alpha \phi^{2} + 20 \alpha \phi \theta^{4} - 20 \alpha \phi \theta^{2} - 24 \alpha \theta^{4} - 625 \gamma \phi^{3} - 50 \gamma \phi^{2} \theta^{2} + 50 \gamma \phi^{2} + 20 \gamma \phi \theta^{4} + 80 \gamma \phi \theta^{2}}{625 \phi^{3} - 50 \phi^{2} \theta^{2} - 100 \phi^{2} - 40 \phi \theta^{4} - 60 \phi \theta^{2} + 24 \theta^{4}}
+\end{cases}
+}
+
+Production Quantities:
+
+\scaleeq{
+\begin{cases}
+	q^{H}_{1} &= \frac{5 \phi \left(\alpha - \gamma\right) \left(5 \phi - 2 \theta^{2}\right) \left(5 \phi + 2 \theta^{2}\right)}{625 \phi^{3} - 50 \phi^{2} \theta^{2} - 100 \phi^{2} - 40 \phi \theta^{4} - 60 \phi \theta^{2} + 24 \theta^{4}}\\
+	q^{L}_{1} &= \frac{5 \phi \left(\alpha - \gamma\right) \left(5 \phi - 2\right) \left(5 \phi + 2 \theta^{2}\right)}{625 \phi^{3} - 50 \phi^{2} \theta^{2} - 100 \phi^{2} - 40 \phi \theta^{4} - 60 \phi \theta^{2} + 24 \theta^{4}}\\
+	q^{L}_{2} &= \frac{5 \phi \left(\alpha - \gamma\right) \left(5 \phi - 2 \theta\right) \left(5 \phi + 2 \theta\right)}{625 \phi^{3} - 50 \phi^{2} \theta^{2} - 100 \phi^{2} - 40 \phi \theta^{4} - 60 \phi \theta^{2} + 24 \theta^{4}}\\
+	q^{L}_{3} &= \frac{5 \phi \left(\alpha - \gamma\right) \left(5 \phi - 2 \theta\right) \left(5 \phi + 2 \theta\right)}{625 \phi^{3} - 50 \phi^{2} \theta^{2} - 100 \phi^{2} - 40 \phi \theta^{4} - 60 \phi \theta^{2} + 24 \theta^{4}}
+\end{cases}
+}
+
+Profits:
+
+\begin{equation}
+\label{eq:E4C:1H3L_profit}
+\scaledequation{\begin{cases}
+	\pi^{H}_{1} &= \frac{\phi \left(\alpha - \gamma\right)^{2} \left(5 \phi - 2 \theta^{2}\right)^{2} \left(5 \phi + 2 \theta^{2}\right)^{2} \left(25 \phi - 4\right)}{\left(625 \phi^{3} - 50 \phi^{2} \theta^{2} - 100 \phi^{2} - 40 \phi \theta^{4} - 60 \phi \theta^{2} + 24 \theta^{4}\right)^{2}}\\
+	\pi^{L}_{1} &= \frac{\phi \left(\alpha - \gamma\right)^{2} \left(5 \phi - 2\right)^{2} \left(5 \phi + 2 \theta^{2}\right)^{2} \left(25 \phi - 4 \theta^{2}\right)}{\left(625 \phi^{3} - 50 \phi^{2} \theta^{2} - 100 \phi^{2} - 40 \phi \theta^{4} - 60 \phi \theta^{2} + 24 \theta^{4}\right)^{2}}\\
+	\pi^{L}_{2} &= \frac{\phi \left(\alpha - \gamma\right)^{2} \left(5 \phi - 2 \theta\right)^{2} \left(5 \phi + 2 \theta\right)^{2} \left(25 \phi - 4 \theta^{2}\right)}{\left(625 \phi^{3} - 50 \phi^{2} \theta^{2} - 100 \phi^{2} - 40 \phi \theta^{4} - 60 \phi \theta^{2} + 24 \theta^{4}\right)^{2}}\\
+	\pi^{L}_{3} &= \frac{\phi \left(\alpha - \gamma\right)^{2} \left(5 \phi - 2 \theta\right)^{2} \left(5 \phi + 2 \theta\right)^{2} \left(25 \phi - 4 \theta^{2}\right)}{\left(625 \phi^{3} - 50 \phi^{2} \theta^{2} - 100 \phi^{2} - 40 \phi \theta^{4} - 60 \phi \theta^{2} + 24 \theta^{4}\right)^{2}}
+\end{cases}
+}
+\end{equation}
+
+Total Production:
+
+\scaleeq{
+\frac{10 \phi \left(\alpha - \gamma\right) \left(50 \phi^{2} + 5 \phi \theta^{2} - 5 \phi - 2 \theta^{4} - 6 \theta^{2}\right)}{625 \phi^{3} - 50 \phi^{2} \theta^{2} - 100 \phi^{2} - 40 \phi \theta^{4} - 60 \phi \theta^{2} + 24 \theta^{4}}
+}
+
+Price:
+
+\scaleeq{
+\frac{125 \alpha \phi^{3} - 100 \alpha \phi^{2} \theta^{2} - 50 \alpha \phi^{2} - 20 \alpha \phi \theta^{4} + 24 \alpha \theta^{4} + 500 \gamma \phi^{3} + 50 \gamma \phi^{2} \theta^{2} - 50 \gamma \phi^{2} - 20 \gamma \phi \theta^{4} - 60 \gamma \phi \theta^{2}}{625 \phi^{3} - 50 \phi^{2} \theta^{2} - 100 \phi^{2} - 40 \phi \theta^{4} - 60 \phi \theta^{2} + 24 \theta^{4}}
+}
+
+Firm Surplus:
+
+\scaleeq{
+\frac{4 \phi \left(\alpha - \gamma\right)^{2} \left(15625 \phi^{5} + 1250 \phi^{4} \theta^{2} - 3750 \phi^{4} - 1125 \phi^{3} \theta^{4} - 4500 \phi^{3} \theta^{2} + 625 \phi^{3} - 100 \phi^{2} \theta^{6} + 500 \phi^{2} \theta^{4} + 400 \phi^{2} \theta^{2} + 100 \phi \theta^{8} + 80 \phi \theta^{6} + 220 \phi \theta^{4} - 16 \theta^{8} - 48 \theta^{6}\right)}{\left(625 \phi^{3} - 50 \phi^{2} \theta^{2} - 100 \phi^{2} - 40 \phi \theta^{4} - 60 \phi \theta^{2} + 24 \theta^{4}\right)^{2}}
+}
+
+Consumer Surplus:
+
+\scaleeq{
+\frac{50 \phi^{2} \left(\alpha - \gamma\right)^{2} \left(50 \phi^{2} + 5 \phi \theta^{2} - 5 \phi - 2 \theta^{4} - 6 \theta^{2}\right)^{2}}{\left(625 \phi^{3} - 50 \phi^{2} \theta^{2} - 100 \phi^{2} - 40 \phi \theta^{4} - 60 \phi \theta^{2} + 24 \theta^{4}\right)^{2}}
+}
+
+Social Welfare:
+
+\scaleeq{
+\frac{2 \phi \left(\alpha - \gamma\right)^{2} \left(93750 \phi^{5} + 15000 \phi^{4} \theta^{2} - 20000 \phi^{4} - 6625 \phi^{3} \theta^{4} - 25250 \phi^{3} \theta^{2} + 1875 \phi^{3} - 700 \phi^{2} \theta^{6} + 2300 \phi^{2} \theta^{2} + 300 \phi \theta^{8} + 760 \phi \theta^{6} + 1340 \phi \theta^{4} - 32 \theta^{8} - 96 \theta^{6}\right)}{\left(625 \phi^{3} - 50 \phi^{2} \theta^{2} - 100 \phi^{2} - 40 \phi \theta^{4} - 60 \phi \theta^{2} + 24 \theta^{4}\right)^{2}}
+}
+
+%======================================================================
+
+\subsubsection{E4D [1H3L]}
+\label{apx:E4D:1H3L}
+
+\begin{multicols}{2}
+\begin{center}
+\begin{tikzpicture}[shorten >=1pt,draw=black!50]
+	\node (H1) at ( 1.06,  1.06)	[circle, draw, fill = gray!20]	{$H_{1}$};
+	\node (L1) at (-1.06,  1.06)	[circle, draw, fill = white]	{$L_{1}$};
+	\node (L2) at (-1.06, -1.06)	[circle, draw, fill = white]	{$L_{2}$};
+	\node (L3) at ( 1.06, -1.06)	[circle, draw, fill = white]	{$L_{3}$};
+	\draw (H1) -- (L3);
+	\draw (L1) -- (L2);
+	\draw (L1) -- (L3);
+	\draw (L2) -- (L3);
+\end{tikzpicture}
+\end{center}
+\columnbreak
+
+\scaleeq{
+Equations: \begin{cases}
+	e^{H}_{1} \left(\frac{25 \phi}{3} - 3\right) = \alpha - 3 e^{L}_{1} \theta - 3 e^{L}_{2} \theta + e^{L}_{3} \theta - \gamma\\
+	e^{L}_{1} \left(\frac{25 \phi}{2 \theta} - 2 \theta\right) = \alpha - 2 e^{H}_{1} + 2 e^{L}_{2} \theta + e^{L}_{3} \theta - \gamma\\
+	e^{L}_{2} \left(\frac{25 \phi}{2 \theta} - 2 \theta\right) = \alpha - 2 e^{H}_{1} + 2 e^{L}_{1} \theta + e^{L}_{3} \theta - \gamma\\
+	e^{L}_{3} \left(\frac{25 \phi}{\theta} - \theta\right) = \alpha + 3 e^{H}_{1} + 2 e^{L}_{1} \theta + 2 e^{L}_{2} \theta - \gamma
+\end{cases}
+}\end{multicols}
+
+
+Optimal efforts:
+
+\scaleeq{
+\begin{cases}
+	e^{H}_{1} &= \frac{15 \phi \left(\alpha - \gamma\right) \left(5 \phi - 4 \theta^{2}\right)}{625 \phi^{3} - 225 \phi^{2} \theta^{2} - 225 \phi^{2} + 12 \theta^{4}}\\
+	e^{L}_{1} &= \frac{10 \phi \theta \left(\alpha - \gamma\right) \left(5 \phi - 3\right)}{625 \phi^{3} - 225 \phi^{2} \theta^{2} - 225 \phi^{2} + 12 \theta^{4}}\\
+	e^{L}_{2} &= \frac{10 \phi \theta \left(\alpha - \gamma\right) \left(5 \phi - 3\right)}{625 \phi^{3} - 225 \phi^{2} \theta^{2} - 225 \phi^{2} + 12 \theta^{4}}\\
+	e^{L}_{3} &= \frac{\theta \left(\alpha - \gamma\right) \left(25 \phi^{2} - 12 \theta^{2}\right)}{625 \phi^{3} - 225 \phi^{2} \theta^{2} - 225 \phi^{2} + 12 \theta^{4}}
+\end{cases}
+}
+
+Production Costs:
+
+\scaleeq{
+\begin{cases}
+	c^{H}_{1} &= - \frac{25 \alpha \phi^{2} \theta^{2} + 75 \alpha \phi^{2} - 60 \alpha \phi \theta^{2} - 12 \alpha \theta^{4} - 625 \gamma \phi^{3} + 200 \gamma \phi^{2} \theta^{2} + 150 \gamma \phi^{2} + 60 \gamma \phi \theta^{2}}{625 \phi^{3} - 225 \phi^{2} \theta^{2} - 225 \phi^{2} + 12 \theta^{4}}\\
+	c^{L}_{1} &= - \frac{125 \alpha \phi^{2} \theta^{2} - 60 \alpha \phi \theta^{2} - 12 \alpha \theta^{4} - 625 \gamma \phi^{3} + 100 \gamma \phi^{2} \theta^{2} + 225 \gamma \phi^{2} + 60 \gamma \phi \theta^{2}}{625 \phi^{3} - 225 \phi^{2} \theta^{2} - 225 \phi^{2} + 12 \theta^{4}}\\
+	c^{L}_{2} &= - \frac{125 \alpha \phi^{2} \theta^{2} - 60 \alpha \phi \theta^{2} - 12 \alpha \theta^{4} - 625 \gamma \phi^{3} + 100 \gamma \phi^{2} \theta^{2} + 225 \gamma \phi^{2} + 60 \gamma \phi \theta^{2}}{625 \phi^{3} - 225 \phi^{2} \theta^{2} - 225 \phi^{2} + 12 \theta^{4}}\\
+	c^{L}_{3} &= - \frac{125 \alpha \phi^{2} \theta^{2} + 75 \alpha \phi^{2} - 120 \alpha \phi \theta^{2} - 12 \alpha \theta^{4} - 625 \gamma \phi^{3} + 100 \gamma \phi^{2} \theta^{2} + 150 \gamma \phi^{2} + 120 \gamma \phi \theta^{2}}{625 \phi^{3} - 225 \phi^{2} \theta^{2} - 225 \phi^{2} + 12 \theta^{4}}
+\end{cases}
+}
+
+Production Quantities:
+
+\scaleeq{
+\begin{cases}
+	q^{H}_{1} &= \frac{25 \phi^{2} \left(\alpha - \gamma\right) \left(5 \phi - 4 \theta^{2}\right)}{625 \phi^{3} - 225 \phi^{2} \theta^{2} - 225 \phi^{2} + 12 \theta^{4}}\\
+	q^{L}_{1} &= \frac{25 \phi^{2} \left(\alpha - \gamma\right) \left(5 \phi - 3\right)}{625 \phi^{3} - 225 \phi^{2} \theta^{2} - 225 \phi^{2} + 12 \theta^{4}}\\
+	q^{L}_{2} &= \frac{25 \phi^{2} \left(\alpha - \gamma\right) \left(5 \phi - 3\right)}{625 \phi^{3} - 225 \phi^{2} \theta^{2} - 225 \phi^{2} + 12 \theta^{4}}\\
+	q^{L}_{3} &= \frac{5 \phi \left(\alpha - \gamma\right) \left(25 \phi^{2} - 12 \theta^{2}\right)}{625 \phi^{3} - 225 \phi^{2} \theta^{2} - 225 \phi^{2} + 12 \theta^{4}}
+\end{cases}
+}
+
+Profits:
+
+\begin{equation}
+\label{eq:E4D:1H3L_profit}
+\scaledequation{\begin{cases}
+	\pi^{H}_{1} &= \frac{25 \phi^{3} \left(\alpha - \gamma\right)^{2} \left(5 \phi - 4 \theta^{2}\right)^{2} \left(25 \phi - 9\right)}{\left(625 \phi^{3} - 225 \phi^{2} \theta^{2} - 225 \phi^{2} + 12 \theta^{4}\right)^{2}}\\
+	\pi^{L}_{1} &= \frac{25 \phi^{3} \left(\alpha - \gamma\right)^{2} \left(5 \phi - 3\right)^{2} \left(25 \phi - 4 \theta^{2}\right)}{\left(625 \phi^{3} - 225 \phi^{2} \theta^{2} - 225 \phi^{2} + 12 \theta^{4}\right)^{2}}\\
+	\pi^{L}_{2} &= \frac{25 \phi^{3} \left(\alpha - \gamma\right)^{2} \left(5 \phi - 3\right)^{2} \left(25 \phi - 4 \theta^{2}\right)}{\left(625 \phi^{3} - 225 \phi^{2} \theta^{2} - 225 \phi^{2} + 12 \theta^{4}\right)^{2}}\\
+	\pi^{L}_{3} &= \frac{\phi \left(\alpha - \gamma\right)^{2} \left(25 \phi - \theta^{2}\right) \left(25 \phi^{2} - 12 \theta^{2}\right)^{2}}{\left(625 \phi^{3} - 225 \phi^{2} \theta^{2} - 225 \phi^{2} + 12 \theta^{4}\right)^{2}}
+\end{cases}
+}
+\end{equation}
+
+Total Production:
+
+\scaleeq{
+\frac{10 \phi \left(\alpha - \gamma\right) \left(50 \phi^{2} - 10 \phi \theta^{2} - 15 \phi - 6 \theta^{2}\right)}{625 \phi^{3} - 225 \phi^{2} \theta^{2} - 225 \phi^{2} + 12 \theta^{4}}
+}
+
+Price:
+
+\scaleeq{
+\frac{125 \alpha \phi^{3} - 125 \alpha \phi^{2} \theta^{2} - 75 \alpha \phi^{2} + 60 \alpha \phi \theta^{2} + 12 \alpha \theta^{4} + 500 \gamma \phi^{3} - 100 \gamma \phi^{2} \theta^{2} - 150 \gamma \phi^{2} - 60 \gamma \phi \theta^{2}}{625 \phi^{3} - 225 \phi^{2} \theta^{2} - 225 \phi^{2} + 12 \theta^{4}}
+}
+
+Firm Surplus:
+
+\scaleeq{
+\frac{\phi \left(\alpha - \gamma\right)^{2} \left(62500 \phi^{5} - 30625 \phi^{4} \theta^{2} - 43125 \phi^{4} + 10000 \phi^{3} \theta^{4} + 11250 \phi^{3} - 3000 \phi^{2} \theta^{4} - 1800 \phi^{2} \theta^{2} + 3600 \phi \theta^{4} - 144 \theta^{6}\right)}{\left(625 \phi^{3} - 225 \phi^{2} \theta^{2} - 225 \phi^{2} + 12 \theta^{4}\right)^{2}}
+}
+
+Consumer Surplus:
+
+\scaleeq{
+\frac{50 \phi^{2} \left(\alpha - \gamma\right)^{2} \left(50 \phi^{2} - 10 \phi \theta^{2} - 15 \phi - 6 \theta^{2}\right)^{2}}{\left(625 \phi^{3} - 225 \phi^{2} \theta^{2} - 225 \phi^{2} + 12 \theta^{4}\right)^{2}}
+}
+
+Social Welfare:
+
+\scaleeq{
+\frac{3 \phi \left(\alpha - \gamma\right)^{2} \left(62500 \phi^{5} - 26875 \phi^{4} \theta^{2} - 39375 \phi^{4} + 5000 \phi^{3} \theta^{4} - 5000 \phi^{3} \theta^{2} + 7500 \phi^{3} + 1000 \phi^{2} \theta^{4} + 2400 \phi^{2} \theta^{2} + 1800 \phi \theta^{4} - 48 \theta^{6}\right)}{\left(625 \phi^{3} - 225 \phi^{2} \theta^{2} - 225 \phi^{2} + 12 \theta^{4}\right)^{2}}
+}
+
+%======================================================================
+
+\subsubsection{E5A [1H3L]}
+\label{apx:E5A:1H3L}
+
+\begin{multicols}{2}
+\begin{center}
+\begin{tikzpicture}[shorten >=1pt,draw=black!50]
+	\node (H1) at ( 1.06,  1.06)	[circle, draw, fill = gray!20]	{$H_{1}$};
+	\node (L1) at (-1.06,  1.06)	[circle, draw, fill = white]	{$L_{1}$};
+	\node (L2) at (-1.06, -1.06)	[circle, draw, fill = white]	{$L_{2}$};
+	\node (L3) at ( 1.06, -1.06)	[circle, draw, fill = white]	{$L_{3}$};
+	\draw (H1) -- (L1);
+	\draw (H1) -- (L2);
+	\draw (H1) -- (L3);
+	\draw (L1) -- (L3);
+	\draw (L2) -- (L3);
+\end{tikzpicture}
+\end{center}
+\columnbreak
+
+\scaleeq{
+Equations: \begin{cases}
+	e^{H}_{1} \left(25 \phi - 1\right) = \alpha + 2 e^{L}_{1} \theta + 2 e^{L}_{2} \theta + e^{L}_{3} \theta - \gamma\\
+	e^{L}_{1} \left(\frac{25 \phi}{2 \theta} - 2 \theta\right) = \alpha + e^{H}_{1} - 3 e^{L}_{2} \theta + e^{L}_{3} \theta - \gamma\\
+	e^{L}_{2} \left(\frac{25 \phi}{2 \theta} - 2 \theta\right) = \alpha + e^{H}_{1} - 3 e^{L}_{1} \theta + e^{L}_{3} \theta - \gamma\\
+	e^{L}_{3} \left(\frac{25 \phi}{\theta} - \theta\right) = \alpha + e^{H}_{1} + 2 e^{L}_{1} \theta + 2 e^{L}_{2} \theta - \gamma
+\end{cases}
+}\end{multicols}
+
+
+Optimal efforts:
+
+\scaleeq{
+\begin{cases}
+	e^{H}_{1} &= \frac{\left(\alpha - \gamma\right) \left(5 \phi + 2 \theta^{2}\right)}{125 \phi^{2} + 5 \phi \theta^{2} - 5 \phi - 2 \theta^{4} - 2 \theta^{2}}\\
+	e^{L}_{1} &= \frac{10 \phi \theta \left(\alpha - \gamma\right)}{125 \phi^{2} + 5 \phi \theta^{2} - 5 \phi - 2 \theta^{4} - 2 \theta^{2}}\\
+	e^{L}_{2} &= \frac{10 \phi \theta \left(\alpha - \gamma\right)}{125 \phi^{2} + 5 \phi \theta^{2} - 5 \phi - 2 \theta^{4} - 2 \theta^{2}}\\
+	e^{L}_{3} &= \frac{\theta \left(\alpha - \gamma\right) \left(5 \phi + 2 \theta^{2}\right)}{125 \phi^{2} + 5 \phi \theta^{2} - 5 \phi - 2 \theta^{4} - 2 \theta^{2}}
+\end{cases}
+}
+
+Production Costs:
+
+\scaleeq{
+\begin{cases}
+	c^{H}_{1} &= - \frac{25 \alpha \phi \theta^{2} + 5 \alpha \phi + 2 \alpha \theta^{4} + 2 \alpha \theta^{2} - 125 \gamma \phi^{2} - 30 \gamma \phi \theta^{2}}{125 \phi^{2} + 5 \phi \theta^{2} - 5 \phi - 2 \theta^{4} - 2 \theta^{2}}\\
+	c^{L}_{1} &= - \frac{15 \alpha \phi \theta^{2} + 5 \alpha \phi + 2 \alpha \theta^{4} + 2 \alpha \theta^{2} - 125 \gamma \phi^{2} - 20 \gamma \phi \theta^{2}}{125 \phi^{2} + 5 \phi \theta^{2} - 5 \phi - 2 \theta^{4} - 2 \theta^{2}}\\
+	c^{L}_{2} &= - \frac{15 \alpha \phi \theta^{2} + 5 \alpha \phi + 2 \alpha \theta^{4} + 2 \alpha \theta^{2} - 125 \gamma \phi^{2} - 20 \gamma \phi \theta^{2}}{125 \phi^{2} + 5 \phi \theta^{2} - 5 \phi - 2 \theta^{4} - 2 \theta^{2}}\\
+	c^{L}_{3} &= - \frac{25 \alpha \phi \theta^{2} + 5 \alpha \phi + 2 \alpha \theta^{4} + 2 \alpha \theta^{2} - 125 \gamma \phi^{2} - 30 \gamma \phi \theta^{2}}{125 \phi^{2} + 5 \phi \theta^{2} - 5 \phi - 2 \theta^{4} - 2 \theta^{2}}
+\end{cases}
+}
+
+Production Quantities:
+
+\scaleeq{
+\begin{cases}
+	q^{H}_{1} &= \frac{5 \phi \left(\alpha - \gamma\right) \left(5 \phi + 2 \theta^{2}\right)}{125 \phi^{2} + 5 \phi \theta^{2} - 5 \phi - 2 \theta^{4} - 2 \theta^{2}}\\
+	q^{L}_{1} &= \frac{25 \phi^{2} \left(\alpha - \gamma\right)}{125 \phi^{2} + 5 \phi \theta^{2} - 5 \phi - 2 \theta^{4} - 2 \theta^{2}}\\
+	q^{L}_{2} &= \frac{25 \phi^{2} \left(\alpha - \gamma\right)}{125 \phi^{2} + 5 \phi \theta^{2} - 5 \phi - 2 \theta^{4} - 2 \theta^{2}}\\
+	q^{L}_{3} &= \frac{5 \phi \left(\alpha - \gamma\right) \left(5 \phi + 2 \theta^{2}\right)}{125 \phi^{2} + 5 \phi \theta^{2} - 5 \phi - 2 \theta^{4} - 2 \theta^{2}}
+\end{cases}
+}
+
+Profits:
+
+\begin{equation}
+\label{eq:E5A:1H3L_profit}
+\scaledequation{\begin{cases}
+	\pi^{H}_{1} &= \frac{\phi \left(\alpha - \gamma\right)^{2} \left(5 \phi + 2 \theta^{2}\right)^{2} \left(25 \phi - 1\right)}{\left(125 \phi^{2} + 5 \phi \theta^{2} - 5 \phi - 2 \theta^{4} - 2 \theta^{2}\right)^{2}}\\
+	\pi^{L}_{1} &= \frac{25 \phi^{3} \left(\alpha - \gamma\right)^{2} \left(25 \phi - 4 \theta^{2}\right)}{\left(125 \phi^{2} + 5 \phi \theta^{2} - 5 \phi - 2 \theta^{4} - 2 \theta^{2}\right)^{2}}\\
+	\pi^{L}_{2} &= \frac{25 \phi^{3} \left(\alpha - \gamma\right)^{2} \left(25 \phi - 4 \theta^{2}\right)}{\left(125 \phi^{2} + 5 \phi \theta^{2} - 5 \phi - 2 \theta^{4} - 2 \theta^{2}\right)^{2}}\\
+	\pi^{L}_{3} &= \frac{\phi \left(\alpha - \gamma\right)^{2} \left(5 \phi + 2 \theta^{2}\right)^{2} \left(25 \phi - \theta^{2}\right)}{\left(125 \phi^{2} + 5 \phi \theta^{2} - 5 \phi - 2 \theta^{4} - 2 \theta^{2}\right)^{2}}
+\end{cases}
+}
+\end{equation}
+
+Total Production:
+
+\scaleeq{
+\frac{20 \phi \left(\alpha - \gamma\right) \left(5 \phi + \theta^{2}\right)}{125 \phi^{2} + 5 \phi \theta^{2} - 5 \phi - 2 \theta^{4} - 2 \theta^{2}}
+}
+
+Price:
+
+\scaleeq{
+\frac{25 \alpha \phi^{2} - 15 \alpha \phi \theta^{2} - 5 \alpha \phi - 2 \alpha \theta^{4} - 2 \alpha \theta^{2} + 100 \gamma \phi^{2} + 20 \gamma \phi \theta^{2}}{125 \phi^{2} + 5 \phi \theta^{2} - 5 \phi - 2 \theta^{4} - 2 \theta^{2}}
+}
+
+Firm Surplus:
+
+\scaleeq{
+\frac{\phi \left(\alpha - \gamma\right)^{2} \left(2500 \phi^{3} + 775 \phi^{2} \theta^{2} - 25 \phi^{2} + 180 \phi \theta^{4} - 20 \phi \theta^{2} - 4 \theta^{6} - 4 \theta^{4}\right)}{\left(125 \phi^{2} + 5 \phi \theta^{2} - 5 \phi - 2 \theta^{4} - 2 \theta^{2}\right)^{2}}
+}
+
+Consumer Surplus:
+
+\scaleeq{
+\frac{200 \phi^{2} \left(\alpha - \gamma\right)^{2} \left(5 \phi + \theta^{2}\right)^{2}}{\left(125 \phi^{2} + 5 \phi \theta^{2} - 5 \phi - 2 \theta^{4} - 2 \theta^{2}\right)^{2}}
+}
+
+Social Welfare:
+
+\scaleeq{
+\frac{\phi \left(\alpha - \gamma\right)^{2} \left(7500 \phi^{3} + 2775 \phi^{2} \theta^{2} - 25 \phi^{2} + 380 \phi \theta^{4} - 20 \phi \theta^{2} - 4 \theta^{6} - 4 \theta^{4}\right)}{\left(125 \phi^{2} + 5 \phi \theta^{2} - 5 \phi - 2 \theta^{4} - 2 \theta^{2}\right)^{2}}
+}
+
+%======================================================================
+
+\subsubsection{E5B [1H3L]}
+\label{apx:E5B:1H3L}
+
+\begin{multicols}{2}
+\begin{center}
+\begin{tikzpicture}[shorten >=1pt,draw=black!50]
+	\node (H1) at ( 1.06,  1.06)	[circle, draw, fill = gray!20]	{$H_{1}$};
+	\node (L1) at (-1.06,  1.06)	[circle, draw, fill = white]	{$L_{1}$};
+	\node (L2) at (-1.06, -1.06)	[circle, draw, fill = white]	{$L_{2}$};
+	\node (L3) at ( 1.06, -1.06)	[circle, draw, fill = white]	{$L_{3}$};
+	\draw (H1) -- (L2);
+	\draw (H1) -- (L3);
+	\draw (L1) -- (L2);
+	\draw (L1) -- (L3);
+	\draw (L2) -- (L3);
+\end{tikzpicture}
+\end{center}
+\columnbreak
+
+\scaleeq{
+Equations: \begin{cases}
+	e^{H}_{1} \left(\frac{25 \phi}{2} - 2\right) = \alpha - 3 e^{L}_{1} \theta + e^{L}_{2} \theta + e^{L}_{3} \theta - \gamma\\
+	e^{L}_{1} \left(\frac{25 \phi}{2 \theta} - 2 \theta\right) = \alpha - 3 e^{H}_{1} + e^{L}_{2} \theta + e^{L}_{3} \theta - \gamma\\
+	e^{L}_{2} \left(\frac{25 \phi}{\theta} - \theta\right) = \alpha + 2 e^{H}_{1} + 2 e^{L}_{1} \theta + e^{L}_{3} \theta - \gamma\\
+	e^{L}_{3} \left(\frac{25 \phi}{\theta} - \theta\right) = \alpha + 2 e^{H}_{1} + 2 e^{L}_{1} \theta + e^{L}_{2} \theta - \gamma
+\end{cases}
+}\end{multicols}
+
+
+Optimal efforts:
+
+\scaleeq{
+\begin{cases}
+	e^{H}_{1} &= \frac{10 \phi \left(\alpha - \gamma\right) \left(5 \phi - 2 \theta^{2}\right)}{625 \phi^{3} - 150 \phi^{2} \theta^{2} - 100 \phi^{2} - 20 \phi \theta^{2} + 8 \theta^{4}}\\
+	e^{L}_{1} &= \frac{10 \phi \theta \left(\alpha - \gamma\right) \left(5 \phi - 2\right)}{625 \phi^{3} - 150 \phi^{2} \theta^{2} - 100 \phi^{2} - 20 \phi \theta^{2} + 8 \theta^{4}}\\
+	e^{L}_{2} &= \frac{\theta \left(\alpha - \gamma\right) \left(5 \phi - 2 \theta\right) \left(5 \phi + 2 \theta\right)}{625 \phi^{3} - 150 \phi^{2} \theta^{2} - 100 \phi^{2} - 20 \phi \theta^{2} + 8 \theta^{4}}\\
+	e^{L}_{3} &= \frac{\theta \left(\alpha - \gamma\right) \left(5 \phi - 2 \theta\right) \left(5 \phi + 2 \theta\right)}{625 \phi^{3} - 150 \phi^{2} \theta^{2} - 100 \phi^{2} - 20 \phi \theta^{2} + 8 \theta^{4}}
+\end{cases}
+}
+
+Production Costs:
+
+\scaleeq{
+\begin{cases}
+	c^{H}_{1} &= - \frac{50 \alpha \phi^{2} \theta^{2} + 50 \alpha \phi^{2} - 20 \alpha \phi \theta^{2} - 8 \alpha \theta^{4} - 625 \gamma \phi^{3} + 100 \gamma \phi^{2} \theta^{2} + 50 \gamma \phi^{2} + 40 \gamma \phi \theta^{2}}{625 \phi^{3} - 150 \phi^{2} \theta^{2} - 100 \phi^{2} - 20 \phi \theta^{2} + 8 \theta^{4}}\\
+	c^{L}_{1} &= - \frac{100 \alpha \phi^{2} \theta^{2} - 20 \alpha \phi \theta^{2} - 8 \alpha \theta^{4} - 625 \gamma \phi^{3} + 50 \gamma \phi^{2} \theta^{2} + 100 \gamma \phi^{2} + 40 \gamma \phi \theta^{2}}{625 \phi^{3} - 150 \phi^{2} \theta^{2} - 100 \phi^{2} - 20 \phi \theta^{2} + 8 \theta^{4}}\\
+	c^{L}_{2} &= - \frac{100 \alpha \phi^{2} \theta^{2} + 50 \alpha \phi^{2} - 40 \alpha \phi \theta^{2} - 8 \alpha \theta^{4} - 625 \gamma \phi^{3} + 50 \gamma \phi^{2} \theta^{2} + 50 \gamma \phi^{2} + 60 \gamma \phi \theta^{2}}{625 \phi^{3} - 150 \phi^{2} \theta^{2} - 100 \phi^{2} - 20 \phi \theta^{2} + 8 \theta^{4}}\\
+	c^{L}_{3} &= - \frac{100 \alpha \phi^{2} \theta^{2} + 50 \alpha \phi^{2} - 40 \alpha \phi \theta^{2} - 8 \alpha \theta^{4} - 625 \gamma \phi^{3} + 50 \gamma \phi^{2} \theta^{2} + 50 \gamma \phi^{2} + 60 \gamma \phi \theta^{2}}{625 \phi^{3} - 150 \phi^{2} \theta^{2} - 100 \phi^{2} - 20 \phi \theta^{2} + 8 \theta^{4}}
+\end{cases}
+}
+
+Production Quantities:
+
+\scaleeq{
+\begin{cases}
+	q^{H}_{1} &= \frac{25 \phi^{2} \left(\alpha - \gamma\right) \left(5 \phi - 2 \theta^{2}\right)}{625 \phi^{3} - 150 \phi^{2} \theta^{2} - 100 \phi^{2} - 20 \phi \theta^{2} + 8 \theta^{4}}\\
+	q^{L}_{1} &= \frac{25 \phi^{2} \left(\alpha - \gamma\right) \left(5 \phi - 2\right)}{625 \phi^{3} - 150 \phi^{2} \theta^{2} - 100 \phi^{2} - 20 \phi \theta^{2} + 8 \theta^{4}}\\
+	q^{L}_{2} &= \frac{5 \phi \left(\alpha - \gamma\right) \left(5 \phi - 2 \theta\right) \left(5 \phi + 2 \theta\right)}{625 \phi^{3} - 150 \phi^{2} \theta^{2} - 100 \phi^{2} - 20 \phi \theta^{2} + 8 \theta^{4}}\\
+	q^{L}_{3} &= \frac{5 \phi \left(\alpha - \gamma\right) \left(5 \phi - 2 \theta\right) \left(5 \phi + 2 \theta\right)}{625 \phi^{3} - 150 \phi^{2} \theta^{2} - 100 \phi^{2} - 20 \phi \theta^{2} + 8 \theta^{4}}
+\end{cases}
+}
+
+Profits:
+
+\begin{equation}
+\label{eq:E5B:1H3L_profit}
+\scaledequation{\begin{cases}
+	\pi^{H}_{1} &= \frac{25 \phi^{3} \left(\alpha - \gamma\right)^{2} \left(5 \phi - 2 \theta^{2}\right)^{2} \left(25 \phi - 4\right)}{\left(625 \phi^{3} - 150 \phi^{2} \theta^{2} - 100 \phi^{2} - 20 \phi \theta^{2} + 8 \theta^{4}\right)^{2}}\\
+	\pi^{L}_{1} &= \frac{25 \phi^{3} \left(\alpha - \gamma\right)^{2} \left(5 \phi - 2\right)^{2} \left(25 \phi - 4 \theta^{2}\right)}{\left(625 \phi^{3} - 150 \phi^{2} \theta^{2} - 100 \phi^{2} - 20 \phi \theta^{2} + 8 \theta^{4}\right)^{2}}\\
+	\pi^{L}_{2} &= \frac{\phi \left(\alpha - \gamma\right)^{2} \left(5 \phi - 2 \theta\right)^{2} \left(5 \phi + 2 \theta\right)^{2} \left(25 \phi - \theta^{2}\right)}{\left(625 \phi^{3} - 150 \phi^{2} \theta^{2} - 100 \phi^{2} - 20 \phi \theta^{2} + 8 \theta^{4}\right)^{2}}\\
+	\pi^{L}_{3} &= \frac{\phi \left(\alpha - \gamma\right)^{2} \left(5 \phi - 2 \theta\right)^{2} \left(5 \phi + 2 \theta\right)^{2} \left(25 \phi - \theta^{2}\right)}{\left(625 \phi^{3} - 150 \phi^{2} \theta^{2} - 100 \phi^{2} - 20 \phi \theta^{2} + 8 \theta^{4}\right)^{2}}
+\end{cases}
+}
+\end{equation}
+
+Total Production:
+
+\scaleeq{
+\frac{10 \phi \left(\alpha - \gamma\right) \left(50 \phi^{2} - 5 \phi \theta^{2} - 5 \phi - 4 \theta^{2}\right)}{625 \phi^{3} - 150 \phi^{2} \theta^{2} - 100 \phi^{2} - 20 \phi \theta^{2} + 8 \theta^{4}}
+}
+
+Price:
+
+\scaleeq{
+\frac{125 \alpha \phi^{3} - 100 \alpha \phi^{2} \theta^{2} - 50 \alpha \phi^{2} + 20 \alpha \phi \theta^{2} + 8 \alpha \theta^{4} + 500 \gamma \phi^{3} - 50 \gamma \phi^{2} \theta^{2} - 50 \gamma \phi^{2} - 40 \gamma \phi \theta^{2}}{625 \phi^{3} - 150 \phi^{2} \theta^{2} - 100 \phi^{2} - 20 \phi \theta^{2} + 8 \theta^{4}}
+}
+
+Firm Surplus:
+
+\scaleeq{
+\frac{2 \phi \left(\alpha - \gamma\right)^{2} \left(31250 \phi^{5} - 8125 \phi^{4} \theta^{2} - 7500 \phi^{4} + 1250 \phi^{3} \theta^{4} - 3000 \phi^{3} \theta^{2} + 1250 \phi^{3} - 200 \phi^{2} \theta^{2} + 400 \phi \theta^{4} - 16 \theta^{6}\right)}{\left(625 \phi^{3} - 150 \phi^{2} \theta^{2} - 100 \phi^{2} - 20 \phi \theta^{2} + 8 \theta^{4}\right)^{2}}
+}
+
+Consumer Surplus:
+
+\scaleeq{
+\frac{50 \phi^{2} \left(\alpha - \gamma\right)^{2} \left(50 \phi^{2} - 5 \phi \theta^{2} - 5 \phi - 4 \theta^{2}\right)^{2}}{\left(625 \phi^{3} - 150 \phi^{2} \theta^{2} - 100 \phi^{2} - 20 \phi \theta^{2} + 8 \theta^{4}\right)^{2}}
+}
+
+Social Welfare:
+
+\scaleeq{
+\frac{2 \phi \left(\alpha - \gamma\right)^{2} \left(93750 \phi^{5} - 20625 \phi^{4} \theta^{2} - 20000 \phi^{4} + 1875 \phi^{3} \theta^{4} - 11750 \phi^{3} \theta^{2} + 1875 \phi^{3} + 1000 \phi^{2} \theta^{4} + 800 \phi^{2} \theta^{2} + 800 \phi \theta^{4} - 16 \theta^{6}\right)}{\left(625 \phi^{3} - 150 \phi^{2} \theta^{2} - 100 \phi^{2} - 20 \phi \theta^{2} + 8 \theta^{4}\right)^{2}}
+}
+
+%======================================================================
+
+\subsubsection{E6A [1H3L]}
+\label{apx:E6A:1H3L}
+
+\begin{multicols}{2}
+\begin{center}
+\begin{tikzpicture}[shorten >=1pt,draw=black!50]
+	\node (H1) at ( 1.06,  1.06)	[circle, draw, fill = gray!20]	{$H_{1}$};
+	\node (L1) at (-1.06,  1.06)	[circle, draw, fill = white]	{$L_{1}$};
+	\node (L2) at (-1.06, -1.06)	[circle, draw, fill = white]	{$L_{2}$};
+	\node (L3) at ( 1.06, -1.06)	[circle, draw, fill = white]	{$L_{3}$};
+	\draw (H1) -- (L1);
+	\draw (H1) -- (L2);
+	\draw (H1) -- (L3);
+	\draw (L1) -- (L2);
+	\draw (L1) -- (L3);
+	\draw (L2) -- (L3);
+\end{tikzpicture}
+\end{center}
+\columnbreak
+
+\scaleeq{
+Equations: \begin{cases}
+	e^{H}_{1} \left(25 \phi - 1\right) = \alpha + e^{L}_{1} \theta + e^{L}_{2} \theta + e^{L}_{3} \theta - \gamma\\
+	e^{L}_{1} \left(\frac{25 \phi}{\theta} - \theta\right) = \alpha + e^{H}_{1} + e^{L}_{2} \theta + e^{L}_{3} \theta - \gamma\\
+	e^{L}_{2} \left(\frac{25 \phi}{\theta} - \theta\right) = \alpha + e^{H}_{1} + e^{L}_{1} \theta + e^{L}_{3} \theta - \gamma\\
+	e^{L}_{3} \left(\frac{25 \phi}{\theta} - \theta\right) = \alpha + e^{H}_{1} + e^{L}_{1} \theta + e^{L}_{2} \theta - \gamma
+\end{cases}
+}\end{multicols}
+
+
+Optimal efforts:
+
+\scaleeq{
+\begin{cases}
+	e^{H}_{1} &= \frac{\alpha - \gamma}{25 \phi - 3 \theta^{2} - 1}\\
+	e^{L}_{1} &= \frac{\theta \left(\alpha - \gamma\right)}{25 \phi - 3 \theta^{2} - 1}\\
+	e^{L}_{2} &= \frac{\theta \left(\alpha - \gamma\right)}{25 \phi - 3 \theta^{2} - 1}\\
+	e^{L}_{3} &= \frac{\theta \left(\alpha - \gamma\right)}{25 \phi - 3 \theta^{2} - 1}
+\end{cases}
+}
+
+Production Costs:
+
+\scaleeq{
+\begin{cases}
+	c^{H}_{1} &= - \frac{3 \alpha \theta^{2} + \alpha - 25 \gamma \phi}{25 \phi - 3 \theta^{2} - 1}\\
+	c^{L}_{1} &= - \frac{3 \alpha \theta^{2} + \alpha - 25 \gamma \phi}{25 \phi - 3 \theta^{2} - 1}\\
+	c^{L}_{2} &= - \frac{3 \alpha \theta^{2} + \alpha - 25 \gamma \phi}{25 \phi - 3 \theta^{2} - 1}\\
+	c^{L}_{3} &= - \frac{3 \alpha \theta^{2} + \alpha - 25 \gamma \phi}{25 \phi - 3 \theta^{2} - 1}
+\end{cases}
+}
+
+Production Quantities:
+
+\scaleeq{
+\begin{cases}
+	q^{H}_{1} &= \frac{5 \phi \left(\alpha - \gamma\right)}{25 \phi - 3 \theta^{2} - 1}\\
+	q^{L}_{1} &= \frac{5 \phi \left(\alpha - \gamma\right)}{25 \phi - 3 \theta^{2} - 1}\\
+	q^{L}_{2} &= \frac{5 \phi \left(\alpha - \gamma\right)}{25 \phi - 3 \theta^{2} - 1}\\
+	q^{L}_{3} &= \frac{5 \phi \left(\alpha - \gamma\right)}{25 \phi - 3 \theta^{2} - 1}
+\end{cases}
+}
+
+Profits:
+
+\begin{equation}
+\label{eq:E6A:1H3L_profit}
+\scaledequation{\begin{cases}
+	\pi^{H}_{1} &= \frac{\phi \left(\alpha - \gamma\right)^{2} \left(25 \phi - 1\right)}{\left(25 \phi - 3 \theta^{2} - 1\right)^{2}}\\
+	\pi^{L}_{1} &= \frac{\phi \left(\alpha - \gamma\right)^{2} \left(25 \phi - \theta^{2}\right)}{\left(25 \phi - 3 \theta^{2} - 1\right)^{2}}\\
+	\pi^{L}_{2} &= \frac{\phi \left(\alpha - \gamma\right)^{2} \left(25 \phi - \theta^{2}\right)}{\left(25 \phi - 3 \theta^{2} - 1\right)^{2}}\\
+	\pi^{L}_{3} &= \frac{\phi \left(\alpha - \gamma\right)^{2} \left(25 \phi - \theta^{2}\right)}{\left(25 \phi - 3 \theta^{2} - 1\right)^{2}}
+\end{cases}
+}
+\end{equation}
+
+Total Production:
+
+\scaleeq{
+\frac{20 \phi \left(\alpha - \gamma\right)}{25 \phi - 3 \theta^{2} - 1}
+}
+
+Price:
+
+\scaleeq{
+\frac{5 \alpha \phi - 3 \alpha \theta^{2} - \alpha + 20 \gamma \phi}{25 \phi - 3 \theta^{2} - 1}
+}
+
+Firm Surplus:
+
+\scaleeq{
+\frac{\phi \left(\alpha - \gamma\right)^{2} \left(100 \phi - 3 \theta^{2} - 1\right)}{\left(25 \phi - 3 \theta^{2} - 1\right)^{2}}
+}
+
+Consumer Surplus:
+
+\scaleeq{
+\frac{200 \phi^{2} \left(\alpha - \gamma\right)^{2}}{\left(25 \phi - 3 \theta^{2} - 1\right)^{2}}
+}
+
+Social Welfare:
+
+\scaleeq{
+\frac{\phi \left(\alpha - \gamma\right)^{2} \left(300 \phi - 3 \theta^{2} - 1\right)}{\left(25 \phi - 3 \theta^{2} - 1\right)^{2}}
+}
+
+%======================================================================
+
